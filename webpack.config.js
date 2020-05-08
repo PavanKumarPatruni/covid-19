@@ -16,7 +16,7 @@ module.exports = {
         exclude: /node_modules/,
         use: {
           loader: 'babel-loader',
-        }
+        },
       },
       {
         test: /\.html$/,
@@ -25,13 +25,13 @@ module.exports = {
             loader: 'html-loader',
             options: {
               minimize: true,
-            }
-          }
-        ]
+            },
+          },
+        ],
       },
       {
         test: /\.(png|svg|jpg|gif)$/,
-        use: ['file-loader']
+        use: ['file-loader'],
       },
       {
         test: /\.scss$/,
@@ -44,13 +44,13 @@ module.exports = {
             options: {
               options: {},
               plugins: () => {
-                autoprefixer({ browsers: [ 'last 2 versions' ] });
+                autoprefixer({ browsers: ['last 2 versions'] });
               },
             },
           },
-        ]
-      }
-    ]
+        ],
+      },
+    ],
   },
   plugins: [
     new HtmlWebpackPlugin({
@@ -59,7 +59,7 @@ module.exports = {
     }),
     new MiniCssExtractPlugin({
       filename: '[name].css',
-      chunkFilename: '[id].css'
-    });
-  ]
+      chunkFilename: '[id].css',
+    }),
+  ],
 };
