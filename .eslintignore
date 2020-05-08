@@ -1,0 +1,4 @@
+# Don't lint the following
+node_modules
+dist
+snapshots
