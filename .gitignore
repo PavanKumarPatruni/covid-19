@@ -2,3 +2,8 @@
 
 # Production
 /build
+
+# Testing
+reports/
+**/coverage
+test-report.xml*
