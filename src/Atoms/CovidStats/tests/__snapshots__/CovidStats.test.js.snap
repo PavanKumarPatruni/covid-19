@@ -1,0 +1,181 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CovidStats component match snapshot correctly 1`] = `
+<div
+  className="flex covid-stats p1"
+>
+  <div
+    className="flex flex-column flex-justify-center flex-center covid-stats-item p1 sm-p0 sm-mx1 mx2 red-color"
+  >
+    <h3
+      className="title mt2"
+    >
+      Confirmed
+    </h3>
+    <p
+      className="delta-count mt2"
+    >
+      [+524]
+    </p>
+    <p
+      className="total-count mt1"
+    >
+      67700
+    </p>
+  </div>
+  <div
+    className="flex flex-column flex-justify-center flex-center covid-stats-item p1 sm-p0 sm-mx1 mx2 blue-color"
+  >
+    <h3
+      className="title mt2"
+    >
+      Active
+    </h3>
+    <p
+      className="delta-count mt2"
+    />
+    <p
+      className="total-count mt1"
+    >
+      44351
+    </p>
+  </div>
+  <div
+    className="flex flex-column flex-justify-center flex-center covid-stats-item p1 sm-p0 sm-mx1 mx2 green-color"
+  >
+    <h3
+      className="title mt2"
+    >
+      Recovered
+    </h3>
+    <p
+      className="delta-count mt2"
+    >
+      [+160]
+    </p>
+    <p
+      className="total-count mt1"
+    >
+      21130
+    </p>
+  </div>
+  <div
+    className="flex flex-column flex-justify-center flex-center covid-stats-item p1 sm-p0 sm-mx1 mx2 grey-color"
+  >
+    <h3
+      className="title mt2"
+    >
+      Deceased
+    </h3>
+    <p
+      className="delta-count mt2"
+    >
+      [+2]
+    </p>
+    <p
+      className="total-count mt1"
+    >
+      2215
+    </p>
+  </div>
+</div>
+`;
+
+exports[`CovidStats component match snapshot correctly 2`] = `
+<CovidStats
+  stats={
+    Object {
+      "active": "44351",
+      "confirmed": "67700",
+      "deaths": "2215",
+      "deltaconfirmed": "524",
+      "deltadeaths": "2",
+      "deltarecovered": "160",
+      "lastupdatedtime": "11/05/2020 15:41:22",
+      "recovered": "21130",
+      "state": "Total",
+      "statecode": "TT",
+      "statenotes": "",
+    }
+  }
+>
+  <div
+    className="flex covid-stats p1"
+  >
+    <div
+      className="flex flex-column flex-justify-center flex-center covid-stats-item p1 sm-p0 sm-mx1 mx2 red-color"
+    >
+      <h3
+        className="title mt2"
+      >
+        Confirmed
+      </h3>
+      <p
+        className="delta-count mt2"
+      >
+        [+524]
+      </p>
+      <p
+        className="total-count mt1"
+      >
+        67700
+      </p>
+    </div>
+    <div
+      className="flex flex-column flex-justify-center flex-center covid-stats-item p1 sm-p0 sm-mx1 mx2 blue-color"
+    >
+      <h3
+        className="title mt2"
+      >
+        Active
+      </h3>
+      <p
+        className="delta-count mt2"
+      />
+      <p
+        className="total-count mt1"
+      >
+        44351
+      </p>
+    </div>
+    <div
+      className="flex flex-column flex-justify-center flex-center covid-stats-item p1 sm-p0 sm-mx1 mx2 green-color"
+    >
+      <h3
+        className="title mt2"
+      >
+        Recovered
+      </h3>
+      <p
+        className="delta-count mt2"
+      >
+        [+160]
+      </p>
+      <p
+        className="total-count mt1"
+      >
+        21130
+      </p>
+    </div>
+    <div
+      className="flex flex-column flex-justify-center flex-center covid-stats-item p1 sm-p0 sm-mx1 mx2 grey-color"
+    >
+      <h3
+        className="title mt2"
+      >
+        Deceased
+      </h3>
+      <p
+        className="delta-count mt2"
+      >
+        [+2]
+      </p>
+      <p
+        className="total-count mt1"
+      >
+        2215
+      </p>
+    </div>
+  </div>
+</CovidStats>
+`;

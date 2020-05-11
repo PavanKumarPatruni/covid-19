@@ -1,0 +1,56 @@
+@mixin heading($text-color) {
+  @include font-style(4rem/1.13, 1.2px, $text-color);
+}
+
+@mixin bold() {
+  font-weight: bold;
+}
+
+@mixin heading-bold($text-color) {
+  @include heading($text-color);
+  @include bold();
+}
+
+@mixin heading-desc($text-color) {
+  @include font-style(1.5rem/1.13, 1.2px, $text-color);
+}
+
+@mixin table-heading($text-color) {
+  @include font-style(1rem/1.13, 1.2px, $text-color);
+  @include bold();
+}
+
+@mixin table-row($text-color) {
+  @include font-style(1.2rem/1.13, 1.2px, $text-color);
+}
+
+@mixin font-size-32($text-color) {
+  @include font-style(2rem/1.13, 3px, $text-color);
+}
+
+@mixin font-size-32-bold($text-color) {
+  @include font-size-32($text-color);
+  @include bold();
+}
+
+@mixin font-size-24($text-color) {
+  @include font-style(1.5rem/1.13, 3px, $text-color);
+}
+
+@mixin font-size-24-bold($text-color) {
+  @include font-size-24($text-color);
+  @include bold();
+}
+
+@mixin font-size-tag($text-color) {
+  @include font-style(1rem/1.13, 3px, $text-color);
+}
+
+@mixin font-size-20($text-color) {
+  @include font-style(1.25rem/1.13, 3px, $text-color);
+}
+
+@mixin font-size-20-bold($text-color) {
+  @include font-size-20($text-color);
+  @include bold();
+}

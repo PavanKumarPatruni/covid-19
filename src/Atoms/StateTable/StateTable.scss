@@ -1,0 +1,63 @@
+@import '../../styles/index.scss';
+
+table {
+  padding: 16px;
+}
+
+th,
+td {
+  border-radius: 8px;
+  color: $text-color;
+  margin: 0 4px;
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  @include table-heading($text-color);
+
+  text-transform: uppercase;
+}
+
+th:first-child {
+  text-align: left;
+}
+
+td {
+  @include table-row($text-color);
+}
+
+td:first-child {
+  @include bold();
+
+  text-align: left;
+  width: 200px;
+}
+
+tr {
+  background: $table-background;
+}
+
+tr:hover {
+  background: $border;
+}
+
+.tag {
+  @include table-heading($red-color);
+}
+
+.tag-green {
+  @include table-heading($green-color);
+}
+
+.up-arrow-icon {
+  fill: $red-color;
+  height: 12px;
+  stroke: $red-color;
+  width: 12px;
+}
+
+.green-icon {
+  fill: $green-color;
+  stroke: $green-color;
+}

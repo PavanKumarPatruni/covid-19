@@ -1,0 +1,506 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Covid component match snapshot correctly 1`] = `
+<div
+  className=""
+>
+  <div
+    className="flex flex-center flex-column"
+  >
+    <div
+      className="sm-full-width overflow-x-auto"
+    />
+  </div>
+</div>
+`;
+
+exports[`Covid component match snapshot correctly 2`] = `
+<Covid
+  getCovidStateData={[Function]}
+  stateData={
+    Object {
+      "cases_time_series": Object {},
+      "statewise": Array [
+        Object {
+          "active": "44351",
+          "confirmed": "67700",
+          "deaths": "2215",
+          "deltaconfirmed": "524",
+          "deltadeaths": "2",
+          "deltarecovered": "160",
+          "lastupdatedtime": "11/05/2020 15:41:22",
+          "recovered": "21130",
+          "state": "Total",
+          "statecode": "TT",
+          "statenotes": "",
+        },
+        Object {
+          "active": "44351",
+          "confirmed": "67700",
+          "deaths": "2215",
+          "deltaconfirmed": "524",
+          "deltadeaths": "2",
+          "deltarecovered": "160",
+          "lastupdatedtime": "11/05/2020 15:41:22",
+          "recovered": "21130",
+          "state": "Total",
+          "statecode": "AP",
+          "statenotes": "",
+        },
+      ],
+      "tested": Object {},
+    }
+  }
+>
+  <div
+    className=""
+  >
+    <div
+      className="flex flex-center flex-column"
+    >
+      <CovidStats
+        stats={
+          Object {
+            "active": "44351",
+            "confirmed": "67700",
+            "deaths": "2215",
+            "deltaconfirmed": "524",
+            "deltadeaths": "2",
+            "deltarecovered": "160",
+            "lastupdatedtime": "11/05/2020 15:41:22",
+            "recovered": "21130",
+            "state": "Total",
+            "statecode": "TT",
+            "statenotes": "",
+          }
+        }
+      >
+        <div
+          className="flex covid-stats p1"
+        >
+          <div
+            className="flex flex-column flex-justify-center flex-center covid-stats-item p1 sm-p0 sm-mx1 mx2 red-color"
+          >
+            <h3
+              className="title mt2"
+            >
+              Confirmed
+            </h3>
+            <p
+              className="delta-count mt2"
+            >
+              [+524]
+            </p>
+            <p
+              className="total-count mt1"
+            >
+              67700
+            </p>
+          </div>
+          <div
+            className="flex flex-column flex-justify-center flex-center covid-stats-item p1 sm-p0 sm-mx1 mx2 blue-color"
+          >
+            <h3
+              className="title mt2"
+            >
+              Active
+            </h3>
+            <p
+              className="delta-count mt2"
+            />
+            <p
+              className="total-count mt1"
+            >
+              44351
+            </p>
+          </div>
+          <div
+            className="flex flex-column flex-justify-center flex-center covid-stats-item p1 sm-p0 sm-mx1 mx2 green-color"
+          >
+            <h3
+              className="title mt2"
+            >
+              Recovered
+            </h3>
+            <p
+              className="delta-count mt2"
+            >
+              [+160]
+            </p>
+            <p
+              className="total-count mt1"
+            >
+              21130
+            </p>
+          </div>
+          <div
+            className="flex flex-column flex-justify-center flex-center covid-stats-item p1 sm-p0 sm-mx1 mx2 grey-color"
+          >
+            <h3
+              className="title mt2"
+            >
+              Deceased
+            </h3>
+            <p
+              className="delta-count mt2"
+            >
+              [+2]
+            </p>
+            <p
+              className="total-count mt1"
+            >
+              2215
+            </p>
+          </div>
+        </div>
+      </CovidStats>
+      <div
+        className="sm-full-width overflow-x-auto"
+      >
+        <StateTable
+          stateList={
+            Array [
+              Object {
+                "active": "44351",
+                "confirmed": "67700",
+                "deaths": "2215",
+                "deltaconfirmed": "524",
+                "deltadeaths": "2",
+                "deltarecovered": "160",
+                "lastupdatedtime": "11/05/2020 15:41:22",
+                "recovered": "21130",
+                "state": "Total",
+                "statecode": "TT",
+                "statenotes": "",
+              },
+              Object {
+                "active": "44351",
+                "confirmed": "67700",
+                "deaths": "2215",
+                "deltaconfirmed": "524",
+                "deltadeaths": "2",
+                "deltarecovered": "160",
+                "lastupdatedtime": "11/05/2020 15:41:22",
+                "recovered": "21130",
+                "state": "Total",
+                "statecode": "AP",
+                "statenotes": "",
+              },
+            ]
+          }
+        >
+          <table
+            className="fadeInUp sm-p0"
+          >
+            <thead>
+              <tr>
+                <th>
+                  State
+                </th>
+                <th>
+                  Confirmed
+                </th>
+                <th>
+                  Active
+                </th>
+                <th>
+                  Recovered
+                </th>
+                <th>
+                  Deceased
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr
+                key="AP"
+              >
+                <td>
+                  Total
+                </td>
+                <td>
+                  <div
+                    className="flex flex-end flex-justify-end"
+                  >
+                    <div
+                      className="flex flex-end"
+                    >
+                      <ArrowUp
+                        color="#ff073a"
+                        size="14"
+                      >
+                        <svg
+                          fill="#ff073a"
+                          height="14"
+                          stroke="#ff073a"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="2"
+                          viewBox="0 0 24 24"
+                          width="14"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <line
+                            x1="12"
+                            x2="12"
+                            y1="19"
+                            y2="5"
+                          />
+                          <polyline
+                            points="5 12 12 5 19 12"
+                          />
+                        </svg>
+                      </ArrowUp>
+                      <p
+                        className="tag mr1 "
+                      >
+                        524
+                      </p>
+                    </div>
+                    <p>
+                      67700
+                    </p>
+                  </div>
+                </td>
+                <td>
+                  44351
+                </td>
+                <td>
+                  <div
+                    className="flex flex-end flex-justify-end"
+                  >
+                    <div
+                      className="flex flex-end"
+                    >
+                      <ArrowUp
+                        color="#28a745"
+                        size="14"
+                      >
+                        <svg
+                          fill="#28a745"
+                          height="14"
+                          stroke="#28a745"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="2"
+                          viewBox="0 0 24 24"
+                          width="14"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <line
+                            x1="12"
+                            x2="12"
+                            y1="19"
+                            y2="5"
+                          />
+                          <polyline
+                            points="5 12 12 5 19 12"
+                          />
+                        </svg>
+                      </ArrowUp>
+                      <p
+                        className="tag mr1 tag-green"
+                      >
+                        160
+                      </p>
+                    </div>
+                    <p>
+                      21130
+                    </p>
+                  </div>
+                </td>
+                <td>
+                  <div
+                    className="flex flex-end flex-justify-end"
+                  >
+                    <div
+                      className="flex flex-end"
+                    >
+                      <ArrowUp
+                        color="#ff073a"
+                        size="14"
+                      >
+                        <svg
+                          fill="#ff073a"
+                          height="14"
+                          stroke="#ff073a"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="2"
+                          viewBox="0 0 24 24"
+                          width="14"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <line
+                            x1="12"
+                            x2="12"
+                            y1="19"
+                            y2="5"
+                          />
+                          <polyline
+                            points="5 12 12 5 19 12"
+                          />
+                        </svg>
+                      </ArrowUp>
+                      <p
+                        className="tag mr1 "
+                      >
+                        2
+                      </p>
+                    </div>
+                    <p>
+                      2215
+                    </p>
+                  </div>
+                </td>
+              </tr>
+              <tr
+                key="TT"
+              >
+                <td>
+                  Total
+                </td>
+                <td>
+                  <div
+                    className="flex flex-end flex-justify-end"
+                  >
+                    <div
+                      className="flex flex-end"
+                    >
+                      <ArrowUp
+                        color="#ff073a"
+                        size="14"
+                      >
+                        <svg
+                          fill="#ff073a"
+                          height="14"
+                          stroke="#ff073a"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="2"
+                          viewBox="0 0 24 24"
+                          width="14"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <line
+                            x1="12"
+                            x2="12"
+                            y1="19"
+                            y2="5"
+                          />
+                          <polyline
+                            points="5 12 12 5 19 12"
+                          />
+                        </svg>
+                      </ArrowUp>
+                      <p
+                        className="tag mr1 "
+                      >
+                        524
+                      </p>
+                    </div>
+                    <p>
+                      67700
+                    </p>
+                  </div>
+                </td>
+                <td>
+                  44351
+                </td>
+                <td>
+                  <div
+                    className="flex flex-end flex-justify-end"
+                  >
+                    <div
+                      className="flex flex-end"
+                    >
+                      <ArrowUp
+                        color="#28a745"
+                        size="14"
+                      >
+                        <svg
+                          fill="#28a745"
+                          height="14"
+                          stroke="#28a745"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="2"
+                          viewBox="0 0 24 24"
+                          width="14"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <line
+                            x1="12"
+                            x2="12"
+                            y1="19"
+                            y2="5"
+                          />
+                          <polyline
+                            points="5 12 12 5 19 12"
+                          />
+                        </svg>
+                      </ArrowUp>
+                      <p
+                        className="tag mr1 tag-green"
+                      >
+                        160
+                      </p>
+                    </div>
+                    <p>
+                      21130
+                    </p>
+                  </div>
+                </td>
+                <td>
+                  <div
+                    className="flex flex-end flex-justify-end"
+                  >
+                    <div
+                      className="flex flex-end"
+                    >
+                      <ArrowUp
+                        color="#ff073a"
+                        size="14"
+                      >
+                        <svg
+                          fill="#ff073a"
+                          height="14"
+                          stroke="#ff073a"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="2"
+                          viewBox="0 0 24 24"
+                          width="14"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <line
+                            x1="12"
+                            x2="12"
+                            y1="19"
+                            y2="5"
+                          />
+                          <polyline
+                            points="5 12 12 5 19 12"
+                          />
+                        </svg>
+                      </ArrowUp>
+                      <p
+                        className="tag mr1 "
+                      >
+                        2
+                      </p>
+                    </div>
+                    <p>
+                      2215
+                    </p>
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </StateTable>
+      </div>
+    </div>
+  </div>
+</Covid>
+`;

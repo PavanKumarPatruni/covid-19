@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header component match snapshot correctly 1`] = `
+<div
+  className="full-width fadeInUp"
+>
+  <h1
+    className="header flex flex-justify-center p4"
+  >
+    COVID-19
+  </h1>
+</div>
+`;
+
+exports[`Header component match snapshot correctly 2`] = `
+<Header>
+  <div
+    className="full-width fadeInUp"
+  >
+    <h1
+      className="header flex flex-justify-center p4"
+    >
+      COVID-19
+    </h1>
+  </div>
+</Header>
+`;

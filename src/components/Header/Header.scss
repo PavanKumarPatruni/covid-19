@@ -1,0 +1,9 @@
+@import '../../styles/index.scss';
+
+.header {
+  @include heading($text-color);
+  border-bottom: 1px solid $border;
+
+  box-shadow: 0 2px 10px $border;
+  letter-spacing: 10px;
+}

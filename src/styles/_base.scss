@@ -1,0 +1,151 @@
+body {
+  background: $light-grey;
+  color: $text-color;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+li,
+p,
+a {
+  margin: 0;
+}
+
+a {
+  text-decoration: underline;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 90rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+@include tablet {
+  .container {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+}
+
+@include desktop {
+  .container {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+
+@mixin font-style($font-size, $letter-spacing, $color) {
+  color: $color;
+  font-size: $font-size;
+  letter-spacing: $letter-spacing;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.md-full-width {
+  @include tablet {
+    width: 100%;
+  }
+}
+
+.sm-full-width {
+  @include mobile {
+    width: 100%;
+  }
+}
+
+.width-50 {
+  width: 50%;
+}
+
+.md-width-50 {
+  @include tablet {
+    width: 50%;
+  }
+}
+
+.sm-width-50 {
+  @include mobile {
+    width: 50%;
+  }
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.flex-center {
+  align-items: center;
+}
+
+.flex-end {
+  align-items: flex-end;
+}
+
+.flex-justify-end {
+  justify-content: flex-end;
+}
+
+.flex-justify-center {
+  justify-content: center;
+}
+
+.flex-justify-space-between {
+  justify-content: space-between;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.md-flex-column-reverse {
+  @include tablet {
+    flex-direction: column-reverse;
+  }
+}
+
+.md-flex-center {
+  @include tablet {
+    align-items: center;
+  }
+}
+
+.sm-flex-column-reverse {
+  @include mobile {
+    flex-direction: column-reverse;
+  }
+}
+
+.sm-flex-center {
+  @include mobile {
+    align-items: center;
+  }
+}
+
+.overflow-x-auto {
+  overflow-x: auto;
+}
+
+.fade-in-up {
+  animation-duration: 0.45s;
+  animation-fill-mode: both;
+  animation-name: fadeInUp;
+}

@@ -80,6 +80,7 @@
       }
     ],
     "linebreak-style": 0,
-    "compat/compat": "warn"
+    "compat/compat": "warn",
+    "react/jsx-props-no-spreading": ["error", {"custom": "ignore"}] 
   }
 }
