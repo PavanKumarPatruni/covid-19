@@ -1,10 +1,15 @@
 import { put } from 'redux-saga/effects';
 import { getCovidStateDataSuccess, getCovidStateDataFailure } from '../actions';
 
-import { loadCovidStateData } from '../saga';
+import { getCovidStateData, loadCovidStateData } from '../saga';
 
 describe('#loadCovidStateData Saga', () => {
   let generator;
+
+  it('should test getCovidStateData', () => {
+    const getCovidState = getCovidStateData();
+    getCovidState.next();
+  });
 
   it('should dispatch the "getCovidStateDataSuccess" action for success response', () => {
     const data = 'success';
@@ -21,6 +26,17 @@ describe('#loadCovidStateData Saga', () => {
           data: 'success',
         })
       )
+    );
+  });
+
+  it('should dispatch the "getCovidStateDataFailure" action for error response', () => {
+    const response = undefined;
+
+    generator = loadCovidStateData();
+    generator.next();
+    const putDescriptor = generator.next(response).value;
+    expect(putDescriptor).toEqual(
+      put(getCovidStateDataFailure({ error: 'error' }))
     );
   });
 

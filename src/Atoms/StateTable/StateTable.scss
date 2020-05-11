@@ -14,9 +14,13 @@ td {
 }
 
 th {
-  @include table-heading($text-color);
 
+  @include table-heading($text-color);
   text-transform: uppercase;
+
+  @include mobile {
+    @include table-heading-mobile($text-color);
+  }
 }
 
 th:first-child {
@@ -25,6 +29,10 @@ th:first-child {
 
 td {
   @include table-row($text-color);
+
+  @include mobile {
+    @include table-row-mobile($text-color);
+  }
 }
 
 td:first-child {
@@ -44,10 +52,18 @@ tr:hover {
 
 .tag {
   @include table-heading($red-color);
+
+  @include mobile {
+    @include table-row-mobile($red-color);
+  }
 }
 
 .tag-green {
   @include table-heading($green-color);
+
+  @include mobile {
+    @include table-row-mobile($green-color);
+  }
 }
 
 .up-arrow-icon {

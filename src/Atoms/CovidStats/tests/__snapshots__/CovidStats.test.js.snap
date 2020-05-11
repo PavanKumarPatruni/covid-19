@@ -2,7 +2,7 @@
 
 exports[`CovidStats component match snapshot correctly 1`] = `
 <div
-  className="flex covid-stats p1"
+  className="flex covid-stats p1 comp-mb"
 >
   <div
     className="flex flex-column flex-justify-center flex-center covid-stats-item p1 sm-p0 sm-mx1 mx2 red-color"
@@ -100,7 +100,7 @@ exports[`CovidStats component match snapshot correctly 2`] = `
   }
 >
   <div
-    className="flex covid-stats p1"
+    className="flex covid-stats p1 comp-mb"
   >
     <div
       className="flex flex-column flex-justify-center flex-center covid-stats-item p1 sm-p0 sm-mx1 mx2 red-color"

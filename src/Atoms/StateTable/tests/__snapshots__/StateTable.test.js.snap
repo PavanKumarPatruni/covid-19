@@ -8,7 +8,7 @@ exports[`StateTable component match snapshot correctly - with delta value "0" 1`
 
 exports[`StateTable component match snapshot correctly 1`] = `
 <table
-  className="fadeInUp sm-p0"
+  className="fadeInUp sm-p0 comp-mb"
 >
   <thead>
     <tr>
@@ -296,7 +296,7 @@ exports[`StateTable component match snapshot correctly 2`] = `
   }
 >
   <table
-    className="fadeInUp sm-p0"
+    className="fadeInUp sm-p0 comp-mb"
   >
     <thead>
       <tr>

@@ -2,6 +2,7 @@
 
 # Production
 /build
+/dist
 
 # Testing
 reports/

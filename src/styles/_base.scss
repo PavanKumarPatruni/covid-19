@@ -149,3 +149,11 @@ a {
   animation-fill-mode: both;
   animation-name: fadeInUp;
 }
+
+.comp-mb {
+  margin-bottom: 1.5rem;
+
+  @include desktop {
+    margin-bottom: 2rem;
+  }
+}

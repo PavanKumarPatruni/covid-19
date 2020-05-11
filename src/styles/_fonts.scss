@@ -20,8 +20,17 @@
   @include bold();
 }
 
+@mixin table-heading-mobile($text-color) {
+  @include font-style(0.875rem/1.13, 1.2px, $text-color);
+  @include bold();
+}
+
 @mixin table-row($text-color) {
   @include font-style(1.2rem/1.13, 1.2px, $text-color);
+}
+
+@mixin table-row-mobile($text-color) {
+  @include font-style(0.875rem/1.13, 1.2px, $text-color);
 }
 
 @mixin font-size-32($text-color) {
@@ -46,11 +55,24 @@
   @include font-style(1rem/1.13, 3px, $text-color);
 }
 
+@mixin font-size-tag-mobile($text-color) {
+  @include font-style(0.875rem/1.13, 3px, $text-color);
+}
+
 @mixin font-size-20($text-color) {
   @include font-style(1.25rem/1.13, 3px, $text-color);
 }
 
 @mixin font-size-20-bold($text-color) {
   @include font-size-20($text-color);
+  @include bold();
+}
+
+@mixin font-size-16($text-color) {
+  @include font-style(1rem/1.13, 3px, $text-color);
+}
+
+@mixin font-size-16-bold($text-color) {
+  @include font-size-16($text-color);
   @include bold();
 }

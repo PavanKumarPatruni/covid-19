@@ -36,7 +36,7 @@ const CovidStats = ({ stats }) => {
   };
 
   return (
-    <div className="flex covid-stats p1">
+    <div className="flex covid-stats p1 comp-mb">
       {getStat({
         title: 'Confirmed',
         total: getData(stats, 'confirmed'),

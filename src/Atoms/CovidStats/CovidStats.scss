@@ -19,10 +19,18 @@
 
   .delta-count {
     @include font-size-20-bold($red-color);
+
+    @include mobile {
+      @include font-size-16-bold($red-color);
+    }
   }
 
   .title {
     @include font-size-tag($red-color);
+
+    @include mobile {
+      @include font-size-tag-mobile($red-color);
+    }
   }
 }
 
@@ -37,10 +45,18 @@
 
   .delta-count {
     @include font-size-20-bold($green-color);
+
+    @include mobile {
+      @include font-size-16-bold($green-color);
+    }
   }
 
   .title {
     @include font-size-tag($green-color);
+
+    @include mobile {
+      @include font-size-tag-mobile($green-color);
+    }
   }
 }
 
@@ -55,10 +71,18 @@
 
   .delta-count {
     @include font-size-20-bold($blue-color);
+
+    @include mobile {
+      @include font-size-16-bold($blue-color);
+    }
   }
 
   .title {
     @include font-size-tag($blue-color);
+
+    @include mobile {
+      @include font-size-tag-mobile($blue-color);
+    }
   }
 }
 
@@ -73,9 +97,17 @@
 
   .delta-count {
     @include font-size-20-bold($tertiary-color);
+
+    @include mobile {
+      @include font-size-16-bold($tertiary-color);
+    }
   }
 
   .title {
     @include font-size-tag($tertiary-color);
+
+    @include mobile {
+      @include font-size-tag-mobile($tertiary-color);
+    }
   }
 }

@@ -76,7 +76,7 @@ exports[`Covid component match snapshot correctly 2`] = `
         }
       >
         <div
-          className="flex covid-stats p1"
+          className="flex covid-stats p1 comp-mb"
         >
           <div
             className="flex flex-column flex-justify-center flex-center covid-stats-item p1 sm-p0 sm-mx1 mx2 red-color"
@@ -190,7 +190,7 @@ exports[`Covid component match snapshot correctly 2`] = `
           }
         >
           <table
-            className="fadeInUp sm-p0"
+            className="fadeInUp sm-p0 comp-mb"
           >
             <thead>
               <tr>

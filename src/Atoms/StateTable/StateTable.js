@@ -71,7 +71,7 @@ const StateTable = ({ stateList }) => {
   };
 
   return stateList && stateList.length > 0 ? (
-    <table className="fadeInUp sm-p0">
+    <table className="fadeInUp sm-p0 comp-mb">
       <thead>
         <tr>
           <th>State</th>
