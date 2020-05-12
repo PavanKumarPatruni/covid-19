@@ -1,5 +1,30 @@
 @import '../styles/index.scss';
 
+/* advent-pro-regular - latin */
+@font-face {
+  font-family: 'Advent Pro';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Advent Pro Regular'), local('AdventPro-Regular'),
+    url('../assets/fonts/AdventPro-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Advent Pro';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Advent Pro SemiBold'), local('AdventPro-SemiBold'),
+    url('../assets/fonts/AdventPro-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Advent Pro';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Advent Pro Bold'), local('AdventPro-Bold'),
+    url('../assets/fonts/AdventPro-Bold.ttf') format('truetype');
+}
+
 body {
   background: $background;
   font-family: 'Advent Pro', sans-serif;

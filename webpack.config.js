@@ -3,8 +3,9 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 module.exports = {
-  devtool: 'inline-source-map',
-  entry: './src/index.js',
+  entry: {
+    main: './src/index.js',
+  },
   output: {
     filename: '[name].[hash].js',
     path: path.join(__dirname, '/dist'),
@@ -13,7 +14,7 @@ module.exports = {
   optimization: {
     splitChunks: {
       chunks: 'all',
-      minSize: 10000,
+      minSize: 500,
       automaticNameDelimiter: '_',
     },
   },
@@ -38,7 +39,7 @@ module.exports = {
         ],
       },
       {
-        test: /\.(png|svg|jpg|gif)$/,
+        test: /\.(png|svg|jpg|gif|ttf)$/,
         use: ['file-loader'],
       },
       {
@@ -51,6 +52,7 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: './public/index.html',
       filename: './index.html',
+      chunks: ['main', 'vendors_main'],
     }),
     new MiniCssExtractPlugin({
       filename: '[name].[hash].css',
