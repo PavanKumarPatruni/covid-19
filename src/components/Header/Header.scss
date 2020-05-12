@@ -9,10 +9,6 @@
 
   @include mobile {
     @include heading-mobile($text-color);
-
-    &.light-mode {
-      @include heading-mobile($text-color-light);
-    }
   }
 
   &.light-mode {
@@ -21,6 +17,10 @@
     background-color: $white;
     border-bottom: 1px solid $light-grey;
     box-shadow: 0 2px 10px $light-grey;
+
+    @include mobile {
+      @include heading-mobile($text-color-light);
+    }
   }
 }
 
