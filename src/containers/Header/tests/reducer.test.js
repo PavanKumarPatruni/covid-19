@@ -7,7 +7,7 @@ describe('getColorModeReducer', () => {
 
   beforeEach(() => {
     state = {
-      colorMode: 'dark',
+      colorMode: 'light',
     };
   });
 
@@ -17,7 +17,7 @@ describe('getColorModeReducer', () => {
   });
 
   it('should handle the "changeColorMode" action correctly', () => {
-    const colorMode = 'white';
+    const colorMode = 'dark';
 
     const expectedResult = {
       colorMode,

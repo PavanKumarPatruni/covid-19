@@ -15,7 +15,7 @@ describe('Header component', () => {
   });
 
   test('match snapshot correctly', () => {
-    props.colorMode = 'white';
+    props.colorMode = 'light';
     const wrapper = shallow(<Header {...props} />);
     expect(wrapper).toMatchSnapshot();
   });

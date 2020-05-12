@@ -161,7 +161,7 @@ const StateTable = ({ stateList, districts, colorMode }) => {
   return stateList && stateList.length > 0 ? (
     <table
       className={`${
-        colorMode === 'dark' ? 'dark-mode' : 'normal-mode'
+        colorMode === 'dark' ? 'dark-mode' : 'light-mode'
       } "sm-p0 comp-mb`}
     >
       <thead>

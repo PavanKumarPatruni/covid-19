@@ -86,7 +86,7 @@ describe('StateTable component', () => {
   });
 
   test('match snapshot correctly', () => {
-    props.colorMode = 'white';
+    props.colorMode = 'light';
     const wrapper = shallow(<StateTable {...props} />);
     expect(wrapper).toMatchSnapshot();
   });

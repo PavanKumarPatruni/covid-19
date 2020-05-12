@@ -1,7 +1,7 @@
 import { COVID_CHANGE_COLOR_MODE } from './constants';
 
 const INITIAL_STATE = {
-  colorMode: 'dark',
+  colorMode: 'light',
 };
 
 const getColorModeReducer = (state = INITIAL_STATE, action) => {
@@ -10,7 +10,7 @@ const getColorModeReducer = (state = INITIAL_STATE, action) => {
     case COVID_CHANGE_COLOR_MODE:
       return {
         ...state,
-        colorMode: state.colorMode === 'white' ? 'dark' : 'white',
+        colorMode: state.colorMode === 'light' ? 'dark' : 'light',
       };
     default:
       return state;

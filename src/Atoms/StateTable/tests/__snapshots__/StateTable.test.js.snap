@@ -2,7 +2,7 @@
 
 exports[`StateTable component match snapshot correctly - with delta value "0" 1`] = `
 <StateTable
-  colorMode="white"
+  colorMode="light"
   districts={Object {}}
   stateList={Array []}
 />
@@ -10,7 +10,7 @@ exports[`StateTable component match snapshot correctly - with delta value "0" 1`
 
 exports[`StateTable component match snapshot correctly - with empty array 1`] = `
 <table
-  className="normal-mode \\"sm-p0 comp-mb"
+  className="light-mode \\"sm-p0 comp-mb"
 >
   <thead>
     <tr>
@@ -324,7 +324,7 @@ exports[`StateTable component match snapshot correctly - with empty array 1`] = 
 
 exports[`StateTable component match snapshot correctly - with empty array 2`] = `
 <StateTable
-  colorMode="white"
+  colorMode="light"
   districts={Object {}}
   stateList={
     Array [
@@ -371,7 +371,7 @@ exports[`StateTable component match snapshot correctly - with empty array 2`] = 
   }
 >
   <table
-    className="normal-mode \\"sm-p0 comp-mb"
+    className="light-mode \\"sm-p0 comp-mb"
   >
     <thead>
       <tr>
@@ -1210,7 +1210,7 @@ exports[`StateTable component match snapshot correctly 1`] = `
 
 exports[`StateTable component match snapshot correctly 2`] = `
 <table
-  className="normal-mode \\"sm-p0 comp-mb"
+  className="light-mode \\"sm-p0 comp-mb"
 >
   <thead>
     <tr>
@@ -1524,7 +1524,7 @@ exports[`StateTable component match snapshot correctly 2`] = `
 
 exports[`StateTable component match snapshot correctly 3`] = `
 <StateTable
-  colorMode="white"
+  colorMode="light"
   districts={
     Object {
       "Andaman and Nicobar Islands": Object {
@@ -1603,7 +1603,7 @@ exports[`StateTable component match snapshot correctly 3`] = `
   }
 >
   <table
-    className="normal-mode \\"sm-p0 comp-mb"
+    className="light-mode \\"sm-p0 comp-mb"
   >
     <thead>
       <tr>
@@ -2128,7 +2128,7 @@ exports[`StateTable component match snapshot correctly 3`] = `
 
 exports[`StateTable component match snapshot correctly 4`] = `
 <StateTable
-  colorMode="white"
+  colorMode="light"
   districts={
     Object {
       "Andaman and Nicobar Islands": Object {
@@ -2207,7 +2207,7 @@ exports[`StateTable component match snapshot correctly 4`] = `
   }
 >
   <table
-    className="normal-mode \\"sm-p0 comp-mb"
+    className="light-mode \\"sm-p0 comp-mb"
   >
     <thead>
       <tr>

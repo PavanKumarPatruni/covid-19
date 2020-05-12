@@ -142,7 +142,7 @@ const Covid = ({
   return (
     <div
       className={`covid-container ${
-        colorMode === 'dark' ? 'dark-mode' : 'normal-mode'
+        colorMode === 'dark' ? 'dark-mode' : 'light-mode'
       }`}
     >
       <div className="container">

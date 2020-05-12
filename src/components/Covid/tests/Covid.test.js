@@ -89,7 +89,7 @@ describe('Covid component', () => {
   });
 
   test('match snapshot correctly', () => {
-    props.colorMode = 'white';
+    props.colorMode = 'light';
     const wrapper = shallow(<Covid {...props} />);
     expect(wrapper).toMatchSnapshot();
   });

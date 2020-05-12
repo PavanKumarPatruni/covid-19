@@ -10,13 +10,13 @@
   @include mobile {
     @include heading-mobile($text-color);
 
-    &.normal-mode {
-      @include heading-mobile($text-color-normal);
+    &.light-mode {
+      @include heading-mobile($text-color-light);
     }
   }
 
-  &.normal-mode {
-    @include heading($text-color-normal);
+  &.light-mode {
+    @include heading($text-color-light);
 
     background-color: $white;
     border-bottom: 1px solid $light-grey;

@@ -10,7 +10,7 @@ const propTypes = {
 };
 
 const ThemeToggle = ({ onChange }) => {
-  const [darkMode, setDarkMode] = useState(true);
+  const [darkMode, setDarkMode] = useState(false);
 
   const onToggle = () => {
     setDarkMode(!darkMode);

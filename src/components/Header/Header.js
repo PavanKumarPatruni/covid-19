@@ -18,7 +18,7 @@ const Header = ({ changeColorMode, colorMode }) => {
   return (
     <div
       className={`header py4 full-width relative flex md-flex-justify-center sm-flex-start flex-center ${
-        colorMode === 'dark' ? 'dark-mode' : 'normal-mode'
+        colorMode === 'dark' ? 'dark-mode' : 'light-mode'
       }`}
     >
       <h1 className="sm-pl3">COVID-19</h1>
