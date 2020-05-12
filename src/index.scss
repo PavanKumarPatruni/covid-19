@@ -1,0 +1,10 @@
+@import './styles/index.scss';
+
+body {
+  background-color: $white;
+  height: 100vh;
+
+  &.dark-mode {
+    background-color: $background;
+  }
+}

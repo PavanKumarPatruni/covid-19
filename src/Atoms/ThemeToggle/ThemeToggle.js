@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import PropTypes from 'prop-types';
 
 import ThemeIcon from '../ThemeIcon';
@@ -16,6 +16,13 @@ const ThemeToggle = ({ onChange }) => {
     setDarkMode(!darkMode);
     onChange();
   };
+
+  useEffect(() => {
+    const mode = localStorage.getItem('COLOR_MODE');
+    if (mode === 'dark') {
+      onToggle();
+    }
+  }, []);
 
   return (
     <button className="theme-toggle p2 sm-p1" type="button" onClick={onToggle}>
