@@ -21,7 +21,7 @@
 }
 
 @mixin table-heading-mobile($text-color) {
-  @include font-style(0.875rem/1.13, 1.2px, $text-color);
+  @include font-style(0.7rem/1.13, 1.2px, $text-color);
   @include bold();
 }
 

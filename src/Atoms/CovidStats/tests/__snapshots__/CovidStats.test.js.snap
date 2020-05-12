@@ -5,7 +5,7 @@ exports[`CovidStats component match snapshot correctly 1`] = `
   className="flex covid-stats p1 comp-mb"
 >
   <div
-    className="flex flex-column flex-justify-center flex-center covid-stats-item p1 sm-p0 sm-mx1 mx2 red-color"
+    className="flex flex-column flex-justify-center flex-center covid-stats-item p1 sm-p0 sm-mx1 md-mx2 mx4 red-color"
   >
     <h3
       className="title mt2"
@@ -24,7 +24,7 @@ exports[`CovidStats component match snapshot correctly 1`] = `
     </p>
   </div>
   <div
-    className="flex flex-column flex-justify-center flex-center covid-stats-item p1 sm-p0 sm-mx1 mx2 blue-color"
+    className="flex flex-column flex-justify-center flex-center covid-stats-item p1 sm-p0 sm-mx1 md-mx2 mx4 blue-color"
   >
     <h3
       className="title mt2"
@@ -41,7 +41,7 @@ exports[`CovidStats component match snapshot correctly 1`] = `
     </p>
   </div>
   <div
-    className="flex flex-column flex-justify-center flex-center covid-stats-item p1 sm-p0 sm-mx1 mx2 green-color"
+    className="flex flex-column flex-justify-center flex-center covid-stats-item p1 sm-p0 sm-mx1 md-mx2 mx4 green-color"
   >
     <h3
       className="title mt2"
@@ -60,7 +60,7 @@ exports[`CovidStats component match snapshot correctly 1`] = `
     </p>
   </div>
   <div
-    className="flex flex-column flex-justify-center flex-center covid-stats-item p1 sm-p0 sm-mx1 mx2 grey-color"
+    className="flex flex-column flex-justify-center flex-center covid-stats-item p1 sm-p0 sm-mx1 md-mx2 mx4 grey-color"
   >
     <h3
       className="title mt2"
@@ -103,7 +103,7 @@ exports[`CovidStats component match snapshot correctly 2`] = `
     className="flex covid-stats p1 comp-mb"
   >
     <div
-      className="flex flex-column flex-justify-center flex-center covid-stats-item p1 sm-p0 sm-mx1 mx2 red-color"
+      className="flex flex-column flex-justify-center flex-center covid-stats-item p1 sm-p0 sm-mx1 md-mx2 mx4 red-color"
     >
       <h3
         className="title mt2"
@@ -122,7 +122,7 @@ exports[`CovidStats component match snapshot correctly 2`] = `
       </p>
     </div>
     <div
-      className="flex flex-column flex-justify-center flex-center covid-stats-item p1 sm-p0 sm-mx1 mx2 blue-color"
+      className="flex flex-column flex-justify-center flex-center covid-stats-item p1 sm-p0 sm-mx1 md-mx2 mx4 blue-color"
     >
       <h3
         className="title mt2"
@@ -139,7 +139,7 @@ exports[`CovidStats component match snapshot correctly 2`] = `
       </p>
     </div>
     <div
-      className="flex flex-column flex-justify-center flex-center covid-stats-item p1 sm-p0 sm-mx1 mx2 green-color"
+      className="flex flex-column flex-justify-center flex-center covid-stats-item p1 sm-p0 sm-mx1 md-mx2 mx4 green-color"
     >
       <h3
         className="title mt2"
@@ -158,7 +158,7 @@ exports[`CovidStats component match snapshot correctly 2`] = `
       </p>
     </div>
     <div
-      className="flex flex-column flex-justify-center flex-center covid-stats-item p1 sm-p0 sm-mx1 mx2 grey-color"
+      className="flex flex-column flex-justify-center flex-center covid-stats-item p1 sm-p0 sm-mx1 md-mx2 mx4 grey-color"
     >
       <h3
         className="title mt2"

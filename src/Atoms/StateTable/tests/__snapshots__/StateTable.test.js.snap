@@ -2,11 +2,12 @@
 
 exports[`StateTable component match snapshot correctly - with delta value "0" 1`] = `
 <StateTable
+  districts={Object {}}
   stateList={Array []}
 />
 `;
 
-exports[`StateTable component match snapshot correctly 1`] = `
+exports[`StateTable component match snapshot correctly - with empty array 1`] = `
 <table
   className="fadeInUp sm-p0 comp-mb"
 >
@@ -31,21 +32,34 @@ exports[`StateTable component match snapshot correctly 1`] = `
   </thead>
   <tbody>
     <tr
+      className="state-row "
+      id="state-row-AP"
       key="AP"
+      onClick={[Function]}
     >
-      <td>
-        Total
+      <td
+        className="flex flex-center flex-space-between"
+      >
+        <p
+          className="full-width"
+        >
+          Total
+        </p>
+        <ArrowUp
+          color="#827397"
+          size={16}
+        />
       </td>
       <td>
         <div
-          className="flex flex-end flex-justify-end"
+          className="flex flex-end flex-justify-end sm-flex-wrap sm-flex-justify-center"
         >
           <div
             className="flex flex-end"
           >
             <ArrowUp
               color="#ff073a"
-              size="14"
+              size="12"
             />
             <p
               className="tag mr1 "
@@ -63,14 +77,14 @@ exports[`StateTable component match snapshot correctly 1`] = `
       </td>
       <td>
         <div
-          className="flex flex-end flex-justify-end"
+          className="flex flex-end flex-justify-end sm-flex-wrap sm-flex-justify-center"
         >
           <div
             className="flex flex-end"
           >
             <ArrowUp
               color="#28a745"
-              size="14"
+              size="12"
             />
             <p
               className="tag mr1 tag-green"
@@ -85,14 +99,14 @@ exports[`StateTable component match snapshot correctly 1`] = `
       </td>
       <td>
         <div
-          className="flex flex-end flex-justify-end"
+          className="flex flex-end flex-justify-end sm-flex-wrap sm-flex-justify-center"
         >
           <div
             className="flex flex-end"
           >
             <ArrowUp
               color="#ff073a"
-              size="14"
+              size="12"
             />
             <p
               className="tag mr1 "
@@ -107,21 +121,34 @@ exports[`StateTable component match snapshot correctly 1`] = `
       </td>
     </tr>
     <tr
+      className="state-row "
+      id="state-row-TN"
       key="TN"
+      onClick={[Function]}
     >
-      <td>
-        Total
+      <td
+        className="flex flex-center flex-space-between"
+      >
+        <p
+          className="full-width"
+        >
+          Total
+        </p>
+        <ArrowUp
+          color="#827397"
+          size={16}
+        />
       </td>
       <td>
         <div
-          className="flex flex-end flex-justify-end"
+          className="flex flex-end flex-justify-end sm-flex-wrap sm-flex-justify-center"
         >
           <div
             className="flex flex-end"
           >
             <ArrowUp
               color="#ff073a"
-              size="14"
+              size="12"
             />
             <p
               className="tag mr1 "
@@ -139,14 +166,14 @@ exports[`StateTable component match snapshot correctly 1`] = `
       </td>
       <td>
         <div
-          className="flex flex-end flex-justify-end"
+          className="flex flex-end flex-justify-end sm-flex-wrap sm-flex-justify-center"
         >
           <div
             className="flex flex-end"
           >
             <ArrowUp
               color="#28a745"
-              size="14"
+              size="12"
             />
             <p
               className="tag mr1 tag-green"
@@ -161,7 +188,7 @@ exports[`StateTable component match snapshot correctly 1`] = `
       </td>
       <td>
         <div
-          className="flex flex-end flex-justify-end"
+          className="flex flex-end flex-justify-end sm-flex-wrap sm-flex-justify-center"
         >
           <p>
             2215
@@ -170,21 +197,30 @@ exports[`StateTable component match snapshot correctly 1`] = `
       </td>
     </tr>
     <tr
+      className="state-row "
+      id="state-row-TT"
       key="TT"
+      onClick={[Function]}
     >
-      <td>
-        Total
+      <td
+        className="flex flex-center flex-space-between"
+      >
+        <p
+          className="full-width"
+        >
+          Total
+        </p>
       </td>
       <td>
         <div
-          className="flex flex-end flex-justify-end"
+          className="flex flex-end flex-justify-end sm-flex-wrap sm-flex-justify-center"
         >
           <div
             className="flex flex-end"
           >
             <ArrowUp
               color="#ff073a"
-              size="14"
+              size="12"
             />
             <p
               className="tag mr1 "
@@ -202,14 +238,14 @@ exports[`StateTable component match snapshot correctly 1`] = `
       </td>
       <td>
         <div
-          className="flex flex-end flex-justify-end"
+          className="flex flex-end flex-justify-end sm-flex-wrap sm-flex-justify-center"
         >
           <div
             className="flex flex-end"
           >
             <ArrowUp
               color="#28a745"
-              size="14"
+              size="12"
             />
             <p
               className="tag mr1 tag-green"
@@ -224,14 +260,14 @@ exports[`StateTable component match snapshot correctly 1`] = `
       </td>
       <td>
         <div
-          className="flex flex-end flex-justify-end"
+          className="flex flex-end flex-justify-end sm-flex-wrap sm-flex-justify-center"
         >
           <div
             className="flex flex-end"
           >
             <ArrowUp
               color="#ff073a"
-              size="14"
+              size="12"
             />
             <p
               className="tag mr1 "
@@ -249,8 +285,9 @@ exports[`StateTable component match snapshot correctly 1`] = `
 </table>
 `;
 
-exports[`StateTable component match snapshot correctly 2`] = `
+exports[`StateTable component match snapshot correctly - with empty array 2`] = `
 <StateTable
+  districts={Object {}}
   stateList={
     Array [
       Object {
@@ -319,31 +356,60 @@ exports[`StateTable component match snapshot correctly 2`] = `
     </thead>
     <tbody>
       <tr
+        className="state-row "
+        id="state-row-AP"
         key="AP"
+        onClick={[Function]}
       >
-        <td>
-          Total
+        <td
+          className="flex flex-center flex-space-between"
+        >
+          <p
+            className="full-width"
+          >
+            Total
+          </p>
+          <ArrowUp
+            color="#827397"
+            size={16}
+          >
+            <svg
+              fill="#827397"
+              height={16}
+              stroke="#827397"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
+              viewBox="0 0 24 24"
+              width={16}
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <polyline
+                points="6 9 12 15 18 9"
+              />
+            </svg>
+          </ArrowUp>
         </td>
         <td>
           <div
-            className="flex flex-end flex-justify-end"
+            className="flex flex-end flex-justify-end sm-flex-wrap sm-flex-justify-center"
           >
             <div
               className="flex flex-end"
             >
               <ArrowUp
                 color="#ff073a"
-                size="14"
+                size="12"
               >
                 <svg
                   fill="#ff073a"
-                  height="14"
+                  height="12"
                   stroke="#ff073a"
                   strokeLinecap="round"
                   strokeLinejoin="round"
                   strokeWidth="2"
                   viewBox="0 0 24 24"
-                  width="14"
+                  width="12"
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <line
@@ -373,24 +439,24 @@ exports[`StateTable component match snapshot correctly 2`] = `
         </td>
         <td>
           <div
-            className="flex flex-end flex-justify-end"
+            className="flex flex-end flex-justify-end sm-flex-wrap sm-flex-justify-center"
           >
             <div
               className="flex flex-end"
             >
               <ArrowUp
                 color="#28a745"
-                size="14"
+                size="12"
               >
                 <svg
                   fill="#28a745"
-                  height="14"
+                  height="12"
                   stroke="#28a745"
                   strokeLinecap="round"
                   strokeLinejoin="round"
                   strokeWidth="2"
                   viewBox="0 0 24 24"
-                  width="14"
+                  width="12"
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <line
@@ -417,24 +483,24 @@ exports[`StateTable component match snapshot correctly 2`] = `
         </td>
         <td>
           <div
-            className="flex flex-end flex-justify-end"
+            className="flex flex-end flex-justify-end sm-flex-wrap sm-flex-justify-center"
           >
             <div
               className="flex flex-end"
             >
               <ArrowUp
                 color="#ff073a"
-                size="14"
+                size="12"
               >
                 <svg
                   fill="#ff073a"
-                  height="14"
+                  height="12"
                   stroke="#ff073a"
                   strokeLinecap="round"
                   strokeLinejoin="round"
                   strokeWidth="2"
                   viewBox="0 0 24 24"
-                  width="14"
+                  width="12"
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <line
@@ -461,31 +527,60 @@ exports[`StateTable component match snapshot correctly 2`] = `
         </td>
       </tr>
       <tr
+        className="state-row "
+        id="state-row-TN"
         key="TN"
+        onClick={[Function]}
       >
-        <td>
-          Total
+        <td
+          className="flex flex-center flex-space-between"
+        >
+          <p
+            className="full-width"
+          >
+            Total
+          </p>
+          <ArrowUp
+            color="#827397"
+            size={16}
+          >
+            <svg
+              fill="#827397"
+              height={16}
+              stroke="#827397"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
+              viewBox="0 0 24 24"
+              width={16}
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <polyline
+                points="6 9 12 15 18 9"
+              />
+            </svg>
+          </ArrowUp>
         </td>
         <td>
           <div
-            className="flex flex-end flex-justify-end"
+            className="flex flex-end flex-justify-end sm-flex-wrap sm-flex-justify-center"
           >
             <div
               className="flex flex-end"
             >
               <ArrowUp
                 color="#ff073a"
-                size="14"
+                size="12"
               >
                 <svg
                   fill="#ff073a"
-                  height="14"
+                  height="12"
                   stroke="#ff073a"
                   strokeLinecap="round"
                   strokeLinejoin="round"
                   strokeWidth="2"
                   viewBox="0 0 24 24"
-                  width="14"
+                  width="12"
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <line
@@ -515,24 +610,24 @@ exports[`StateTable component match snapshot correctly 2`] = `
         </td>
         <td>
           <div
-            className="flex flex-end flex-justify-end"
+            className="flex flex-end flex-justify-end sm-flex-wrap sm-flex-justify-center"
           >
             <div
               className="flex flex-end"
             >
               <ArrowUp
                 color="#28a745"
-                size="14"
+                size="12"
               >
                 <svg
                   fill="#28a745"
-                  height="14"
+                  height="12"
                   stroke="#28a745"
                   strokeLinecap="round"
                   strokeLinejoin="round"
                   strokeWidth="2"
                   viewBox="0 0 24 24"
-                  width="14"
+                  width="12"
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <line
@@ -559,7 +654,7 @@ exports[`StateTable component match snapshot correctly 2`] = `
         </td>
         <td>
           <div
-            className="flex flex-end flex-justify-end"
+            className="flex flex-end flex-justify-end sm-flex-wrap sm-flex-justify-center"
           >
             <p>
               2215
@@ -568,31 +663,40 @@ exports[`StateTable component match snapshot correctly 2`] = `
         </td>
       </tr>
       <tr
+        className="state-row "
+        id="state-row-TT"
         key="TT"
+        onClick={[Function]}
       >
-        <td>
-          Total
+        <td
+          className="flex flex-center flex-space-between"
+        >
+          <p
+            className="full-width"
+          >
+            Total
+          </p>
         </td>
         <td>
           <div
-            className="flex flex-end flex-justify-end"
+            className="flex flex-end flex-justify-end sm-flex-wrap sm-flex-justify-center"
           >
             <div
               className="flex flex-end"
             >
               <ArrowUp
                 color="#ff073a"
-                size="14"
+                size="12"
               >
                 <svg
                   fill="#ff073a"
-                  height="14"
+                  height="12"
                   stroke="#ff073a"
                   strokeLinecap="round"
                   strokeLinejoin="round"
                   strokeWidth="2"
                   viewBox="0 0 24 24"
-                  width="14"
+                  width="12"
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <line
@@ -622,24 +726,24 @@ exports[`StateTable component match snapshot correctly 2`] = `
         </td>
         <td>
           <div
-            className="flex flex-end flex-justify-end"
+            className="flex flex-end flex-justify-end sm-flex-wrap sm-flex-justify-center"
           >
             <div
               className="flex flex-end"
             >
               <ArrowUp
                 color="#28a745"
-                size="14"
+                size="12"
               >
                 <svg
                   fill="#28a745"
-                  height="14"
+                  height="12"
                   stroke="#28a745"
                   strokeLinecap="round"
                   strokeLinejoin="round"
                   strokeWidth="2"
                   viewBox="0 0 24 24"
-                  width="14"
+                  width="12"
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <line
@@ -666,24 +770,24 @@ exports[`StateTable component match snapshot correctly 2`] = `
         </td>
         <td>
           <div
-            className="flex flex-end flex-justify-end"
+            className="flex flex-end flex-justify-end sm-flex-wrap sm-flex-justify-center"
           >
             <div
               className="flex flex-end"
             >
               <ArrowUp
                 color="#ff073a"
-                size="14"
+                size="12"
               >
                 <svg
                   fill="#ff073a"
-                  height="14"
+                  height="12"
                   stroke="#ff073a"
                   strokeLinecap="round"
                   strokeLinejoin="round"
                   strokeWidth="2"
                   viewBox="0 0 24 24"
-                  width="14"
+                  width="12"
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <line
@@ -714,4 +818,1413 @@ exports[`StateTable component match snapshot correctly 2`] = `
 </StateTable>
 `;
 
-exports[`StateTable component match snapshot correctly- with empty array 1`] = `""`;
+exports[`StateTable component match snapshot correctly 1`] = `
+<table
+  className="fadeInUp sm-p0 comp-mb"
+>
+  <thead>
+    <tr>
+      <th>
+        State
+      </th>
+      <th>
+        Confirmed
+      </th>
+      <th>
+        Active
+      </th>
+      <th>
+        Recovered
+      </th>
+      <th>
+        Deceased
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr
+      className="state-row "
+      id="state-row-AP"
+      key="AP"
+      onClick={[Function]}
+    >
+      <td
+        className="flex flex-center flex-space-between"
+      >
+        <p
+          className="full-width"
+        >
+          Total
+        </p>
+        <ArrowUp
+          color="#827397"
+          size={16}
+        />
+      </td>
+      <td>
+        <div
+          className="flex flex-end flex-justify-end sm-flex-wrap sm-flex-justify-center"
+        >
+          <div
+            className="flex flex-end"
+          >
+            <ArrowUp
+              color="#ff073a"
+              size="12"
+            />
+            <p
+              className="tag mr1 "
+            >
+              524
+            </p>
+          </div>
+          <p>
+            67700
+          </p>
+        </div>
+      </td>
+      <td>
+        44351
+      </td>
+      <td>
+        <div
+          className="flex flex-end flex-justify-end sm-flex-wrap sm-flex-justify-center"
+        >
+          <div
+            className="flex flex-end"
+          >
+            <ArrowUp
+              color="#28a745"
+              size="12"
+            />
+            <p
+              className="tag mr1 tag-green"
+            >
+              160
+            </p>
+          </div>
+          <p>
+            21130
+          </p>
+        </div>
+      </td>
+      <td>
+        <div
+          className="flex flex-end flex-justify-end sm-flex-wrap sm-flex-justify-center"
+        >
+          <div
+            className="flex flex-end"
+          >
+            <ArrowUp
+              color="#ff073a"
+              size="12"
+            />
+            <p
+              className="tag mr1 "
+            >
+              2
+            </p>
+          </div>
+          <p>
+            2215
+          </p>
+        </div>
+      </td>
+    </tr>
+    <tr
+      className="state-row "
+      id="state-row-TN"
+      key="TN"
+      onClick={[Function]}
+    >
+      <td
+        className="flex flex-center flex-space-between"
+      >
+        <p
+          className="full-width"
+        >
+          Total
+        </p>
+        <ArrowUp
+          color="#827397"
+          size={16}
+        />
+      </td>
+      <td>
+        <div
+          className="flex flex-end flex-justify-end sm-flex-wrap sm-flex-justify-center"
+        >
+          <div
+            className="flex flex-end"
+          >
+            <ArrowUp
+              color="#ff073a"
+              size="12"
+            />
+            <p
+              className="tag mr1 "
+            >
+              524
+            </p>
+          </div>
+          <p>
+            67700
+          </p>
+        </div>
+      </td>
+      <td>
+        44351
+      </td>
+      <td>
+        <div
+          className="flex flex-end flex-justify-end sm-flex-wrap sm-flex-justify-center"
+        >
+          <div
+            className="flex flex-end"
+          >
+            <ArrowUp
+              color="#28a745"
+              size="12"
+            />
+            <p
+              className="tag mr1 tag-green"
+            >
+              160
+            </p>
+          </div>
+          <p>
+            21130
+          </p>
+        </div>
+      </td>
+      <td>
+        <div
+          className="flex flex-end flex-justify-end sm-flex-wrap sm-flex-justify-center"
+        >
+          <p>
+            2215
+          </p>
+        </div>
+      </td>
+    </tr>
+    <tr
+      className="state-row "
+      id="state-row-TT"
+      key="TT"
+      onClick={[Function]}
+    >
+      <td
+        className="flex flex-center flex-space-between"
+      >
+        <p
+          className="full-width"
+        >
+          Total
+        </p>
+      </td>
+      <td>
+        <div
+          className="flex flex-end flex-justify-end sm-flex-wrap sm-flex-justify-center"
+        >
+          <div
+            className="flex flex-end"
+          >
+            <ArrowUp
+              color="#ff073a"
+              size="12"
+            />
+            <p
+              className="tag mr1 "
+            >
+              524
+            </p>
+          </div>
+          <p>
+            67700
+          </p>
+        </div>
+      </td>
+      <td>
+        44351
+      </td>
+      <td>
+        <div
+          className="flex flex-end flex-justify-end sm-flex-wrap sm-flex-justify-center"
+        >
+          <div
+            className="flex flex-end"
+          >
+            <ArrowUp
+              color="#28a745"
+              size="12"
+            />
+            <p
+              className="tag mr1 tag-green"
+            >
+              160
+            </p>
+          </div>
+          <p>
+            21130
+          </p>
+        </div>
+      </td>
+      <td>
+        <div
+          className="flex flex-end flex-justify-end sm-flex-wrap sm-flex-justify-center"
+        >
+          <div
+            className="flex flex-end"
+          >
+            <ArrowUp
+              color="#ff073a"
+              size="12"
+            />
+            <p
+              className="tag mr1 "
+            >
+              2
+            </p>
+          </div>
+          <p>
+            2215
+          </p>
+        </div>
+      </td>
+    </tr>
+  </tbody>
+</table>
+`;
+
+exports[`StateTable component match snapshot correctly 2`] = `
+<StateTable
+  districts={
+    Object {
+      "Andaman and Nicobar Islands": Object {
+        "districtData": Object {
+          "North and Middle Andaman": Object {
+            "active": 0,
+            "confirmed": 1,
+            "deceased": 0,
+            "delta": Object {
+              "confirmed": 0,
+              "deceased": 0,
+              "recovered": 0,
+            },
+            "notes": "",
+            "recovered": 1,
+          },
+          "South Andaman": Object {
+            "active": 0,
+            "confirmed": 32,
+            "deceased": 0,
+            "delta": Object {
+              "confirmed": 0,
+              "deceased": 0,
+              "recovered": 0,
+            },
+            "notes": "",
+            "recovered": 32,
+          },
+        },
+        "statecode": "AN",
+      },
+    }
+  }
+  stateList={
+    Array [
+      Object {
+        "active": "44351",
+        "confirmed": "67700",
+        "deaths": "2215",
+        "deltaconfirmed": "524",
+        "deltadeaths": "2",
+        "deltarecovered": "160",
+        "lastupdatedtime": "11/05/2020 15:41:22",
+        "recovered": "21130",
+        "state": "Total",
+        "statecode": "TT",
+        "statenotes": "",
+      },
+      Object {
+        "active": "44351",
+        "confirmed": "67700",
+        "deaths": "2215",
+        "deltaconfirmed": "524",
+        "deltadeaths": "2",
+        "deltarecovered": "160",
+        "lastupdatedtime": "11/05/2020 15:41:22",
+        "recovered": "21130",
+        "state": "Total",
+        "statecode": "AP",
+        "statenotes": "",
+      },
+      Object {
+        "active": "44351",
+        "confirmed": "67700",
+        "deaths": "2215",
+        "deltaconfirmed": "524",
+        "deltadeaths": "0",
+        "deltarecovered": "160",
+        "lastupdatedtime": "11/05/2020 15:41:22",
+        "recovered": "21130",
+        "state": "Total",
+        "statecode": "TN",
+        "statenotes": "",
+      },
+    ]
+  }
+>
+  <table
+    className="fadeInUp sm-p0 comp-mb"
+  >
+    <thead>
+      <tr>
+        <th>
+          State
+        </th>
+        <th>
+          Confirmed
+        </th>
+        <th>
+          Active
+        </th>
+        <th>
+          Recovered
+        </th>
+        <th>
+          Deceased
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr
+        className="state-row district-row"
+        id="state-row-AP"
+        key="AP"
+        onClick={[Function]}
+      >
+        <td
+          className="flex flex-center flex-space-between"
+        >
+          <p
+            className="full-width"
+          >
+            Total
+          </p>
+          <ArrowUp
+            color="#827397"
+            size={16}
+          >
+            <svg
+              fill="#827397"
+              height={16}
+              stroke="#827397"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
+              transform="rotate(-90)"
+              viewBox="0 0 24 24"
+              width={16}
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <polyline
+                points="6 9 12 15 18 9"
+              />
+            </svg>
+          </ArrowUp>
+        </td>
+        <td>
+          <div
+            className="flex flex-end flex-justify-end sm-flex-wrap sm-flex-justify-center"
+          >
+            <div
+              className="flex flex-end"
+            >
+              <ArrowUp
+                color="#ff073a"
+                size="12"
+              >
+                <svg
+                  fill="#ff073a"
+                  height="12"
+                  stroke="#ff073a"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  viewBox="0 0 24 24"
+                  width="12"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <line
+                    x1="12"
+                    x2="12"
+                    y1="19"
+                    y2="5"
+                  />
+                  <polyline
+                    points="5 12 12 5 19 12"
+                  />
+                </svg>
+              </ArrowUp>
+              <p
+                className="tag mr1 "
+              >
+                524
+              </p>
+            </div>
+            <p>
+              67700
+            </p>
+          </div>
+        </td>
+        <td>
+          44351
+        </td>
+        <td>
+          <div
+            className="flex flex-end flex-justify-end sm-flex-wrap sm-flex-justify-center"
+          >
+            <div
+              className="flex flex-end"
+            >
+              <ArrowUp
+                color="#28a745"
+                size="12"
+              >
+                <svg
+                  fill="#28a745"
+                  height="12"
+                  stroke="#28a745"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  viewBox="0 0 24 24"
+                  width="12"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <line
+                    x1="12"
+                    x2="12"
+                    y1="19"
+                    y2="5"
+                  />
+                  <polyline
+                    points="5 12 12 5 19 12"
+                  />
+                </svg>
+              </ArrowUp>
+              <p
+                className="tag mr1 tag-green"
+              >
+                160
+              </p>
+            </div>
+            <p>
+              21130
+            </p>
+          </div>
+        </td>
+        <td>
+          <div
+            className="flex flex-end flex-justify-end sm-flex-wrap sm-flex-justify-center"
+          >
+            <div
+              className="flex flex-end"
+            >
+              <ArrowUp
+                color="#ff073a"
+                size="12"
+              >
+                <svg
+                  fill="#ff073a"
+                  height="12"
+                  stroke="#ff073a"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  viewBox="0 0 24 24"
+                  width="12"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <line
+                    x1="12"
+                    x2="12"
+                    y1="19"
+                    y2="5"
+                  />
+                  <polyline
+                    points="5 12 12 5 19 12"
+                  />
+                </svg>
+              </ArrowUp>
+              <p
+                className="tag mr1 "
+              >
+                2
+              </p>
+            </div>
+            <p>
+              2215
+            </p>
+          </div>
+        </td>
+      </tr>
+      <tr
+        className="state-row "
+        id="state-row-TN"
+        key="TN"
+        onClick={[Function]}
+      >
+        <td
+          className="flex flex-center flex-space-between"
+        >
+          <p
+            className="full-width"
+          >
+            Total
+          </p>
+          <ArrowUp
+            color="#827397"
+            size={16}
+          >
+            <svg
+              fill="#827397"
+              height={16}
+              stroke="#827397"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
+              viewBox="0 0 24 24"
+              width={16}
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <polyline
+                points="6 9 12 15 18 9"
+              />
+            </svg>
+          </ArrowUp>
+        </td>
+        <td>
+          <div
+            className="flex flex-end flex-justify-end sm-flex-wrap sm-flex-justify-center"
+          >
+            <div
+              className="flex flex-end"
+            >
+              <ArrowUp
+                color="#ff073a"
+                size="12"
+              >
+                <svg
+                  fill="#ff073a"
+                  height="12"
+                  stroke="#ff073a"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  viewBox="0 0 24 24"
+                  width="12"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <line
+                    x1="12"
+                    x2="12"
+                    y1="19"
+                    y2="5"
+                  />
+                  <polyline
+                    points="5 12 12 5 19 12"
+                  />
+                </svg>
+              </ArrowUp>
+              <p
+                className="tag mr1 "
+              >
+                524
+              </p>
+            </div>
+            <p>
+              67700
+            </p>
+          </div>
+        </td>
+        <td>
+          44351
+        </td>
+        <td>
+          <div
+            className="flex flex-end flex-justify-end sm-flex-wrap sm-flex-justify-center"
+          >
+            <div
+              className="flex flex-end"
+            >
+              <ArrowUp
+                color="#28a745"
+                size="12"
+              >
+                <svg
+                  fill="#28a745"
+                  height="12"
+                  stroke="#28a745"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  viewBox="0 0 24 24"
+                  width="12"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <line
+                    x1="12"
+                    x2="12"
+                    y1="19"
+                    y2="5"
+                  />
+                  <polyline
+                    points="5 12 12 5 19 12"
+                  />
+                </svg>
+              </ArrowUp>
+              <p
+                className="tag mr1 tag-green"
+              >
+                160
+              </p>
+            </div>
+            <p>
+              21130
+            </p>
+          </div>
+        </td>
+        <td>
+          <div
+            className="flex flex-end flex-justify-end sm-flex-wrap sm-flex-justify-center"
+          >
+            <p>
+              2215
+            </p>
+          </div>
+        </td>
+      </tr>
+      <tr
+        className="state-row "
+        id="state-row-TT"
+        key="TT"
+        onClick={[Function]}
+      >
+        <td
+          className="flex flex-center flex-space-between"
+        >
+          <p
+            className="full-width"
+          >
+            Total
+          </p>
+        </td>
+        <td>
+          <div
+            className="flex flex-end flex-justify-end sm-flex-wrap sm-flex-justify-center"
+          >
+            <div
+              className="flex flex-end"
+            >
+              <ArrowUp
+                color="#ff073a"
+                size="12"
+              >
+                <svg
+                  fill="#ff073a"
+                  height="12"
+                  stroke="#ff073a"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  viewBox="0 0 24 24"
+                  width="12"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <line
+                    x1="12"
+                    x2="12"
+                    y1="19"
+                    y2="5"
+                  />
+                  <polyline
+                    points="5 12 12 5 19 12"
+                  />
+                </svg>
+              </ArrowUp>
+              <p
+                className="tag mr1 "
+              >
+                524
+              </p>
+            </div>
+            <p>
+              67700
+            </p>
+          </div>
+        </td>
+        <td>
+          44351
+        </td>
+        <td>
+          <div
+            className="flex flex-end flex-justify-end sm-flex-wrap sm-flex-justify-center"
+          >
+            <div
+              className="flex flex-end"
+            >
+              <ArrowUp
+                color="#28a745"
+                size="12"
+              >
+                <svg
+                  fill="#28a745"
+                  height="12"
+                  stroke="#28a745"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  viewBox="0 0 24 24"
+                  width="12"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <line
+                    x1="12"
+                    x2="12"
+                    y1="19"
+                    y2="5"
+                  />
+                  <polyline
+                    points="5 12 12 5 19 12"
+                  />
+                </svg>
+              </ArrowUp>
+              <p
+                className="tag mr1 tag-green"
+              >
+                160
+              </p>
+            </div>
+            <p>
+              21130
+            </p>
+          </div>
+        </td>
+        <td>
+          <div
+            className="flex flex-end flex-justify-end sm-flex-wrap sm-flex-justify-center"
+          >
+            <div
+              className="flex flex-end"
+            >
+              <ArrowUp
+                color="#ff073a"
+                size="12"
+              >
+                <svg
+                  fill="#ff073a"
+                  height="12"
+                  stroke="#ff073a"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  viewBox="0 0 24 24"
+                  width="12"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <line
+                    x1="12"
+                    x2="12"
+                    y1="19"
+                    y2="5"
+                  />
+                  <polyline
+                    points="5 12 12 5 19 12"
+                  />
+                </svg>
+              </ArrowUp>
+              <p
+                className="tag mr1 "
+              >
+                2
+              </p>
+            </div>
+            <p>
+              2215
+            </p>
+          </div>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</StateTable>
+`;
+
+exports[`StateTable component match snapshot correctly 3`] = `
+<StateTable
+  districts={
+    Object {
+      "Andaman and Nicobar Islands": Object {
+        "districtData": Object {
+          "North and Middle Andaman": Object {
+            "active": 0,
+            "confirmed": 1,
+            "deceased": 0,
+            "delta": Object {
+              "confirmed": 0,
+              "deceased": 0,
+              "recovered": 0,
+            },
+            "notes": "",
+            "recovered": 1,
+          },
+          "South Andaman": Object {
+            "active": 0,
+            "confirmed": 32,
+            "deceased": 0,
+            "delta": Object {
+              "confirmed": 0,
+              "deceased": 0,
+              "recovered": 0,
+            },
+            "notes": "",
+            "recovered": 32,
+          },
+        },
+        "statecode": "AN",
+      },
+    }
+  }
+  stateList={
+    Array [
+      Object {
+        "active": "44351",
+        "confirmed": "67700",
+        "deaths": "2215",
+        "deltaconfirmed": "524",
+        "deltadeaths": "2",
+        "deltarecovered": "160",
+        "lastupdatedtime": "11/05/2020 15:41:22",
+        "recovered": "21130",
+        "state": "Total",
+        "statecode": "TT",
+        "statenotes": "",
+      },
+      Object {
+        "active": "44351",
+        "confirmed": "67700",
+        "deaths": "2215",
+        "deltaconfirmed": "524",
+        "deltadeaths": "2",
+        "deltarecovered": "160",
+        "lastupdatedtime": "11/05/2020 15:41:22",
+        "recovered": "21130",
+        "state": "Total",
+        "statecode": "AP",
+        "statenotes": "",
+      },
+      Object {
+        "active": "44351",
+        "confirmed": "67700",
+        "deaths": "2215",
+        "deltaconfirmed": "524",
+        "deltadeaths": "0",
+        "deltarecovered": "160",
+        "lastupdatedtime": "11/05/2020 15:41:22",
+        "recovered": "21130",
+        "state": "Total",
+        "statecode": "TN",
+        "statenotes": "",
+      },
+    ]
+  }
+>
+  <table
+    className="fadeInUp sm-p0 comp-mb"
+  >
+    <thead>
+      <tr>
+        <th>
+          State
+        </th>
+        <th>
+          Confirmed
+        </th>
+        <th>
+          Active
+        </th>
+        <th>
+          Recovered
+        </th>
+        <th>
+          Deceased
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr
+        className="state-row "
+        id="state-row-AP"
+        key="AP"
+        onClick={[Function]}
+      >
+        <td
+          className="flex flex-center flex-space-between"
+        >
+          <p
+            className="full-width"
+          >
+            Total
+          </p>
+          <ArrowUp
+            color="#827397"
+            size={16}
+          >
+            <svg
+              fill="#827397"
+              height={16}
+              stroke="#827397"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
+              viewBox="0 0 24 24"
+              width={16}
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <polyline
+                points="6 9 12 15 18 9"
+              />
+            </svg>
+          </ArrowUp>
+        </td>
+        <td>
+          <div
+            className="flex flex-end flex-justify-end sm-flex-wrap sm-flex-justify-center"
+          >
+            <div
+              className="flex flex-end"
+            >
+              <ArrowUp
+                color="#ff073a"
+                size="12"
+              >
+                <svg
+                  fill="#ff073a"
+                  height="12"
+                  stroke="#ff073a"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  viewBox="0 0 24 24"
+                  width="12"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <line
+                    x1="12"
+                    x2="12"
+                    y1="19"
+                    y2="5"
+                  />
+                  <polyline
+                    points="5 12 12 5 19 12"
+                  />
+                </svg>
+              </ArrowUp>
+              <p
+                className="tag mr1 "
+              >
+                524
+              </p>
+            </div>
+            <p>
+              67700
+            </p>
+          </div>
+        </td>
+        <td>
+          44351
+        </td>
+        <td>
+          <div
+            className="flex flex-end flex-justify-end sm-flex-wrap sm-flex-justify-center"
+          >
+            <div
+              className="flex flex-end"
+            >
+              <ArrowUp
+                color="#28a745"
+                size="12"
+              >
+                <svg
+                  fill="#28a745"
+                  height="12"
+                  stroke="#28a745"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  viewBox="0 0 24 24"
+                  width="12"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <line
+                    x1="12"
+                    x2="12"
+                    y1="19"
+                    y2="5"
+                  />
+                  <polyline
+                    points="5 12 12 5 19 12"
+                  />
+                </svg>
+              </ArrowUp>
+              <p
+                className="tag mr1 tag-green"
+              >
+                160
+              </p>
+            </div>
+            <p>
+              21130
+            </p>
+          </div>
+        </td>
+        <td>
+          <div
+            className="flex flex-end flex-justify-end sm-flex-wrap sm-flex-justify-center"
+          >
+            <div
+              className="flex flex-end"
+            >
+              <ArrowUp
+                color="#ff073a"
+                size="12"
+              >
+                <svg
+                  fill="#ff073a"
+                  height="12"
+                  stroke="#ff073a"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  viewBox="0 0 24 24"
+                  width="12"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <line
+                    x1="12"
+                    x2="12"
+                    y1="19"
+                    y2="5"
+                  />
+                  <polyline
+                    points="5 12 12 5 19 12"
+                  />
+                </svg>
+              </ArrowUp>
+              <p
+                className="tag mr1 "
+              >
+                2
+              </p>
+            </div>
+            <p>
+              2215
+            </p>
+          </div>
+        </td>
+      </tr>
+      <tr
+        className="state-row "
+        id="state-row-TN"
+        key="TN"
+        onClick={[Function]}
+      >
+        <td
+          className="flex flex-center flex-space-between"
+        >
+          <p
+            className="full-width"
+          >
+            Total
+          </p>
+          <ArrowUp
+            color="#827397"
+            size={16}
+          >
+            <svg
+              fill="#827397"
+              height={16}
+              stroke="#827397"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
+              viewBox="0 0 24 24"
+              width={16}
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <polyline
+                points="6 9 12 15 18 9"
+              />
+            </svg>
+          </ArrowUp>
+        </td>
+        <td>
+          <div
+            className="flex flex-end flex-justify-end sm-flex-wrap sm-flex-justify-center"
+          >
+            <div
+              className="flex flex-end"
+            >
+              <ArrowUp
+                color="#ff073a"
+                size="12"
+              >
+                <svg
+                  fill="#ff073a"
+                  height="12"
+                  stroke="#ff073a"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  viewBox="0 0 24 24"
+                  width="12"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <line
+                    x1="12"
+                    x2="12"
+                    y1="19"
+                    y2="5"
+                  />
+                  <polyline
+                    points="5 12 12 5 19 12"
+                  />
+                </svg>
+              </ArrowUp>
+              <p
+                className="tag mr1 "
+              >
+                524
+              </p>
+            </div>
+            <p>
+              67700
+            </p>
+          </div>
+        </td>
+        <td>
+          44351
+        </td>
+        <td>
+          <div
+            className="flex flex-end flex-justify-end sm-flex-wrap sm-flex-justify-center"
+          >
+            <div
+              className="flex flex-end"
+            >
+              <ArrowUp
+                color="#28a745"
+                size="12"
+              >
+                <svg
+                  fill="#28a745"
+                  height="12"
+                  stroke="#28a745"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  viewBox="0 0 24 24"
+                  width="12"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <line
+                    x1="12"
+                    x2="12"
+                    y1="19"
+                    y2="5"
+                  />
+                  <polyline
+                    points="5 12 12 5 19 12"
+                  />
+                </svg>
+              </ArrowUp>
+              <p
+                className="tag mr1 tag-green"
+              >
+                160
+              </p>
+            </div>
+            <p>
+              21130
+            </p>
+          </div>
+        </td>
+        <td>
+          <div
+            className="flex flex-end flex-justify-end sm-flex-wrap sm-flex-justify-center"
+          >
+            <p>
+              2215
+            </p>
+          </div>
+        </td>
+      </tr>
+      <tr
+        className="state-row "
+        id="state-row-TT"
+        key="TT"
+        onClick={[Function]}
+      >
+        <td
+          className="flex flex-center flex-space-between"
+        >
+          <p
+            className="full-width"
+          >
+            Total
+          </p>
+        </td>
+        <td>
+          <div
+            className="flex flex-end flex-justify-end sm-flex-wrap sm-flex-justify-center"
+          >
+            <div
+              className="flex flex-end"
+            >
+              <ArrowUp
+                color="#ff073a"
+                size="12"
+              >
+                <svg
+                  fill="#ff073a"
+                  height="12"
+                  stroke="#ff073a"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  viewBox="0 0 24 24"
+                  width="12"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <line
+                    x1="12"
+                    x2="12"
+                    y1="19"
+                    y2="5"
+                  />
+                  <polyline
+                    points="5 12 12 5 19 12"
+                  />
+                </svg>
+              </ArrowUp>
+              <p
+                className="tag mr1 "
+              >
+                524
+              </p>
+            </div>
+            <p>
+              67700
+            </p>
+          </div>
+        </td>
+        <td>
+          44351
+        </td>
+        <td>
+          <div
+            className="flex flex-end flex-justify-end sm-flex-wrap sm-flex-justify-center"
+          >
+            <div
+              className="flex flex-end"
+            >
+              <ArrowUp
+                color="#28a745"
+                size="12"
+              >
+                <svg
+                  fill="#28a745"
+                  height="12"
+                  stroke="#28a745"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  viewBox="0 0 24 24"
+                  width="12"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <line
+                    x1="12"
+                    x2="12"
+                    y1="19"
+                    y2="5"
+                  />
+                  <polyline
+                    points="5 12 12 5 19 12"
+                  />
+                </svg>
+              </ArrowUp>
+              <p
+                className="tag mr1 tag-green"
+              >
+                160
+              </p>
+            </div>
+            <p>
+              21130
+            </p>
+          </div>
+        </td>
+        <td>
+          <div
+            className="flex flex-end flex-justify-end sm-flex-wrap sm-flex-justify-center"
+          >
+            <div
+              className="flex flex-end"
+            >
+              <ArrowUp
+                color="#ff073a"
+                size="12"
+              >
+                <svg
+                  fill="#ff073a"
+                  height="12"
+                  stroke="#ff073a"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  viewBox="0 0 24 24"
+                  width="12"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <line
+                    x1="12"
+                    x2="12"
+                    y1="19"
+                    y2="5"
+                  />
+                  <polyline
+                    points="5 12 12 5 19 12"
+                  />
+                </svg>
+              </ArrowUp>
+              <p
+                className="tag mr1 "
+              >
+                2
+              </p>
+            </div>
+            <p>
+              2215
+            </p>
+          </div>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</StateTable>
+`;
+
+exports[`StateTable component match snapshot correctly- with empty object 1`] = `""`;

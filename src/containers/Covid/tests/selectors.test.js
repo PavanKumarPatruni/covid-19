@@ -1,4 +1,7 @@
-import { selectCovidStateData } from '../selectors';
+import {
+  selectCovidStateData,
+  selectCovidStateDistrictData,
+} from '../selectors';
 
 describe('Covid Data Selectors', () => {
   it('should return selectCovidStateData', () => {
@@ -8,6 +11,22 @@ describe('Covid Data Selectors', () => {
 
     const mockedState = {
       covidStateWiseData: {
+        data: {},
+      },
+    };
+
+    expect(CovidStateDataSelector(mockedState)).toStrictEqual(
+      covidStateWiseData
+    );
+  });
+
+  it('should return selectCovidStateDistrictData', () => {
+    const CovidStateDataSelector = selectCovidStateDistrictData;
+
+    const covidStateWiseData = {};
+
+    const mockedState = {
+      covidStateDistrctData: {
         data: {},
       },
     };

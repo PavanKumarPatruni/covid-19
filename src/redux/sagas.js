@@ -1,7 +1,10 @@
 import { all } from 'redux-saga/effects';
 
-import { getCovidStateData } from '../containers/Covid/saga';
+import {
+  getCovidStateData,
+  getCovidStateDistrictData,
+} from '../containers/Covid/saga';
 
 export default function* rootSaga() {
-  yield all([getCovidStateData()]);
+  yield all([getCovidStateData(), getCovidStateDistrictData()]);
 }

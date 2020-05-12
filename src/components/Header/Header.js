@@ -5,7 +5,7 @@ import './Header.scss';
 const Header = () => {
   return (
     <div className="full-width comp-mb fadeInUp">
-      <h1 className="header flex flex-justify-center p4">COVID-19</h1>
+      <h1 className="header flex flex-justify-center py4">COVID-19</h1>
     </div>
   );
 };

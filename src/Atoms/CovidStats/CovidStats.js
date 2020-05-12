@@ -2,8 +2,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import ArrowUp from '../ArrowUp';
-
 import './CovidStats.scss';
 
 const propTypes = {
@@ -26,7 +24,7 @@ const CovidStats = ({ stats }) => {
   const getStat = item => {
     return (
       <div
-        className={`flex flex-column flex-justify-center flex-center covid-stats-item p1 sm-p0 sm-mx1 mx2 ${item.className}`}
+        className={`flex flex-column flex-justify-center flex-center covid-stats-item p1 sm-p0 sm-mx1 md-mx2 mx4 ${item.className}`}
       >
         <h3 className="title mt2">{item.title}</h3>
         {getDeltaComponent(item.delta)}

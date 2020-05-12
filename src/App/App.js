@@ -8,8 +8,8 @@ import './App.scss';
 const App = () => {
   return (
     <div>
-      <Header />
-      <Covid />
+      <Header style={{ 'animation-delay': '1s' }} />
+      <Covid style={{ 'animation-delay': '2s' }} />
     </div>
   );
 };

@@ -5,7 +5,7 @@ exports[`Header component match snapshot correctly 1`] = `
   className="full-width comp-mb fadeInUp"
 >
   <h1
-    className="header flex flex-justify-center p4"
+    className="header flex flex-justify-center py4"
   >
     COVID-19
   </h1>
@@ -18,7 +18,7 @@ exports[`Header component match snapshot correctly 2`] = `
     className="full-width comp-mb fadeInUp"
   >
     <h1
-      className="header flex flex-justify-center p4"
+      className="header flex flex-justify-center py4"
     >
       COVID-19
     </h1>

@@ -46,6 +46,37 @@ describe('StateTable component', () => {
         statenotes: '',
       },
     ],
+    districts: {
+      'Andaman and Nicobar Islands': {
+        districtData: {
+          'North and Middle Andaman': {
+            notes: '',
+            active: 0,
+            confirmed: 1,
+            deceased: 0,
+            recovered: 1,
+            delta: {
+              confirmed: 0,
+              deceased: 0,
+              recovered: 0,
+            },
+          },
+          'South Andaman': {
+            notes: '',
+            active: 0,
+            confirmed: 32,
+            deceased: 0,
+            recovered: 32,
+            delta: {
+              confirmed: 0,
+              deceased: 0,
+              recovered: 0,
+            },
+          },
+        },
+        statecode: 'AN',
+      },
+    },
   };
 
   test('match snapshot correctly', () => {
@@ -55,10 +86,33 @@ describe('StateTable component', () => {
 
   test('match snapshot correctly', () => {
     const wrapper = mount(<StateTable {...props} />);
+    const row = wrapper.find('#state-row-AP');
+    row.simulate('click');
+
     expect(wrapper).toMatchSnapshot();
   });
 
-  test('match snapshot correctly- with empty array', () => {
+  test('match snapshot correctly', () => {
+    const wrapper = mount(<StateTable {...props} />);
+    const row = wrapper.find('#state-row-TT');
+    row.simulate('click');
+
+    expect(wrapper).toMatchSnapshot();
+  });
+
+  test('match snapshot correctly - with empty array', () => {
+    props.districts = {};
+    const wrapper = shallow(<StateTable {...props} />);
+    expect(wrapper).toMatchSnapshot();
+  });
+
+  test('match snapshot correctly - with empty array', () => {
+    props.districts = {};
+    const wrapper = mount(<StateTable {...props} />);
+    expect(wrapper).toMatchSnapshot();
+  });
+
+  test('match snapshot correctly- with empty object', () => {
     props.stateList = [];
     const wrapper = shallow(<StateTable {...props} />);
     expect(wrapper).toMatchSnapshot();

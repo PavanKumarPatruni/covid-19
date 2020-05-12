@@ -6,8 +6,19 @@ import Covid from '../Covid';
 describe('Covid component', () => {
   const props = {
     getCovidStateData: () => {},
+    getCovidStateDistrictData: () => {},
     stateData: {
-      cases_time_series: {},
+      cases_time_series: [
+        {
+          dailyconfirmed: '1',
+          dailydeceased: '0',
+          dailyrecovered: '0',
+          date: '30 January ',
+          totalconfirmed: '1',
+          totaldeceased: '0',
+          totalrecovered: '0',
+        },
+      ],
       statewise: [
         {
           active: '44351',
@@ -38,6 +49,37 @@ describe('Covid component', () => {
       ],
       tested: {},
     },
+    stateDistrictData: {
+      'Andaman and Nicobar Islands': {
+        districtData: {
+          'North and Middle Andaman': {
+            notes: '',
+            active: 0,
+            confirmed: 1,
+            deceased: 0,
+            recovered: 1,
+            delta: {
+              confirmed: 0,
+              deceased: 0,
+              recovered: 0,
+            },
+          },
+          'South Andaman': {
+            notes: '',
+            active: 0,
+            confirmed: 32,
+            deceased: 0,
+            recovered: 32,
+            delta: {
+              confirmed: 0,
+              deceased: 0,
+              recovered: 0,
+            },
+          },
+        },
+        statecode: 'AN',
+      },
+    },
   };
 
   test('match snapshot correctly', () => {
@@ -45,7 +87,7 @@ describe('Covid component', () => {
     expect(wrapper).toMatchSnapshot();
   });
 
-  it('match snapshot correctly', () => {
+  test('match snapshot correctly', () => {
     const wrapper = mount(<Covid {...props} />);
     expect(wrapper).toMatchSnapshot();
   });

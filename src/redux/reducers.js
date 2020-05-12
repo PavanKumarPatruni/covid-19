@@ -1,8 +1,12 @@
 import { combineReducers } from 'redux';
 
-import { getCovidStateDataReducer } from '../containers/Covid/reducer';
+import {
+  getCovidStateDataReducer,
+  getCovidStateDistrctDataReducer,
+} from '../containers/Covid/reducer';
 
 export default () =>
   combineReducers({
     covidStateWiseData: getCovidStateDataReducer,
+    covidStateDistrctData: getCovidStateDistrctDataReducer,
   });

@@ -1,0 +1,389 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StatsBarGraph component match snapshot correctly - with empty array 1`] = `
+<div
+  className="relative flex flex-justify-center mt4"
+>
+  <h3
+    className="absolute graph-title"
+    style={
+      Object {
+        "color": "#ff073a",
+      }
+    }
+  >
+    Confirmed
+  </h3>
+  <Line
+    data={Object {}}
+    height={250}
+    legend={
+      Object {
+        "display": false,
+      }
+    }
+    options={
+      Object {
+        "showLines": false,
+      }
+    }
+    width={400}
+  />
+</div>
+`;
+
+exports[`StatsBarGraph component match snapshot correctly - with empty color 1`] = `
+<StatsBarGraph
+  color=""
+  stats={Array []}
+  title=""
+  type="confirmed"
+>
+  <div
+    className="relative flex flex-justify-center mt4"
+  >
+    <h3
+      className="absolute graph-title"
+      style={
+        Object {
+          "color": "",
+        }
+      }
+    />
+    <Line
+      data={
+        Object {
+          "datasets": Array [],
+          "labels": Array [],
+        }
+      }
+      height={250}
+      legend={
+        Object {
+          "display": false,
+        }
+      }
+      options={
+        Object {
+          "legend": Object {
+            "display": false,
+          },
+          "showLines": false,
+        }
+      }
+      width={400}
+    >
+      <ChartComponent
+        data={
+          Object {
+            "datasets": Array [],
+            "labels": Array [],
+          }
+        }
+        datasetKeyProvider={[Function]}
+        height={250}
+        legend={
+          Object {
+            "display": false,
+          }
+        }
+        options={
+          Object {
+            "legend": Object {
+              "display": false,
+            },
+            "showLines": false,
+          }
+        }
+        redraw={false}
+        type="line"
+        width={400}
+      >
+        <canvas
+          height={250}
+          onClick={[Function]}
+          width={400}
+        />
+      </ChartComponent>
+    </Line>
+  </div>
+</StatsBarGraph>
+`;
+
+exports[`StatsBarGraph component match snapshot correctly - with empty title 1`] = `
+<div
+  className="relative flex flex-justify-center mt4"
+>
+  <h3
+    className="absolute graph-title"
+    style={
+      Object {
+        "color": "#ff073a",
+      }
+    }
+  />
+  <Line
+    data={Object {}}
+    height={250}
+    legend={
+      Object {
+        "display": false,
+      }
+    }
+    options={
+      Object {
+        "showLines": false,
+      }
+    }
+    width={400}
+  />
+</div>
+`;
+
+exports[`StatsBarGraph component match snapshot correctly - with empty title 2`] = `
+<StatsBarGraph
+  color="#ff073a"
+  stats={Array []}
+  title=""
+  type="confirmed"
+>
+  <div
+    className="relative flex flex-justify-center mt4"
+  >
+    <h3
+      className="absolute graph-title"
+      style={
+        Object {
+          "color": "#ff073a",
+        }
+      }
+    />
+    <Line
+      data={
+        Object {
+          "datasets": Array [],
+          "labels": Array [],
+        }
+      }
+      height={250}
+      legend={
+        Object {
+          "display": false,
+        }
+      }
+      options={
+        Object {
+          "legend": Object {
+            "display": false,
+          },
+          "showLines": false,
+        }
+      }
+      width={400}
+    >
+      <ChartComponent
+        data={
+          Object {
+            "datasets": Array [],
+            "labels": Array [],
+          }
+        }
+        datasetKeyProvider={[Function]}
+        height={250}
+        legend={
+          Object {
+            "display": false,
+          }
+        }
+        options={
+          Object {
+            "legend": Object {
+              "display": false,
+            },
+            "showLines": false,
+          }
+        }
+        redraw={false}
+        type="line"
+        width={400}
+      >
+        <canvas
+          height={250}
+          onClick={[Function]}
+          width={400}
+        />
+      </ChartComponent>
+    </Line>
+  </div>
+</StatsBarGraph>
+`;
+
+exports[`StatsBarGraph component match snapshot correctly - with empty type 1`] = `
+<StatsBarGraph
+  color=""
+  stats={Array []}
+  title=""
+  type=""
+>
+  <div
+    className="relative flex flex-justify-center mt4"
+  >
+    <h3
+      className="absolute graph-title"
+      style={
+        Object {
+          "color": "",
+        }
+      }
+    />
+    <Line
+      data={
+        Object {
+          "datasets": Array [],
+          "labels": Array [],
+        }
+      }
+      height={250}
+      legend={
+        Object {
+          "display": false,
+        }
+      }
+      options={
+        Object {
+          "legend": Object {
+            "display": false,
+          },
+          "showLines": false,
+        }
+      }
+      width={400}
+    >
+      <ChartComponent
+        data={
+          Object {
+            "datasets": Array [],
+            "labels": Array [],
+          }
+        }
+        datasetKeyProvider={[Function]}
+        height={250}
+        legend={
+          Object {
+            "display": false,
+          }
+        }
+        options={
+          Object {
+            "legend": Object {
+              "display": false,
+            },
+            "showLines": false,
+          }
+        }
+        redraw={false}
+        type="line"
+        width={400}
+      >
+        <canvas
+          height={250}
+          onClick={[Function]}
+          width={400}
+        />
+      </ChartComponent>
+    </Line>
+  </div>
+</StatsBarGraph>
+`;
+
+exports[`StatsBarGraph component match snapshot correctly 1`] = `
+<div
+  className="relative flex flex-justify-center mt4"
+>
+  <h3
+    className="absolute graph-title"
+    style={
+      Object {
+        "color": "#ff073a",
+      }
+    }
+  >
+    Confirmed
+  </h3>
+  <Line
+    data={Object {}}
+    height={250}
+    legend={
+      Object {
+        "display": false,
+      }
+    }
+    options={
+      Object {
+        "showLines": false,
+      }
+    }
+    width={400}
+  />
+</div>
+`;
+
+exports[`StatsBarGraph component match snapshot correctly- with empty color 1`] = `
+<div
+  className="relative flex flex-justify-center mt4"
+>
+  <h3
+    className="absolute graph-title"
+    style={
+      Object {
+        "color": "",
+      }
+    }
+  />
+  <Line
+    data={Object {}}
+    height={250}
+    legend={
+      Object {
+        "display": false,
+      }
+    }
+    options={
+      Object {
+        "showLines": false,
+      }
+    }
+    width={400}
+  />
+</div>
+`;
+
+exports[`StatsBarGraph component match snapshot correctly- with empty type 1`] = `
+<div
+  className="relative flex flex-justify-center mt4"
+>
+  <h3
+    className="absolute graph-title"
+    style={
+      Object {
+        "color": "",
+      }
+    }
+  />
+  <Line
+    data={Object {}}
+    height={250}
+    legend={
+      Object {
+        "display": false,
+      }
+    }
+    options={
+      Object {
+        "showLines": false,
+      }
+    }
+    width={400}
+  />
+</div>
+`;

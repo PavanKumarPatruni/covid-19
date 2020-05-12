@@ -10,12 +10,14 @@ td {
 }
 
 th {
-  
   @include table-heading($text-color);
   text-transform: uppercase;
 
   @include mobile {
     @include table-heading-mobile($text-color);
+
+    letter-spacing: 0.2px;
+    max-width: 50px;
   }
 }
 
@@ -28,14 +30,22 @@ td {
 
   @include mobile {
     @include table-row-mobile($text-color);
+
+    max-width: 50px;
   }
 }
 
 td:first-child {
   @include bold();
 
+  border-radius: 0.5rem;
   text-align: left;
   width: 200px;
+
+  @include mobile {
+    max-width: 120px;
+    width: 120px;
+  }
 }
 
 tr {
@@ -43,6 +53,10 @@ tr {
 }
 
 tr:hover {
+  background: $border;
+}
+
+.district-row {
   background: $border;
 }
 
