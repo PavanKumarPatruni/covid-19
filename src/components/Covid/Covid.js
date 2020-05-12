@@ -90,9 +90,42 @@ const Covid = ({
   const getDeceasedComponent = () => {
     return stateList && stateList.length > 0 ? (
       <StatsBarGraph
-        title="Active"
+        title="Deceased"
         stats={timeSeries}
         type="totaldeceased"
+        color={Colors.BLUE}
+      />
+    ) : null;
+  };
+
+  const getDailyConfirmedComponent = () => {
+    return stateList && stateList.length > 0 ? (
+      <StatsBarGraph
+        title="Daily Confirmed"
+        stats={timeSeries}
+        type="dailyconfirmed"
+        color={Colors.RED}
+      />
+    ) : null;
+  };
+
+  const getDailyRecoveredComponent = () => {
+    return stateList && stateList.length > 0 ? (
+      <StatsBarGraph
+        title="Daily Recovered"
+        stats={timeSeries}
+        type="dailyrecovered"
+        color={Colors.GREEN}
+      />
+    ) : null;
+  };
+
+  const getDailyDeceasedComponent = () => {
+    return stateList && stateList.length > 0 ? (
+      <StatsBarGraph
+        title="Daily Deceased"
+        stats={timeSeries}
+        type="dailydeceased"
         color={Colors.BLUE}
       />
     ) : null;
@@ -112,6 +145,9 @@ const Covid = ({
           {getConfirmedComponent()}
           {getRecoveredComponent()}
           {getDeceasedComponent()}
+          {getDailyConfirmedComponent()}
+          {getDailyRecoveredComponent()}
+          {getDailyDeceasedComponent()}
         </div>
       </div>
     </div>

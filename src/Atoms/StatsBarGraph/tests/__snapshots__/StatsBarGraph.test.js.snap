@@ -22,11 +22,6 @@ exports[`StatsBarGraph component match snapshot correctly - with empty array 1`]
         "display": false,
       }
     }
-    options={
-      Object {
-        "showLines": false,
-      }
-    }
     width={400}
   />
 </div>
@@ -63,14 +58,6 @@ exports[`StatsBarGraph component match snapshot correctly - with empty color 1`]
           "display": false,
         }
       }
-      options={
-        Object {
-          "legend": Object {
-            "display": false,
-          },
-          "showLines": false,
-        }
-      }
       width={400}
     >
       <ChartComponent
@@ -92,7 +79,6 @@ exports[`StatsBarGraph component match snapshot correctly - with empty color 1`]
             "legend": Object {
               "display": false,
             },
-            "showLines": false,
           }
         }
         redraw={false}
@@ -128,11 +114,6 @@ exports[`StatsBarGraph component match snapshot correctly - with empty title 1`]
     legend={
       Object {
         "display": false,
-      }
-    }
-    options={
-      Object {
-        "showLines": false,
       }
     }
     width={400}
@@ -171,14 +152,6 @@ exports[`StatsBarGraph component match snapshot correctly - with empty title 2`]
           "display": false,
         }
       }
-      options={
-        Object {
-          "legend": Object {
-            "display": false,
-          },
-          "showLines": false,
-        }
-      }
       width={400}
     >
       <ChartComponent
@@ -200,7 +173,6 @@ exports[`StatsBarGraph component match snapshot correctly - with empty title 2`]
             "legend": Object {
               "display": false,
             },
-            "showLines": false,
           }
         }
         redraw={false}
@@ -249,14 +221,6 @@ exports[`StatsBarGraph component match snapshot correctly - with empty type 1`] 
           "display": false,
         }
       }
-      options={
-        Object {
-          "legend": Object {
-            "display": false,
-          },
-          "showLines": false,
-        }
-      }
       width={400}
     >
       <ChartComponent
@@ -278,7 +242,6 @@ exports[`StatsBarGraph component match snapshot correctly - with empty type 1`] 
             "legend": Object {
               "display": false,
             },
-            "showLines": false,
           }
         }
         redraw={false}
@@ -318,11 +281,6 @@ exports[`StatsBarGraph component match snapshot correctly 1`] = `
         "display": false,
       }
     }
-    options={
-      Object {
-        "showLines": false,
-      }
-    }
     width={400}
   />
 </div>
@@ -348,11 +306,6 @@ exports[`StatsBarGraph component match snapshot correctly- with empty color 1`] 
         "display": false,
       }
     }
-    options={
-      Object {
-        "showLines": false,
-      }
-    }
     width={400}
   />
 </div>
@@ -376,11 +329,6 @@ exports[`StatsBarGraph component match snapshot correctly- with empty type 1`] =
     legend={
       Object {
         "display": false,
-      }
-    }
-    options={
-      Object {
-        "showLines": false,
       }
     }
     width={400}

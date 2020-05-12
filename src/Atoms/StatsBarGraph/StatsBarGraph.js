@@ -36,10 +36,10 @@ const StatsBarGraph = ({ title, type, stats, color }) => {
             pointBorderColor: color,
             pointBackgroundColor: color,
             pointBorderWidth: 1,
-            pointHoverRadius: 1,
+            pointHoverRadius: 5,
             pointHoverBackgroundColor: color,
-            pointHoverBorderColor: color,
-            pointHoverBorderWidth: 2,
+            pointHoverBorderColor: Colors.WHITE,
+            pointHoverBorderWidth: 1,
             pointRadius: 1,
             pointHitRadius: 10,
             data: array,
@@ -61,7 +61,6 @@ const StatsBarGraph = ({ title, type, stats, color }) => {
         height={250}
         data={statsData}
         legend={{ display: false }}
-        options={{ showLines: false }}
       />
     </div>
   );
