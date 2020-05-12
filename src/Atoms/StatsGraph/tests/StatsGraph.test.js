@@ -1,5 +1,5 @@
 import React from 'react';
-import { shallow, mount } from 'enzyme';
+import { shallow } from 'enzyme';
 
 import StatsGraph from '../StatsGraph';
 
@@ -22,11 +22,6 @@ describe('StatsGraph component', () => {
 
   test('match snapshot correctly', () => {
     const wrapper = shallow(<StatsGraph {...props} />);
-    expect(wrapper).toMatchSnapshot();
-  });
-
-  test('match snapshot correctly', () => {
-    const wrapper = mount(<StatsGraph {...props} />);
     expect(wrapper).toMatchSnapshot();
   });
 });

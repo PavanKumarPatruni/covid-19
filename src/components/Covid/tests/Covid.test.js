@@ -1,5 +1,5 @@
 import React from 'react';
-import { shallow, mount } from 'enzyme';
+import { shallow } from 'enzyme';
 
 import Covid from '../Covid';
 
@@ -84,11 +84,6 @@ describe('Covid component', () => {
 
   test('match snapshot correctly', () => {
     const wrapper = shallow(<Covid {...props} />);
-    expect(wrapper).toMatchSnapshot();
-  });
-
-  test('match snapshot correctly', () => {
-    const wrapper = mount(<Covid {...props} />);
     expect(wrapper).toMatchSnapshot();
   });
 });

@@ -6,6 +6,10 @@
   font-weight: bold;
 }
 
+@mixin weight500() {
+  font-weight: 600;
+}
+
 @mixin heading-bold($text-color) {
   @include heading($text-color);
   @include bold();
@@ -17,12 +21,12 @@
 
 @mixin table-heading($text-color) {
   @include font-style(1rem/1.13, 1.2px, $text-color);
-  @include bold();
+  @include weight500();
 }
 
 @mixin table-heading-mobile($text-color) {
   @include font-style(0.7rem/1.13, 1.2px, $text-color);
-  @include bold();
+  @include weight500();
 }
 
 @mixin table-row($text-color) {
@@ -53,10 +57,12 @@
 
 @mixin font-size-tag($text-color) {
   @include font-style(1rem/1.13, 3px, $text-color);
+  @include weight500();
 }
 
 @mixin font-size-tag-mobile($text-color) {
   @include font-style(0.875rem/1.13, 3px, $text-color);
+  @include weight500();
 }
 
 @mixin font-size-20($text-color) {
