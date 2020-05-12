@@ -8,11 +8,14 @@ import StatsBarGraph from '../../atoms/StatsBarGraph';
 
 import { Colors } from '../../utils/contants';
 
+import './Covid.scss';
+
 const propTypes = {
   getCovidStateData: PropTypes.func.isRequired,
   getCovidStateDistrictData: PropTypes.func.isRequired,
   stateData: PropTypes.object.isRequired,
   stateDistrictData: PropTypes.object.isRequired,
+  colorMode: PropTypes.string.isRequired,
 };
 
 const Covid = ({
@@ -20,6 +23,7 @@ const Covid = ({
   getCovidStateDistrictData,
   stateData,
   stateDistrictData,
+  colorMode,
 }) => {
   const [stateList, setStateList] = useState([]);
   const [districtData, setDistrictData] = useState({});
@@ -49,7 +53,11 @@ const Covid = ({
 
   const getStateTableComponent = () => {
     return stateList && stateList.length > 0 ? (
-      <StateTable stateList={stateList} districts={districtData} />
+      <StateTable
+        colorMode={colorMode}
+        stateList={stateList}
+        districts={districtData}
+      />
     ) : null;
   };
 
@@ -132,22 +140,28 @@ const Covid = ({
   };
 
   return (
-    <div className="grid-container">
-      <div className="flex flex-justify-space-between flex-wrap">
-        <div className="lg-width-50 md-width-100 sm-width-100 flex flex-center flex-column">
-          {getStateStatsComponent()}
-          <div className="sm-width-100 overflow-x-auto flex flex-center flex-column">
-            {getStateTableComponent()}
+    <div
+      className={`covid-container ${
+        colorMode === 'dark' ? 'dark-mode' : 'normal-mode'
+      }`}
+    >
+      <div className="container">
+        <div className="flex flex-justify-space-between flex-wrap">
+          <div className="lg-width-50 md-width-100 sm-width-100 flex flex-center flex-column">
+            {getStateStatsComponent()}
+            <div className="sm-width-100 overflow-x-auto flex flex-center flex-column">
+              {getStateTableComponent()}
+            </div>
           </div>
-        </div>
-        <div className="lg-width-50 md-width-100 sm-width-100 flex flex-center flex-column">
-          {getStateStatsGraphComponent()}
-          {getConfirmedComponent()}
-          {getRecoveredComponent()}
-          {getDeceasedComponent()}
-          {getDailyConfirmedComponent()}
-          {getDailyRecoveredComponent()}
-          {getDailyDeceasedComponent()}
+          <div className="lg-width-50 md-width-100 sm-width-100 flex flex-center flex-column">
+            {getStateStatsGraphComponent()}
+            {getConfirmedComponent()}
+            {getRecoveredComponent()}
+            {getDeceasedComponent()}
+            {getDailyConfirmedComponent()}
+            {getDailyRecoveredComponent()}
+            {getDailyDeceasedComponent()}
+          </div>
         </div>
       </div>
     </div>

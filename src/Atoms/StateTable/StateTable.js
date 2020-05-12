@@ -1,10 +1,8 @@
-/* eslint-disable compat/compat */
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 
 import ArrowUp from '../ArrowUp';
-import ArrowRight from '../ArrowRight';
-import ArrowDown from '../ArrowDown';
+import ShowToggle from '../ShowToggle';
 
 import { Colors } from '../../utils/contants';
 
@@ -13,9 +11,10 @@ import './StateTable.scss';
 const propTypes = {
   stateList: PropTypes.array,
   districts: PropTypes.object,
+  colorMode: PropTypes.string.isRequired,
 };
 
-const StateTable = ({ stateList, districts }) => {
+const StateTable = ({ stateList, districts, colorMode }) => {
   const [selected, setSelected] = useState('');
 
   const getData = (item, key) => {
@@ -34,7 +33,7 @@ const StateTable = ({ stateList, districts }) => {
     const value = getData(item, key);
 
     return value !== '0' && value > 0 ? (
-      <div className="flex flex-end">
+      <div className="flex flex-center">
         {getUpArrow(isGreen)}
         <p className={`tag mr1 ${isGreen ? 'tag-green' : ''}`}>{value}</p>
       </div>
@@ -52,7 +51,7 @@ const StateTable = ({ stateList, districts }) => {
   const getDistrictData = (key, district) => {
     return (
       <tr key={key} className="district-row">
-        <td>{key}</td>
+        <td className="text-left">{key}</td>
         <td>
           <div className="flex flex-end flex-justify-end sm-flex-wrap sm-flex-justify-center">
             {getDeltaComponent(district.delta, 'confirmed')}
@@ -95,10 +94,12 @@ const StateTable = ({ stateList, districts }) => {
   };
 
   const getArrowHandler = statecode => {
-    return selected === statecode ? (
-      <ArrowRight color={Colors.GREY} size={16} />
-    ) : (
-      <ArrowDown color={Colors.GREY} size={16} />
+    return (
+      <ShowToggle
+        color={Colors.VOILET}
+        size={16}
+        show={selected === statecode}
+      />
     );
   };
 
@@ -112,30 +113,28 @@ const StateTable = ({ stateList, districts }) => {
         key={item.statecode}
         onClick={() => onStateClick(item.statecode)}
         id={`state-row-${item.statecode}`}
-        className={`state-row ${
-          selected === item.statecode ? 'district-row' : ''
-        }`}
+        className={`${selected === item.statecode ? ' state-row' : ''}`}
       >
-        <td className="flex flex-center flex-space-between">
+        <td className="text-left flex flex-center flex-space-between">
           <p className="full-width">{name}</p>
           {item.statecode !== 'TT' && confirmed > 0
             ? getArrowHandler(item.statecode)
             : null}
         </td>
-        <td>
+        <td className="text-center">
           <div className="flex flex-end flex-justify-end sm-flex-wrap sm-flex-justify-center">
             {getDeltaComponent(item, 'deltaconfirmed')}
             <p>{confirmed}</p>
           </div>
         </td>
-        <td>{getData(item, 'active')}</td>
-        <td>
+        <td className="text-center">{getData(item, 'active')}</td>
+        <td className="text-center">
           <div className="flex flex-end flex-justify-end sm-flex-wrap sm-flex-justify-center">
             {getDeltaComponent(item, 'deltarecovered', true)}
             <p>{getData(item, 'recovered')}</p>
           </div>
         </td>
-        <td>
+        <td className="text-center">
           <div className="flex flex-end flex-justify-end sm-flex-wrap sm-flex-justify-center">
             {getDeltaComponent(item, 'deltadeaths')}
             <p>{getData(item, 'deaths')}</p>
@@ -160,14 +159,18 @@ const StateTable = ({ stateList, districts }) => {
   };
 
   return stateList && stateList.length > 0 ? (
-    <table className="fadeInUp sm-p0 comp-mb">
+    <table
+      className={`${
+        colorMode === 'dark' ? 'dark-mode' : 'normal-mode'
+      } "sm-p0 comp-mb`}
+    >
       <thead>
         <tr>
-          <th>State</th>
-          <th>Confirmed</th>
-          <th>Active</th>
-          <th>Recovered</th>
-          <th>Deceased</th>
+          <th className="text-left">State</th>
+          <th className="text-center red">Confirmed</th>
+          <th className="text-center blue">Active</th>
+          <th className="text-center green">Recovered</th>
+          <th className="text-center voilet">Deceased</th>
         </tr>
       </thead>
       <tbody>

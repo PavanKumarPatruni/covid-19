@@ -1,5 +1,9 @@
 @mixin heading($text-color) {
-  @include font-style(4rem/1.13, 1.2px, $text-color);
+  @include font-style(3rem/1.13, 1.125rem, $text-color);
+}
+
+@mixin heading-mobile($text-color) {
+  @include font-style(1rem/1.13, 0.5rem, $text-color);
 }
 
 @mixin bold() {
@@ -8,11 +12,6 @@
 
 @mixin weight500() {
   font-weight: 600;
-}
-
-@mixin heading-bold($text-color) {
-  @include heading($text-color);
-  @include bold();
 }
 
 @mixin heading-desc($text-color) {

@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ShowToggle component match snapshot correctly 1`] = `
+<svg
+  fill=""
+  height={24}
+  stroke=""
+  strokeLinecap="round"
+  strokeLinejoin="round"
+  strokeWidth="2"
+  transform=""
+  viewBox="0 0 24 24"
+  width={24}
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <polyline
+    points="6 9 12 15 18 9"
+  />
+</svg>
+`;
+
+exports[`ShowToggle component match snapshot correctly 2`] = `
+<ArrowUp
+  color=""
+  show={true}
+  size={24}
+>
+  <svg
+    fill=""
+    height={24}
+    stroke=""
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    strokeWidth="2"
+    transform=""
+    viewBox="0 0 24 24"
+    width={24}
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <polyline
+      points="6 9 12 15 18 9"
+    />
+  </svg>
+</ArrowUp>
+`;
+
+exports[`ShowToggle component match snapshot correctly 3`] = `
+<svg
+  fill=""
+  height={24}
+  stroke=""
+  strokeLinecap="round"
+  strokeLinejoin="round"
+  strokeWidth="2"
+  transform="rotate(-90)"
+  viewBox="0 0 24 24"
+  width={24}
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <polyline
+    points="6 9 12 15 18 9"
+  />
+</svg>
+`;
+
+exports[`ShowToggle component match snapshot correctly 4`] = `
+<ArrowUp
+  color=""
+  show={false}
+  size={24}
+>
+  <svg
+    fill=""
+    height={24}
+    stroke=""
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    strokeWidth="2"
+    transform="rotate(-90)"
+    viewBox="0 0 24 24"
+    width={24}
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <polyline
+      points="6 9 12 15 18 9"
+    />
+  </svg>
+</ArrowUp>
+`;

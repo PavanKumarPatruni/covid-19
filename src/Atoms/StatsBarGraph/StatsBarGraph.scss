@@ -4,3 +4,12 @@
   left: 54px;
   top: 16px;
 }
+
+canvas {
+  max-width: 500px;
+
+  @include mobile {
+    height: 250px;
+    width: 90% !important;
+  }
+}

@@ -3,61 +3,86 @@
 th,
 td {
   border-radius: 0.5rem;
-  color: $text-color;
   margin: 0 0.25rem;
   padding: 0.5rem;
-  text-align: center;
+
+  @include mobile {
+    max-width: 50px;
+  }
 }
 
 th {
-  @include table-heading($text-color);
   text-transform: uppercase;
 
   @include mobile {
-    @include table-heading-mobile($text-color);
-
     letter-spacing: 0.2px;
-    max-width: 50px;
   }
-}
-
-th:first-child {
-  text-align: left;
 }
 
 td {
-  @include table-row($text-color);
+  &:first-child {
+    @include bold();
 
-  @include mobile {
-    @include table-row-mobile($text-color);
-
-    max-width: 50px;
+    @include mobile {
+      max-width: 120px;
+    }
   }
 }
 
-td:first-child {
-  @include bold();
+.dark-mode {
+  th {
+    @include table-heading($text-color);
 
-  border-radius: 0.5rem;
-  text-align: left;
-  width: 200px;
+    @include mobile {
+      @include table-heading-mobile($text-color);
+    }
+  }
 
-  @include mobile {
-    max-width: 120px;
-    width: 120px;
+  tr {
+    @include table-row($text-color);
+    background-color: $table-background;
+
+    @include mobile {
+      @include table-row-mobile($text-color);
+    }
+
+    &.district-row,
+    &.state-row {
+      background-color: $border-2;
+    }
+
+    &:hover {
+      background-color: $border;
+    }
   }
 }
 
-tr {
-  background: $table-background;
-}
+.normal-mode {
+  th {
+    @include table-heading($border-2);
 
-tr:hover {
-  background: $border;
-}
+    @include mobile {
+      @include table-heading-mobile($border-2);
+    }
+  }
 
-.district-row {
-  background: $border;
+  tr {
+    @include table-row($border-2);
+    background-color: $light-grey;
+
+    @include mobile {
+      @include table-row-mobile($border-2);
+    }
+
+    &.district-row,
+    &.state-row {
+      background-color: $light-grey-2;
+    }
+
+    &:hover {
+      background-color: $text-color;
+    }
+  }
 }
 
 .tag {

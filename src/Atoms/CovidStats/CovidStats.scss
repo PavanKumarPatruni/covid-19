@@ -4,10 +4,6 @@
   height: 20px;
 }
 
-.title {
-  text-transform: uppercase;
-}
-
 .red-color {
   .total-count {
     @include font-size-32-bold($red-color);
@@ -86,28 +82,28 @@
   }
 }
 
-.grey-color {
+.voilet-color {
   .total-count {
-    @include font-size-32-bold($tertiary-color);
+    @include font-size-32-bold($voilet-color);
 
     @include mobile {
-      @include font-size-20-bold($tertiary-color);
+      @include font-size-20-bold($voilet-color);
     }
   }
 
   .delta-count {
-    @include font-size-20-bold($tertiary-color);
+    @include font-size-20-bold($voilet-color);
 
     @include mobile {
-      @include font-size-16-bold($tertiary-color);
+      @include font-size-16-bold($voilet-color);
     }
   }
 
   .title {
-    @include font-size-tag($tertiary-color);
+    @include font-size-tag($voilet-color);
 
     @include mobile {
-      @include font-size-tag-mobile($tertiary-color);
+      @include font-size-tag-mobile($voilet-color);
     }
   }
 }

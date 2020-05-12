@@ -7,6 +7,7 @@ describe('Covid component', () => {
   const props = {
     getCovidStateData: () => {},
     getCovidStateDistrictData: () => {},
+    colorMode: 'dark',
     stateData: {
       cases_time_series: [
         {
@@ -83,6 +84,12 @@ describe('Covid component', () => {
   };
 
   test('match snapshot correctly', () => {
+    const wrapper = shallow(<Covid {...props} />);
+    expect(wrapper).toMatchSnapshot();
+  });
+
+  test('match snapshot correctly', () => {
+    props.colorMode = 'white';
     const wrapper = shallow(<Covid {...props} />);
     expect(wrapper).toMatchSnapshot();
   });

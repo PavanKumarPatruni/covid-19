@@ -1,0 +1,9 @@
+@import '../../styles/index.scss';
+
+.covid-container {
+  background-color: $background;
+
+  &.normal-mode {
+    background-color: $white;
+  }
+}

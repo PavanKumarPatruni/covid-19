@@ -2,6 +2,7 @@
 
 exports[`StateTable component match snapshot correctly - with delta value "0" 1`] = `
 <StateTable
+  colorMode="white"
   districts={Object {}}
   stateList={Array []}
 />
@@ -9,36 +10,46 @@ exports[`StateTable component match snapshot correctly - with delta value "0" 1`
 
 exports[`StateTable component match snapshot correctly - with empty array 1`] = `
 <table
-  className="fadeInUp sm-p0 comp-mb"
+  className="normal-mode \\"sm-p0 comp-mb"
 >
   <thead>
     <tr>
-      <th>
+      <th
+        className="text-left"
+      >
         State
       </th>
-      <th>
+      <th
+        className="text-center red"
+      >
         Confirmed
       </th>
-      <th>
+      <th
+        className="text-center blue"
+      >
         Active
       </th>
-      <th>
+      <th
+        className="text-center green"
+      >
         Recovered
       </th>
-      <th>
+      <th
+        className="text-center voilet"
+      >
         Deceased
       </th>
     </tr>
   </thead>
   <tbody>
     <tr
-      className="state-row "
+      className=""
       id="state-row-AP"
       key="AP"
       onClick={[Function]}
     >
       <td
-        className="flex flex-center flex-space-between"
+        className="text-left flex flex-center flex-space-between"
       >
         <p
           className="full-width"
@@ -47,15 +58,18 @@ exports[`StateTable component match snapshot correctly - with empty array 1`] = 
         </p>
         <ArrowUp
           color="#827397"
+          show={false}
           size={16}
         />
       </td>
-      <td>
+      <td
+        className="text-center"
+      >
         <div
           className="flex flex-end flex-justify-end sm-flex-wrap sm-flex-justify-center"
         >
           <div
-            className="flex flex-end"
+            className="flex flex-center"
           >
             <ArrowUp
               color="#ff073a"
@@ -72,15 +86,19 @@ exports[`StateTable component match snapshot correctly - with empty array 1`] = 
           </p>
         </div>
       </td>
-      <td>
+      <td
+        className="text-center"
+      >
         44351
       </td>
-      <td>
+      <td
+        className="text-center"
+      >
         <div
           className="flex flex-end flex-justify-end sm-flex-wrap sm-flex-justify-center"
         >
           <div
-            className="flex flex-end"
+            className="flex flex-center"
           >
             <ArrowUp
               color="#28a745"
@@ -97,12 +115,14 @@ exports[`StateTable component match snapshot correctly - with empty array 1`] = 
           </p>
         </div>
       </td>
-      <td>
+      <td
+        className="text-center"
+      >
         <div
           className="flex flex-end flex-justify-end sm-flex-wrap sm-flex-justify-center"
         >
           <div
-            className="flex flex-end"
+            className="flex flex-center"
           >
             <ArrowUp
               color="#ff073a"
@@ -121,13 +141,13 @@ exports[`StateTable component match snapshot correctly - with empty array 1`] = 
       </td>
     </tr>
     <tr
-      className="state-row "
+      className=""
       id="state-row-TN"
       key="TN"
       onClick={[Function]}
     >
       <td
-        className="flex flex-center flex-space-between"
+        className="text-left flex flex-center flex-space-between"
       >
         <p
           className="full-width"
@@ -136,15 +156,18 @@ exports[`StateTable component match snapshot correctly - with empty array 1`] = 
         </p>
         <ArrowUp
           color="#827397"
+          show={false}
           size={16}
         />
       </td>
-      <td>
+      <td
+        className="text-center"
+      >
         <div
           className="flex flex-end flex-justify-end sm-flex-wrap sm-flex-justify-center"
         >
           <div
-            className="flex flex-end"
+            className="flex flex-center"
           >
             <ArrowUp
               color="#ff073a"
@@ -161,15 +184,19 @@ exports[`StateTable component match snapshot correctly - with empty array 1`] = 
           </p>
         </div>
       </td>
-      <td>
+      <td
+        className="text-center"
+      >
         44351
       </td>
-      <td>
+      <td
+        className="text-center"
+      >
         <div
           className="flex flex-end flex-justify-end sm-flex-wrap sm-flex-justify-center"
         >
           <div
-            className="flex flex-end"
+            className="flex flex-center"
           >
             <ArrowUp
               color="#28a745"
@@ -186,7 +213,9 @@ exports[`StateTable component match snapshot correctly - with empty array 1`] = 
           </p>
         </div>
       </td>
-      <td>
+      <td
+        className="text-center"
+      >
         <div
           className="flex flex-end flex-justify-end sm-flex-wrap sm-flex-justify-center"
         >
@@ -197,13 +226,13 @@ exports[`StateTable component match snapshot correctly - with empty array 1`] = 
       </td>
     </tr>
     <tr
-      className="state-row "
+      className=""
       id="state-row-TT"
       key="TT"
       onClick={[Function]}
     >
       <td
-        className="flex flex-center flex-space-between"
+        className="text-left flex flex-center flex-space-between"
       >
         <p
           className="full-width"
@@ -211,12 +240,14 @@ exports[`StateTable component match snapshot correctly - with empty array 1`] = 
           Total
         </p>
       </td>
-      <td>
+      <td
+        className="text-center"
+      >
         <div
           className="flex flex-end flex-justify-end sm-flex-wrap sm-flex-justify-center"
         >
           <div
-            className="flex flex-end"
+            className="flex flex-center"
           >
             <ArrowUp
               color="#ff073a"
@@ -233,15 +264,19 @@ exports[`StateTable component match snapshot correctly - with empty array 1`] = 
           </p>
         </div>
       </td>
-      <td>
+      <td
+        className="text-center"
+      >
         44351
       </td>
-      <td>
+      <td
+        className="text-center"
+      >
         <div
           className="flex flex-end flex-justify-end sm-flex-wrap sm-flex-justify-center"
         >
           <div
-            className="flex flex-end"
+            className="flex flex-center"
           >
             <ArrowUp
               color="#28a745"
@@ -258,12 +293,14 @@ exports[`StateTable component match snapshot correctly - with empty array 1`] = 
           </p>
         </div>
       </td>
-      <td>
+      <td
+        className="text-center"
+      >
         <div
           className="flex flex-end flex-justify-end sm-flex-wrap sm-flex-justify-center"
         >
           <div
-            className="flex flex-end"
+            className="flex flex-center"
           >
             <ArrowUp
               color="#ff073a"
@@ -287,6 +324,7 @@ exports[`StateTable component match snapshot correctly - with empty array 1`] = 
 
 exports[`StateTable component match snapshot correctly - with empty array 2`] = `
 <StateTable
+  colorMode="white"
   districts={Object {}}
   stateList={
     Array [
@@ -333,36 +371,46 @@ exports[`StateTable component match snapshot correctly - with empty array 2`] = 
   }
 >
   <table
-    className="fadeInUp sm-p0 comp-mb"
+    className="normal-mode \\"sm-p0 comp-mb"
   >
     <thead>
       <tr>
-        <th>
+        <th
+          className="text-left"
+        >
           State
         </th>
-        <th>
+        <th
+          className="text-center red"
+        >
           Confirmed
         </th>
-        <th>
+        <th
+          className="text-center blue"
+        >
           Active
         </th>
-        <th>
+        <th
+          className="text-center green"
+        >
           Recovered
         </th>
-        <th>
+        <th
+          className="text-center voilet"
+        >
           Deceased
         </th>
       </tr>
     </thead>
     <tbody>
       <tr
-        className="state-row "
+        className=""
         id="state-row-AP"
         key="AP"
         onClick={[Function]}
       >
         <td
-          className="flex flex-center flex-space-between"
+          className="text-left flex flex-center flex-space-between"
         >
           <p
             className="full-width"
@@ -371,6 +419,7 @@ exports[`StateTable component match snapshot correctly - with empty array 2`] = 
           </p>
           <ArrowUp
             color="#827397"
+            show={false}
             size={16}
           >
             <svg
@@ -380,6 +429,7 @@ exports[`StateTable component match snapshot correctly - with empty array 2`] = 
               strokeLinecap="round"
               strokeLinejoin="round"
               strokeWidth="2"
+              transform="rotate(-90)"
               viewBox="0 0 24 24"
               width={16}
               xmlns="http://www.w3.org/2000/svg"
@@ -390,12 +440,14 @@ exports[`StateTable component match snapshot correctly - with empty array 2`] = 
             </svg>
           </ArrowUp>
         </td>
-        <td>
+        <td
+          className="text-center"
+        >
           <div
             className="flex flex-end flex-justify-end sm-flex-wrap sm-flex-justify-center"
           >
             <div
-              className="flex flex-end"
+              className="flex flex-center"
             >
               <ArrowUp
                 color="#ff073a"
@@ -434,15 +486,19 @@ exports[`StateTable component match snapshot correctly - with empty array 2`] = 
             </p>
           </div>
         </td>
-        <td>
+        <td
+          className="text-center"
+        >
           44351
         </td>
-        <td>
+        <td
+          className="text-center"
+        >
           <div
             className="flex flex-end flex-justify-end sm-flex-wrap sm-flex-justify-center"
           >
             <div
-              className="flex flex-end"
+              className="flex flex-center"
             >
               <ArrowUp
                 color="#28a745"
@@ -481,12 +537,14 @@ exports[`StateTable component match snapshot correctly - with empty array 2`] = 
             </p>
           </div>
         </td>
-        <td>
+        <td
+          className="text-center"
+        >
           <div
             className="flex flex-end flex-justify-end sm-flex-wrap sm-flex-justify-center"
           >
             <div
-              className="flex flex-end"
+              className="flex flex-center"
             >
               <ArrowUp
                 color="#ff073a"
@@ -527,13 +585,13 @@ exports[`StateTable component match snapshot correctly - with empty array 2`] = 
         </td>
       </tr>
       <tr
-        className="state-row "
+        className=""
         id="state-row-TN"
         key="TN"
         onClick={[Function]}
       >
         <td
-          className="flex flex-center flex-space-between"
+          className="text-left flex flex-center flex-space-between"
         >
           <p
             className="full-width"
@@ -542,6 +600,7 @@ exports[`StateTable component match snapshot correctly - with empty array 2`] = 
           </p>
           <ArrowUp
             color="#827397"
+            show={false}
             size={16}
           >
             <svg
@@ -551,6 +610,7 @@ exports[`StateTable component match snapshot correctly - with empty array 2`] = 
               strokeLinecap="round"
               strokeLinejoin="round"
               strokeWidth="2"
+              transform="rotate(-90)"
               viewBox="0 0 24 24"
               width={16}
               xmlns="http://www.w3.org/2000/svg"
@@ -561,12 +621,14 @@ exports[`StateTable component match snapshot correctly - with empty array 2`] = 
             </svg>
           </ArrowUp>
         </td>
-        <td>
+        <td
+          className="text-center"
+        >
           <div
             className="flex flex-end flex-justify-end sm-flex-wrap sm-flex-justify-center"
           >
             <div
-              className="flex flex-end"
+              className="flex flex-center"
             >
               <ArrowUp
                 color="#ff073a"
@@ -605,15 +667,19 @@ exports[`StateTable component match snapshot correctly - with empty array 2`] = 
             </p>
           </div>
         </td>
-        <td>
+        <td
+          className="text-center"
+        >
           44351
         </td>
-        <td>
+        <td
+          className="text-center"
+        >
           <div
             className="flex flex-end flex-justify-end sm-flex-wrap sm-flex-justify-center"
           >
             <div
-              className="flex flex-end"
+              className="flex flex-center"
             >
               <ArrowUp
                 color="#28a745"
@@ -652,7 +718,9 @@ exports[`StateTable component match snapshot correctly - with empty array 2`] = 
             </p>
           </div>
         </td>
-        <td>
+        <td
+          className="text-center"
+        >
           <div
             className="flex flex-end flex-justify-end sm-flex-wrap sm-flex-justify-center"
           >
@@ -663,13 +731,13 @@ exports[`StateTable component match snapshot correctly - with empty array 2`] = 
         </td>
       </tr>
       <tr
-        className="state-row "
+        className=""
         id="state-row-TT"
         key="TT"
         onClick={[Function]}
       >
         <td
-          className="flex flex-center flex-space-between"
+          className="text-left flex flex-center flex-space-between"
         >
           <p
             className="full-width"
@@ -677,12 +745,14 @@ exports[`StateTable component match snapshot correctly - with empty array 2`] = 
             Total
           </p>
         </td>
-        <td>
+        <td
+          className="text-center"
+        >
           <div
             className="flex flex-end flex-justify-end sm-flex-wrap sm-flex-justify-center"
           >
             <div
-              className="flex flex-end"
+              className="flex flex-center"
             >
               <ArrowUp
                 color="#ff073a"
@@ -721,15 +791,19 @@ exports[`StateTable component match snapshot correctly - with empty array 2`] = 
             </p>
           </div>
         </td>
-        <td>
+        <td
+          className="text-center"
+        >
           44351
         </td>
-        <td>
+        <td
+          className="text-center"
+        >
           <div
             className="flex flex-end flex-justify-end sm-flex-wrap sm-flex-justify-center"
           >
             <div
-              className="flex flex-end"
+              className="flex flex-center"
             >
               <ArrowUp
                 color="#28a745"
@@ -768,12 +842,14 @@ exports[`StateTable component match snapshot correctly - with empty array 2`] = 
             </p>
           </div>
         </td>
-        <td>
+        <td
+          className="text-center"
+        >
           <div
             className="flex flex-end flex-justify-end sm-flex-wrap sm-flex-justify-center"
           >
             <div
-              className="flex flex-end"
+              className="flex flex-center"
             >
               <ArrowUp
                 color="#ff073a"
@@ -820,36 +896,46 @@ exports[`StateTable component match snapshot correctly - with empty array 2`] = 
 
 exports[`StateTable component match snapshot correctly 1`] = `
 <table
-  className="fadeInUp sm-p0 comp-mb"
+  className="dark-mode \\"sm-p0 comp-mb"
 >
   <thead>
     <tr>
-      <th>
+      <th
+        className="text-left"
+      >
         State
       </th>
-      <th>
+      <th
+        className="text-center red"
+      >
         Confirmed
       </th>
-      <th>
+      <th
+        className="text-center blue"
+      >
         Active
       </th>
-      <th>
+      <th
+        className="text-center green"
+      >
         Recovered
       </th>
-      <th>
+      <th
+        className="text-center voilet"
+      >
         Deceased
       </th>
     </tr>
   </thead>
   <tbody>
     <tr
-      className="state-row "
+      className=""
       id="state-row-AP"
       key="AP"
       onClick={[Function]}
     >
       <td
-        className="flex flex-center flex-space-between"
+        className="text-left flex flex-center flex-space-between"
       >
         <p
           className="full-width"
@@ -858,15 +944,18 @@ exports[`StateTable component match snapshot correctly 1`] = `
         </p>
         <ArrowUp
           color="#827397"
+          show={false}
           size={16}
         />
       </td>
-      <td>
+      <td
+        className="text-center"
+      >
         <div
           className="flex flex-end flex-justify-end sm-flex-wrap sm-flex-justify-center"
         >
           <div
-            className="flex flex-end"
+            className="flex flex-center"
           >
             <ArrowUp
               color="#ff073a"
@@ -883,15 +972,19 @@ exports[`StateTable component match snapshot correctly 1`] = `
           </p>
         </div>
       </td>
-      <td>
+      <td
+        className="text-center"
+      >
         44351
       </td>
-      <td>
+      <td
+        className="text-center"
+      >
         <div
           className="flex flex-end flex-justify-end sm-flex-wrap sm-flex-justify-center"
         >
           <div
-            className="flex flex-end"
+            className="flex flex-center"
           >
             <ArrowUp
               color="#28a745"
@@ -908,12 +1001,14 @@ exports[`StateTable component match snapshot correctly 1`] = `
           </p>
         </div>
       </td>
-      <td>
+      <td
+        className="text-center"
+      >
         <div
           className="flex flex-end flex-justify-end sm-flex-wrap sm-flex-justify-center"
         >
           <div
-            className="flex flex-end"
+            className="flex flex-center"
           >
             <ArrowUp
               color="#ff073a"
@@ -932,13 +1027,13 @@ exports[`StateTable component match snapshot correctly 1`] = `
       </td>
     </tr>
     <tr
-      className="state-row "
+      className=""
       id="state-row-TN"
       key="TN"
       onClick={[Function]}
     >
       <td
-        className="flex flex-center flex-space-between"
+        className="text-left flex flex-center flex-space-between"
       >
         <p
           className="full-width"
@@ -947,15 +1042,18 @@ exports[`StateTable component match snapshot correctly 1`] = `
         </p>
         <ArrowUp
           color="#827397"
+          show={false}
           size={16}
         />
       </td>
-      <td>
+      <td
+        className="text-center"
+      >
         <div
           className="flex flex-end flex-justify-end sm-flex-wrap sm-flex-justify-center"
         >
           <div
-            className="flex flex-end"
+            className="flex flex-center"
           >
             <ArrowUp
               color="#ff073a"
@@ -972,15 +1070,19 @@ exports[`StateTable component match snapshot correctly 1`] = `
           </p>
         </div>
       </td>
-      <td>
+      <td
+        className="text-center"
+      >
         44351
       </td>
-      <td>
+      <td
+        className="text-center"
+      >
         <div
           className="flex flex-end flex-justify-end sm-flex-wrap sm-flex-justify-center"
         >
           <div
-            className="flex flex-end"
+            className="flex flex-center"
           >
             <ArrowUp
               color="#28a745"
@@ -997,7 +1099,9 @@ exports[`StateTable component match snapshot correctly 1`] = `
           </p>
         </div>
       </td>
-      <td>
+      <td
+        className="text-center"
+      >
         <div
           className="flex flex-end flex-justify-end sm-flex-wrap sm-flex-justify-center"
         >
@@ -1008,13 +1112,13 @@ exports[`StateTable component match snapshot correctly 1`] = `
       </td>
     </tr>
     <tr
-      className="state-row "
+      className=""
       id="state-row-TT"
       key="TT"
       onClick={[Function]}
     >
       <td
-        className="flex flex-center flex-space-between"
+        className="text-left flex flex-center flex-space-between"
       >
         <p
           className="full-width"
@@ -1022,12 +1126,14 @@ exports[`StateTable component match snapshot correctly 1`] = `
           Total
         </p>
       </td>
-      <td>
+      <td
+        className="text-center"
+      >
         <div
           className="flex flex-end flex-justify-end sm-flex-wrap sm-flex-justify-center"
         >
           <div
-            className="flex flex-end"
+            className="flex flex-center"
           >
             <ArrowUp
               color="#ff073a"
@@ -1044,15 +1150,19 @@ exports[`StateTable component match snapshot correctly 1`] = `
           </p>
         </div>
       </td>
-      <td>
+      <td
+        className="text-center"
+      >
         44351
       </td>
-      <td>
+      <td
+        className="text-center"
+      >
         <div
           className="flex flex-end flex-justify-end sm-flex-wrap sm-flex-justify-center"
         >
           <div
-            className="flex flex-end"
+            className="flex flex-center"
           >
             <ArrowUp
               color="#28a745"
@@ -1069,12 +1179,14 @@ exports[`StateTable component match snapshot correctly 1`] = `
           </p>
         </div>
       </td>
-      <td>
+      <td
+        className="text-center"
+      >
         <div
           className="flex flex-end flex-justify-end sm-flex-wrap sm-flex-justify-center"
         >
           <div
-            className="flex flex-end"
+            className="flex flex-center"
           >
             <ArrowUp
               color="#ff073a"
@@ -1097,7 +1209,322 @@ exports[`StateTable component match snapshot correctly 1`] = `
 `;
 
 exports[`StateTable component match snapshot correctly 2`] = `
+<table
+  className="normal-mode \\"sm-p0 comp-mb"
+>
+  <thead>
+    <tr>
+      <th
+        className="text-left"
+      >
+        State
+      </th>
+      <th
+        className="text-center red"
+      >
+        Confirmed
+      </th>
+      <th
+        className="text-center blue"
+      >
+        Active
+      </th>
+      <th
+        className="text-center green"
+      >
+        Recovered
+      </th>
+      <th
+        className="text-center voilet"
+      >
+        Deceased
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr
+      className=""
+      id="state-row-AP"
+      key="AP"
+      onClick={[Function]}
+    >
+      <td
+        className="text-left flex flex-center flex-space-between"
+      >
+        <p
+          className="full-width"
+        >
+          Total
+        </p>
+        <ArrowUp
+          color="#827397"
+          show={false}
+          size={16}
+        />
+      </td>
+      <td
+        className="text-center"
+      >
+        <div
+          className="flex flex-end flex-justify-end sm-flex-wrap sm-flex-justify-center"
+        >
+          <div
+            className="flex flex-center"
+          >
+            <ArrowUp
+              color="#ff073a"
+              size="12"
+            />
+            <p
+              className="tag mr1 "
+            >
+              524
+            </p>
+          </div>
+          <p>
+            67700
+          </p>
+        </div>
+      </td>
+      <td
+        className="text-center"
+      >
+        44351
+      </td>
+      <td
+        className="text-center"
+      >
+        <div
+          className="flex flex-end flex-justify-end sm-flex-wrap sm-flex-justify-center"
+        >
+          <div
+            className="flex flex-center"
+          >
+            <ArrowUp
+              color="#28a745"
+              size="12"
+            />
+            <p
+              className="tag mr1 tag-green"
+            >
+              160
+            </p>
+          </div>
+          <p>
+            21130
+          </p>
+        </div>
+      </td>
+      <td
+        className="text-center"
+      >
+        <div
+          className="flex flex-end flex-justify-end sm-flex-wrap sm-flex-justify-center"
+        >
+          <div
+            className="flex flex-center"
+          >
+            <ArrowUp
+              color="#ff073a"
+              size="12"
+            />
+            <p
+              className="tag mr1 "
+            >
+              2
+            </p>
+          </div>
+          <p>
+            2215
+          </p>
+        </div>
+      </td>
+    </tr>
+    <tr
+      className=""
+      id="state-row-TN"
+      key="TN"
+      onClick={[Function]}
+    >
+      <td
+        className="text-left flex flex-center flex-space-between"
+      >
+        <p
+          className="full-width"
+        >
+          Total
+        </p>
+        <ArrowUp
+          color="#827397"
+          show={false}
+          size={16}
+        />
+      </td>
+      <td
+        className="text-center"
+      >
+        <div
+          className="flex flex-end flex-justify-end sm-flex-wrap sm-flex-justify-center"
+        >
+          <div
+            className="flex flex-center"
+          >
+            <ArrowUp
+              color="#ff073a"
+              size="12"
+            />
+            <p
+              className="tag mr1 "
+            >
+              524
+            </p>
+          </div>
+          <p>
+            67700
+          </p>
+        </div>
+      </td>
+      <td
+        className="text-center"
+      >
+        44351
+      </td>
+      <td
+        className="text-center"
+      >
+        <div
+          className="flex flex-end flex-justify-end sm-flex-wrap sm-flex-justify-center"
+        >
+          <div
+            className="flex flex-center"
+          >
+            <ArrowUp
+              color="#28a745"
+              size="12"
+            />
+            <p
+              className="tag mr1 tag-green"
+            >
+              160
+            </p>
+          </div>
+          <p>
+            21130
+          </p>
+        </div>
+      </td>
+      <td
+        className="text-center"
+      >
+        <div
+          className="flex flex-end flex-justify-end sm-flex-wrap sm-flex-justify-center"
+        >
+          <p>
+            2215
+          </p>
+        </div>
+      </td>
+    </tr>
+    <tr
+      className=""
+      id="state-row-TT"
+      key="TT"
+      onClick={[Function]}
+    >
+      <td
+        className="text-left flex flex-center flex-space-between"
+      >
+        <p
+          className="full-width"
+        >
+          Total
+        </p>
+      </td>
+      <td
+        className="text-center"
+      >
+        <div
+          className="flex flex-end flex-justify-end sm-flex-wrap sm-flex-justify-center"
+        >
+          <div
+            className="flex flex-center"
+          >
+            <ArrowUp
+              color="#ff073a"
+              size="12"
+            />
+            <p
+              className="tag mr1 "
+            >
+              524
+            </p>
+          </div>
+          <p>
+            67700
+          </p>
+        </div>
+      </td>
+      <td
+        className="text-center"
+      >
+        44351
+      </td>
+      <td
+        className="text-center"
+      >
+        <div
+          className="flex flex-end flex-justify-end sm-flex-wrap sm-flex-justify-center"
+        >
+          <div
+            className="flex flex-center"
+          >
+            <ArrowUp
+              color="#28a745"
+              size="12"
+            />
+            <p
+              className="tag mr1 tag-green"
+            >
+              160
+            </p>
+          </div>
+          <p>
+            21130
+          </p>
+        </div>
+      </td>
+      <td
+        className="text-center"
+      >
+        <div
+          className="flex flex-end flex-justify-end sm-flex-wrap sm-flex-justify-center"
+        >
+          <div
+            className="flex flex-center"
+          >
+            <ArrowUp
+              color="#ff073a"
+              size="12"
+            />
+            <p
+              className="tag mr1 "
+            >
+              2
+            </p>
+          </div>
+          <p>
+            2215
+          </p>
+        </div>
+      </td>
+    </tr>
+  </tbody>
+</table>
+`;
+
+exports[`StateTable component match snapshot correctly 3`] = `
 <StateTable
+  colorMode="white"
   districts={
     Object {
       "Andaman and Nicobar Islands": Object {
@@ -1176,36 +1603,46 @@ exports[`StateTable component match snapshot correctly 2`] = `
   }
 >
   <table
-    className="fadeInUp sm-p0 comp-mb"
+    className="normal-mode \\"sm-p0 comp-mb"
   >
     <thead>
       <tr>
-        <th>
+        <th
+          className="text-left"
+        >
           State
         </th>
-        <th>
+        <th
+          className="text-center red"
+        >
           Confirmed
         </th>
-        <th>
+        <th
+          className="text-center blue"
+        >
           Active
         </th>
-        <th>
+        <th
+          className="text-center green"
+        >
           Recovered
         </th>
-        <th>
+        <th
+          className="text-center voilet"
+        >
           Deceased
         </th>
       </tr>
     </thead>
     <tbody>
       <tr
-        className="state-row district-row"
+        className=" state-row"
         id="state-row-AP"
         key="AP"
         onClick={[Function]}
       >
         <td
-          className="flex flex-center flex-space-between"
+          className="text-left flex flex-center flex-space-between"
         >
           <p
             className="full-width"
@@ -1214,6 +1651,7 @@ exports[`StateTable component match snapshot correctly 2`] = `
           </p>
           <ArrowUp
             color="#827397"
+            show={true}
             size={16}
           >
             <svg
@@ -1223,7 +1661,7 @@ exports[`StateTable component match snapshot correctly 2`] = `
               strokeLinecap="round"
               strokeLinejoin="round"
               strokeWidth="2"
-              transform="rotate(-90)"
+              transform=""
               viewBox="0 0 24 24"
               width={16}
               xmlns="http://www.w3.org/2000/svg"
@@ -1234,12 +1672,14 @@ exports[`StateTable component match snapshot correctly 2`] = `
             </svg>
           </ArrowUp>
         </td>
-        <td>
+        <td
+          className="text-center"
+        >
           <div
             className="flex flex-end flex-justify-end sm-flex-wrap sm-flex-justify-center"
           >
             <div
-              className="flex flex-end"
+              className="flex flex-center"
             >
               <ArrowUp
                 color="#ff073a"
@@ -1278,15 +1718,19 @@ exports[`StateTable component match snapshot correctly 2`] = `
             </p>
           </div>
         </td>
-        <td>
+        <td
+          className="text-center"
+        >
           44351
         </td>
-        <td>
+        <td
+          className="text-center"
+        >
           <div
             className="flex flex-end flex-justify-end sm-flex-wrap sm-flex-justify-center"
           >
             <div
-              className="flex flex-end"
+              className="flex flex-center"
             >
               <ArrowUp
                 color="#28a745"
@@ -1325,12 +1769,14 @@ exports[`StateTable component match snapshot correctly 2`] = `
             </p>
           </div>
         </td>
-        <td>
+        <td
+          className="text-center"
+        >
           <div
             className="flex flex-end flex-justify-end sm-flex-wrap sm-flex-justify-center"
           >
             <div
-              className="flex flex-end"
+              className="flex flex-center"
             >
               <ArrowUp
                 color="#ff073a"
@@ -1371,13 +1817,13 @@ exports[`StateTable component match snapshot correctly 2`] = `
         </td>
       </tr>
       <tr
-        className="state-row "
+        className=""
         id="state-row-TN"
         key="TN"
         onClick={[Function]}
       >
         <td
-          className="flex flex-center flex-space-between"
+          className="text-left flex flex-center flex-space-between"
         >
           <p
             className="full-width"
@@ -1386,6 +1832,7 @@ exports[`StateTable component match snapshot correctly 2`] = `
           </p>
           <ArrowUp
             color="#827397"
+            show={false}
             size={16}
           >
             <svg
@@ -1395,6 +1842,7 @@ exports[`StateTable component match snapshot correctly 2`] = `
               strokeLinecap="round"
               strokeLinejoin="round"
               strokeWidth="2"
+              transform="rotate(-90)"
               viewBox="0 0 24 24"
               width={16}
               xmlns="http://www.w3.org/2000/svg"
@@ -1405,12 +1853,14 @@ exports[`StateTable component match snapshot correctly 2`] = `
             </svg>
           </ArrowUp>
         </td>
-        <td>
+        <td
+          className="text-center"
+        >
           <div
             className="flex flex-end flex-justify-end sm-flex-wrap sm-flex-justify-center"
           >
             <div
-              className="flex flex-end"
+              className="flex flex-center"
             >
               <ArrowUp
                 color="#ff073a"
@@ -1449,15 +1899,19 @@ exports[`StateTable component match snapshot correctly 2`] = `
             </p>
           </div>
         </td>
-        <td>
+        <td
+          className="text-center"
+        >
           44351
         </td>
-        <td>
+        <td
+          className="text-center"
+        >
           <div
             className="flex flex-end flex-justify-end sm-flex-wrap sm-flex-justify-center"
           >
             <div
-              className="flex flex-end"
+              className="flex flex-center"
             >
               <ArrowUp
                 color="#28a745"
@@ -1496,7 +1950,9 @@ exports[`StateTable component match snapshot correctly 2`] = `
             </p>
           </div>
         </td>
-        <td>
+        <td
+          className="text-center"
+        >
           <div
             className="flex flex-end flex-justify-end sm-flex-wrap sm-flex-justify-center"
           >
@@ -1507,13 +1963,13 @@ exports[`StateTable component match snapshot correctly 2`] = `
         </td>
       </tr>
       <tr
-        className="state-row "
+        className=""
         id="state-row-TT"
         key="TT"
         onClick={[Function]}
       >
         <td
-          className="flex flex-center flex-space-between"
+          className="text-left flex flex-center flex-space-between"
         >
           <p
             className="full-width"
@@ -1521,12 +1977,14 @@ exports[`StateTable component match snapshot correctly 2`] = `
             Total
           </p>
         </td>
-        <td>
+        <td
+          className="text-center"
+        >
           <div
             className="flex flex-end flex-justify-end sm-flex-wrap sm-flex-justify-center"
           >
             <div
-              className="flex flex-end"
+              className="flex flex-center"
             >
               <ArrowUp
                 color="#ff073a"
@@ -1565,15 +2023,19 @@ exports[`StateTable component match snapshot correctly 2`] = `
             </p>
           </div>
         </td>
-        <td>
+        <td
+          className="text-center"
+        >
           44351
         </td>
-        <td>
+        <td
+          className="text-center"
+        >
           <div
             className="flex flex-end flex-justify-end sm-flex-wrap sm-flex-justify-center"
           >
             <div
-              className="flex flex-end"
+              className="flex flex-center"
             >
               <ArrowUp
                 color="#28a745"
@@ -1612,12 +2074,14 @@ exports[`StateTable component match snapshot correctly 2`] = `
             </p>
           </div>
         </td>
-        <td>
+        <td
+          className="text-center"
+        >
           <div
             className="flex flex-end flex-justify-end sm-flex-wrap sm-flex-justify-center"
           >
             <div
-              className="flex flex-end"
+              className="flex flex-center"
             >
               <ArrowUp
                 color="#ff073a"
@@ -1662,8 +2126,9 @@ exports[`StateTable component match snapshot correctly 2`] = `
 </StateTable>
 `;
 
-exports[`StateTable component match snapshot correctly 3`] = `
+exports[`StateTable component match snapshot correctly 4`] = `
 <StateTable
+  colorMode="white"
   districts={
     Object {
       "Andaman and Nicobar Islands": Object {
@@ -1742,36 +2207,46 @@ exports[`StateTable component match snapshot correctly 3`] = `
   }
 >
   <table
-    className="fadeInUp sm-p0 comp-mb"
+    className="normal-mode \\"sm-p0 comp-mb"
   >
     <thead>
       <tr>
-        <th>
+        <th
+          className="text-left"
+        >
           State
         </th>
-        <th>
+        <th
+          className="text-center red"
+        >
           Confirmed
         </th>
-        <th>
+        <th
+          className="text-center blue"
+        >
           Active
         </th>
-        <th>
+        <th
+          className="text-center green"
+        >
           Recovered
         </th>
-        <th>
+        <th
+          className="text-center voilet"
+        >
           Deceased
         </th>
       </tr>
     </thead>
     <tbody>
       <tr
-        className="state-row "
+        className=""
         id="state-row-AP"
         key="AP"
         onClick={[Function]}
       >
         <td
-          className="flex flex-center flex-space-between"
+          className="text-left flex flex-center flex-space-between"
         >
           <p
             className="full-width"
@@ -1780,6 +2255,7 @@ exports[`StateTable component match snapshot correctly 3`] = `
           </p>
           <ArrowUp
             color="#827397"
+            show={false}
             size={16}
           >
             <svg
@@ -1789,6 +2265,7 @@ exports[`StateTable component match snapshot correctly 3`] = `
               strokeLinecap="round"
               strokeLinejoin="round"
               strokeWidth="2"
+              transform="rotate(-90)"
               viewBox="0 0 24 24"
               width={16}
               xmlns="http://www.w3.org/2000/svg"
@@ -1799,12 +2276,14 @@ exports[`StateTable component match snapshot correctly 3`] = `
             </svg>
           </ArrowUp>
         </td>
-        <td>
+        <td
+          className="text-center"
+        >
           <div
             className="flex flex-end flex-justify-end sm-flex-wrap sm-flex-justify-center"
           >
             <div
-              className="flex flex-end"
+              className="flex flex-center"
             >
               <ArrowUp
                 color="#ff073a"
@@ -1843,15 +2322,19 @@ exports[`StateTable component match snapshot correctly 3`] = `
             </p>
           </div>
         </td>
-        <td>
+        <td
+          className="text-center"
+        >
           44351
         </td>
-        <td>
+        <td
+          className="text-center"
+        >
           <div
             className="flex flex-end flex-justify-end sm-flex-wrap sm-flex-justify-center"
           >
             <div
-              className="flex flex-end"
+              className="flex flex-center"
             >
               <ArrowUp
                 color="#28a745"
@@ -1890,12 +2373,14 @@ exports[`StateTable component match snapshot correctly 3`] = `
             </p>
           </div>
         </td>
-        <td>
+        <td
+          className="text-center"
+        >
           <div
             className="flex flex-end flex-justify-end sm-flex-wrap sm-flex-justify-center"
           >
             <div
-              className="flex flex-end"
+              className="flex flex-center"
             >
               <ArrowUp
                 color="#ff073a"
@@ -1936,13 +2421,13 @@ exports[`StateTable component match snapshot correctly 3`] = `
         </td>
       </tr>
       <tr
-        className="state-row "
+        className=""
         id="state-row-TN"
         key="TN"
         onClick={[Function]}
       >
         <td
-          className="flex flex-center flex-space-between"
+          className="text-left flex flex-center flex-space-between"
         >
           <p
             className="full-width"
@@ -1951,6 +2436,7 @@ exports[`StateTable component match snapshot correctly 3`] = `
           </p>
           <ArrowUp
             color="#827397"
+            show={false}
             size={16}
           >
             <svg
@@ -1960,6 +2446,7 @@ exports[`StateTable component match snapshot correctly 3`] = `
               strokeLinecap="round"
               strokeLinejoin="round"
               strokeWidth="2"
+              transform="rotate(-90)"
               viewBox="0 0 24 24"
               width={16}
               xmlns="http://www.w3.org/2000/svg"
@@ -1970,12 +2457,14 @@ exports[`StateTable component match snapshot correctly 3`] = `
             </svg>
           </ArrowUp>
         </td>
-        <td>
+        <td
+          className="text-center"
+        >
           <div
             className="flex flex-end flex-justify-end sm-flex-wrap sm-flex-justify-center"
           >
             <div
-              className="flex flex-end"
+              className="flex flex-center"
             >
               <ArrowUp
                 color="#ff073a"
@@ -2014,15 +2503,19 @@ exports[`StateTable component match snapshot correctly 3`] = `
             </p>
           </div>
         </td>
-        <td>
+        <td
+          className="text-center"
+        >
           44351
         </td>
-        <td>
+        <td
+          className="text-center"
+        >
           <div
             className="flex flex-end flex-justify-end sm-flex-wrap sm-flex-justify-center"
           >
             <div
-              className="flex flex-end"
+              className="flex flex-center"
             >
               <ArrowUp
                 color="#28a745"
@@ -2061,7 +2554,9 @@ exports[`StateTable component match snapshot correctly 3`] = `
             </p>
           </div>
         </td>
-        <td>
+        <td
+          className="text-center"
+        >
           <div
             className="flex flex-end flex-justify-end sm-flex-wrap sm-flex-justify-center"
           >
@@ -2072,13 +2567,13 @@ exports[`StateTable component match snapshot correctly 3`] = `
         </td>
       </tr>
       <tr
-        className="state-row "
+        className=""
         id="state-row-TT"
         key="TT"
         onClick={[Function]}
       >
         <td
-          className="flex flex-center flex-space-between"
+          className="text-left flex flex-center flex-space-between"
         >
           <p
             className="full-width"
@@ -2086,12 +2581,14 @@ exports[`StateTable component match snapshot correctly 3`] = `
             Total
           </p>
         </td>
-        <td>
+        <td
+          className="text-center"
+        >
           <div
             className="flex flex-end flex-justify-end sm-flex-wrap sm-flex-justify-center"
           >
             <div
-              className="flex flex-end"
+              className="flex flex-center"
             >
               <ArrowUp
                 color="#ff073a"
@@ -2130,15 +2627,19 @@ exports[`StateTable component match snapshot correctly 3`] = `
             </p>
           </div>
         </td>
-        <td>
+        <td
+          className="text-center"
+        >
           44351
         </td>
-        <td>
+        <td
+          className="text-center"
+        >
           <div
             className="flex flex-end flex-justify-end sm-flex-wrap sm-flex-justify-center"
           >
             <div
-              className="flex flex-end"
+              className="flex flex-center"
             >
               <ArrowUp
                 color="#28a745"
@@ -2177,12 +2678,14 @@ exports[`StateTable component match snapshot correctly 3`] = `
             </p>
           </div>
         </td>
-        <td>
+        <td
+          className="text-center"
+        >
           <div
             className="flex flex-end flex-justify-end sm-flex-wrap sm-flex-justify-center"
           >
             <div
-              className="flex flex-end"
+              className="flex flex-center"
             >
               <ArrowUp
                 color="#ff073a"

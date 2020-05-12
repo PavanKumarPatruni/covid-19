@@ -25,9 +25,9 @@ const StatsGraph = ({ stats }) => {
         labels: ['Active', 'Recovered', 'Deceased'],
         datasets: [
           {
-            backgroundColor: [Colors.RED, Colors.GREEN, Colors.GREY],
-            hoverBackgroundColor: [Colors.RED, Colors.GREEN, Colors.GREY],
-            borderColor: Colors.PRIMARY,
+            backgroundColor: [Colors.RED, Colors.GREEN, Colors.VOILET],
+            hoverBackgroundColor: [Colors.RED, Colors.GREEN, Colors.VOILET],
+            borderColor: Colors.TRANSPARENT,
             data: [active, recovered, deaths],
           },
         ],

@@ -5,6 +5,7 @@ import StateTable from '../StateTable';
 
 describe('StateTable component', () => {
   const props = {
+    colorMode: 'dark',
     stateList: [
       {
         active: '44351',
@@ -80,6 +81,12 @@ describe('StateTable component', () => {
   };
 
   test('match snapshot correctly', () => {
+    const wrapper = shallow(<StateTable {...props} />);
+    expect(wrapper).toMatchSnapshot();
+  });
+
+  test('match snapshot correctly', () => {
+    props.colorMode = 'white';
     const wrapper = shallow(<StateTable {...props} />);
     expect(wrapper).toMatchSnapshot();
   });

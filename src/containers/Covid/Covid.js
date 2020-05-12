@@ -1,6 +1,9 @@
 import { connect } from 'react-redux';
 import { createStructuredSelector } from 'reselect';
+
 import Covid from '../../components/Covid';
+
+import { selectColorMode } from '../Header/selectors';
 
 import { getCovidStateData, getCovidStateDistrictData } from './actions';
 import {
@@ -22,6 +25,7 @@ export const mapDispatchToProps = dispatch => {
 const mapStateToProps = createStructuredSelector({
   stateData: selectCovidStateData,
   stateDistrictData: selectCovidStateDistrictData,
+  colorMode: selectColorMode,
 });
 
 export default connect(mapStateToProps, mapDispatchToProps)(Covid);

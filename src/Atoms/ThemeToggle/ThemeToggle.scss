@@ -1,0 +1,14 @@
+@import '../../styles/index.scss';
+
+.theme-toggle {
+  background-color: $transparent;
+  border: 0;
+  cursor: pointer;
+
+  @include mobile {
+    svg {
+      height: 28px;
+      width: 28px;
+    }
+  }
+}

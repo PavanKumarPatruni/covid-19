@@ -2,8 +2,37 @@
 
 .header {
   @include heading($text-color);
-  border-bottom: 1px solid $border;
 
+  background-color: $background;
+  border-bottom: 1px solid $border;
   box-shadow: 0 2px 10px $border;
-  letter-spacing: 1.125rem;
+
+  @include mobile {
+    @include heading-mobile($text-color);
+
+    &.normal-mode {
+      @include heading-mobile($text-color-normal);
+    }
+  }
+
+  &.normal-mode {
+    @include heading($text-color-normal);
+
+    background-color: $white;
+    border-bottom: 1px solid $light-grey;
+    box-shadow: 0 2px 10px $light-grey;
+  }
+}
+
+.toggle-button {
+  right: 16px;
+  top: 44px;
+
+  @include mobile {
+    top: 28px;
+  }
+
+  @include x-small {
+    top: 20px;
+  }
 }

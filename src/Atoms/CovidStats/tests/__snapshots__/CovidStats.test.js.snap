@@ -8,7 +8,7 @@ exports[`CovidStats component match snapshot correctly 1`] = `
     className="flex flex-column flex-justify-center flex-center covid-stats-item p1 sm-p0 sm-mx1 md-mx2 mx4 red-color"
   >
     <h3
-      className="title mt2"
+      className="title uppercase mt2"
     >
       Confirmed
     </h3>
@@ -27,7 +27,7 @@ exports[`CovidStats component match snapshot correctly 1`] = `
     className="flex flex-column flex-justify-center flex-center covid-stats-item p1 sm-p0 sm-mx1 md-mx2 mx4 blue-color"
   >
     <h3
-      className="title mt2"
+      className="title uppercase mt2"
     >
       Active
     </h3>
@@ -44,7 +44,7 @@ exports[`CovidStats component match snapshot correctly 1`] = `
     className="flex flex-column flex-justify-center flex-center covid-stats-item p1 sm-p0 sm-mx1 md-mx2 mx4 green-color"
   >
     <h3
-      className="title mt2"
+      className="title uppercase mt2"
     >
       Recovered
     </h3>
@@ -60,10 +60,10 @@ exports[`CovidStats component match snapshot correctly 1`] = `
     </p>
   </div>
   <div
-    className="flex flex-column flex-justify-center flex-center covid-stats-item p1 sm-p0 sm-mx1 md-mx2 mx4 grey-color"
+    className="flex flex-column flex-justify-center flex-center covid-stats-item p1 sm-p0 sm-mx1 md-mx2 mx4 voilet-color"
   >
     <h3
-      className="title mt2"
+      className="title uppercase mt2"
     >
       Deceased
     </h3>
@@ -106,7 +106,7 @@ exports[`CovidStats component match snapshot correctly 2`] = `
       className="flex flex-column flex-justify-center flex-center covid-stats-item p1 sm-p0 sm-mx1 md-mx2 mx4 red-color"
     >
       <h3
-        className="title mt2"
+        className="title uppercase mt2"
       >
         Confirmed
       </h3>
@@ -125,7 +125,7 @@ exports[`CovidStats component match snapshot correctly 2`] = `
       className="flex flex-column flex-justify-center flex-center covid-stats-item p1 sm-p0 sm-mx1 md-mx2 mx4 blue-color"
     >
       <h3
-        className="title mt2"
+        className="title uppercase mt2"
       >
         Active
       </h3>
@@ -142,7 +142,7 @@ exports[`CovidStats component match snapshot correctly 2`] = `
       className="flex flex-column flex-justify-center flex-center covid-stats-item p1 sm-p0 sm-mx1 md-mx2 mx4 green-color"
     >
       <h3
-        className="title mt2"
+        className="title uppercase mt2"
       >
         Recovered
       </h3>
@@ -158,10 +158,10 @@ exports[`CovidStats component match snapshot correctly 2`] = `
       </p>
     </div>
     <div
-      className="flex flex-column flex-justify-center flex-center covid-stats-item p1 sm-p0 sm-mx1 md-mx2 mx4 grey-color"
+      className="flex flex-column flex-justify-center flex-center covid-stats-item p1 sm-p0 sm-mx1 md-mx2 mx4 voilet-color"
     >
       <h3
-        className="title mt2"
+        className="title uppercase mt2"
       >
         Deceased
       </h3>

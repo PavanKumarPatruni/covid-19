@@ -2,14 +2,6 @@
 // This file contains CSS helper classes.
 // -----------------------------------------------------------------------------
 
-.left {
-  float: #{$left};
-}
-
-.right {
-  float: #{$right};
-}
-
 .text-left {
   text-align: #{$left};
 }
@@ -22,44 +14,12 @@
   text-align: center;
 }
 
-.text-just {
-  text-align: justify;
-}
-
-.align-top {
-  vertical-align: top;
-}
-
-.align-bottom {
-  vertical-align: bottom;
-}
-
-.align-middle {
-  vertical-align: middle;
-}
-
-.align-sub {
-  vertical-align: sub;
-}
-
-.dark {
-  color: $black;
-}
-
-.light {
-  color: $white;
-}
-
 .relative {
   position: relative;
 }
 
 .absolute {
   position: absolute;
-}
-
-.fixed {
-  position: fixed;
 }
 
 .full-width {
@@ -72,60 +32,6 @@
 
 .width-25 {
   width: 25%;
-}
-
-.border-box {
-  box-sizing: border-box;
-}
-
-.box-shadow-none {
-  box-shadow: none;
-}
-
-.list-style-none {
-  list-style-type: none;
-}
-
-.underline {
-  text-decoration: underline;
-}
-
-.hover-underline {
-  &:hover {
-    border-bottom: 1px solid $white;
-  }
-}
-
-.hover-dark-underline {
-  &:hover {
-    border-bottom: 1px solid $tertiary-color;
-  }
-}
-
-.input-grey-border {
-  border: 1px solid $tertiary-color;
-}
-
-.word-break {
-  hyphens: auto;
-  word-break: break-word;
-}
-/* stylelint-disable property-no-vendor-prefix */
-input {
-  -moz-appearance: none;
-  -webkit-appearance: none;
-  appearance: none;
-  overflow: hidden;
-
-  &:focus {
-    &::placeholder {
-      color: transparent;
-    }
-  }
-}
-
-select {
-  overflow: hidden;
 }
 
 @include mobile {
@@ -166,20 +72,8 @@ select {
   }
 }
 
-.block {
-  display: block;
-}
-
 .uppercase {
   text-transform: uppercase;
-}
-
-.lowercase {
-  text-transform: lowercase;
-}
-
-.capitalize {
-  text-transform: capitalize;
 }
 
 .flex {
@@ -268,21 +162,6 @@ select {
   align-items: flex-start;
 }
 
-.visuallyhidden {
-  border: 0;
-  clip: rect(0 0 0 0);
-  height: 1px;
-  margin: -1px;
-  overflow: hidden;
-  padding: 0;
-  position: absolute;
-  width: 1px;
-}
-
-.object-fit-cover {
-  @include object-fit-cover;
-}
-
 @media (min-width: 1280px) {
   .lg-flex-center {
     align-items: center;
@@ -294,18 +173,6 @@ select {
 
   .lg-text-left {
     text-align: left;
-  }
-}
-
-/* TODO: mediawall added for the lifefyre as it not allow to add custom class */
-
-.mediawall {
-  margin-bottom: $space-4;
-  @include tablet {
-    margin-bottom: $space-7;
-  }
-  @include desktop {
-    margin-bottom: 7rem;
   }
 }
 
@@ -555,151 +422,22 @@ select {
   }
 }
 
-.hide {
-  display: none;
-}
-
-.hidden {
-  visibility: hidden;
-}
-
-.no-border {
-  border: 0;
-}
-
-.strike {
-  text-decoration: line-through;
-}
-
 .green {
-  color: $green-color;
+  color: $green-color !important;
 }
 
 .red {
-  color: $red-color;
+  color: $red-color !important;
 }
 
-.red {
-  color: $red-color;
+.blue {
+  color: $blue-color !important;
 }
 
-.white-fill {
-  fill: $white;
-}
-
-.purple-fill {
-  fill: $primary-color;
-}
-
-.full-overlay {
-  background: rgba(0, 0, 0, 0.2);
-  height: 100%;
-  left: 0;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 998;
-}
-
-.of-cover {
-  font-family: 'object-fit: cover;';
-}
-
-.image-overlay {
-  background-color: $black;
-  height: 100%;
-  left: 0;
-  opacity: 0.4;
-  position: absolute;
-  top: 0;
-  width: 100%;
-  z-index: 99;
-}
-
-.hero-image {
-  height: 100%;
-  object-fit: cover;
-  width: 100%;
-}
-
-.width-33 {
-  width: 33.33%;
-}
-
-.no-list-style {
-  list-style: none;
-}
-
-.hide-overflow {
-  overflow: hidden;
-}
-
-.show {
-  display: block;
-}
-
-.inline-block {
-  display: inline-block;
-}
-
-.inline {
-  display: inline;
-}
-
-.disabled {
-  cursor: not-allowed;
-  opacity: 0.25;
-}
-
-.sr-only {
-  border: 0;
-  clip: rect(0, 0, 0, 0);
-  height: 1px;
-  margin: -1px;
-  overflow: hidden;
-  padding: 0;
-  position: absolute;
-  width: 1px;
-}
-
-.cursor-pointer {
-  cursor: pointer;
-}
-
-@include mobile {
-  .lg-show {
-    display: none;
-  }
-}
-@include tablet {
-  .lg-show {
-    display: none;
-  }
-}
-@include desktop {
-  .lg-show {
-    display: inherit;
-  }
-}
-
-.grid-container {
-  margin: auto;
-  max-width: $container-max-width;
-}
-
-@include sm-desktop {
-  .grid-container {
-    padding-left: 2.5rem;
-    padding-right: 2.5rem;
-  }
+.voilet {
+  color: $voilet-color !important;
 }
 
 .overflow-x-auto {
   overflow-x: auto;
-}
-
-.fade-in-up {
-  animation-duration: 0.45s;
-  animation-fill-mode: both;
-  animation-name: fadeInUp;
 }
