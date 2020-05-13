@@ -143,13 +143,22 @@ const Covid = ({
     >
       <div className="container">
         <div className="flex flex-justify-space-between flex-wrap">
-          <div className="lg-width-50 md-width-100 sm-width-100 flex flex-center flex-column">
+          <div
+            className="lg-width-50 md-width-100 sm-width-100 flex flex-center flex-column fade-in-up"
+            style={{ animationDelay: '0.5s' }}
+          >
             {getStateStatsComponent()}
-            <div className="sm-width-100 overflow-x-auto flex flex-center flex-column">
+            <div
+              className="sm-width-100 overflow-x-auto flex flex-center flex-column fade-in-up"
+              style={{ animationDelay: '0.7s' }}
+            >
               {getStateTableComponent()}
             </div>
           </div>
-          <div className="lg-width-50 md-width-100 sm-width-100 flex flex-center flex-column">
+          <div
+            className="lg-width-50 md-width-100 sm-width-100 flex flex-center flex-column fade-in-up"
+            style={{ animationDelay: '0.9s' }}
+          >
             {getStateStatsGraphComponent()}
             {getConfirmedComponent()}
             {getRecoveredComponent()}

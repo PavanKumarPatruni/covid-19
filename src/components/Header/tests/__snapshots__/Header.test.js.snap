@@ -2,15 +2,25 @@
 
 exports[`Header component match snapshot correctly 1`] = `
 <div
-  className="header py4 full-width relative flex md-flex-justify-center sm-flex-start flex-center dark-mode"
+  className="header py4 full-width relative flex md-flex-justify-center sm-flex-start flex-center dark-mode fade-in-up"
 >
   <h1
-    className="sm-pl3"
+    className="sm-pl3 fade-in-up"
+    style={
+      Object {
+        "animationDelay": "0.1s",
+      }
+    }
   >
     COVID-19
   </h1>
   <div
-    className="absolute toggle-button"
+    className="absolute toggle-button fade-in-up"
+    style={
+      Object {
+        "animationDelay": "0.3s",
+      }
+    }
   >
     <ThemeToggle
       onChange={[Function]}
@@ -21,15 +31,25 @@ exports[`Header component match snapshot correctly 1`] = `
 
 exports[`Header component match snapshot correctly 2`] = `
 <div
-  className="header py4 full-width relative flex md-flex-justify-center sm-flex-start flex-center light-mode"
+  className="header py4 full-width relative flex md-flex-justify-center sm-flex-start flex-center light-mode fade-in-up"
 >
   <h1
-    className="sm-pl3"
+    className="sm-pl3 fade-in-up"
+    style={
+      Object {
+        "animationDelay": "0.1s",
+      }
+    }
   >
     COVID-19
   </h1>
   <div
-    className="absolute toggle-button"
+    className="absolute toggle-button fade-in-up"
+    style={
+      Object {
+        "animationDelay": "0.3s",
+      }
+    }
   >
     <ThemeToggle
       onChange={[Function]}
@@ -44,15 +64,25 @@ exports[`Header component match snapshot correctly 3`] = `
   colorMode="light"
 >
   <div
-    className="header py4 full-width relative flex md-flex-justify-center sm-flex-start flex-center light-mode"
+    className="header py4 full-width relative flex md-flex-justify-center sm-flex-start flex-center light-mode fade-in-up"
   >
     <h1
-      className="sm-pl3"
+      className="sm-pl3 fade-in-up"
+      style={
+        Object {
+          "animationDelay": "0.1s",
+        }
+      }
     >
       COVID-19
     </h1>
     <div
-      className="absolute toggle-button"
+      className="absolute toggle-button fade-in-up"
+      style={
+        Object {
+          "animationDelay": "0.3s",
+        }
+      }
     >
       <ThemeToggle
         onChange={[Function]}
