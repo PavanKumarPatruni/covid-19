@@ -11,6 +11,7 @@ describe('Header component', () => {
 
   test('match snapshot correctly', () => {
     const wrapper = shallow(<Header {...props} />);
+
     expect(wrapper).toMatchSnapshot();
   });
 
