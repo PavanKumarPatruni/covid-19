@@ -9,7 +9,7 @@ exports[`StatsGraph component match snapshot correctly 1`] = `
     height={400}
     legend={
       Object {
-        "display": true,
+        "display": false,
       }
     }
     width={400}
@@ -130,7 +130,7 @@ exports[`StatsGraph component match snapshot correctly 2`] = `
                         Object {
                           "_hoveredItem": null,
                           "_layers": [Function],
-                          "bottom": 32,
+                          "bottom": 0,
                           "chart": [Circular],
                           "ctx": CanvasRenderingContext2D {
                             "canvas": <canvas
@@ -144,28 +144,9 @@ exports[`StatsGraph component match snapshot correctly 2`] = `
                           },
                           "doughnutMode": false,
                           "fullWidth": true,
-                          "height": 32,
+                          "height": 0,
                           "left": 0,
-                          "legendHitBoxes": Array [
-                            Object {
-                              "height": 12,
-                              "left": 0,
-                              "top": 0,
-                              "width": 75,
-                            },
-                            Object {
-                              "height": 12,
-                              "left": 0,
-                              "top": 0,
-                              "width": 97,
-                            },
-                            Object {
-                              "height": 12,
-                              "left": 0,
-                              "top": 0,
-                              "width": 96,
-                            },
-                          ],
+                          "legendHitBoxes": Array [],
                           "legendItems": Array [
                             Object {
                               "fillStyle": "#ff073a",
@@ -192,9 +173,6 @@ exports[`StatsGraph component match snapshot correctly 2`] = `
                               "text": "Deceased",
                             },
                           ],
-                          "lineWidths": Array [
-                            298,
-                          ],
                           "margins": Object {
                             "bottom": 0,
                             "left": 0,
@@ -204,12 +182,12 @@ exports[`StatsGraph component match snapshot correctly 2`] = `
                           "maxHeight": NaN,
                           "maxWidth": NaN,
                           "minSize": Object {
-                            "height": 32,
-                            "width": NaN,
+                            "height": 0,
+                            "width": 0,
                           },
                           "options": Object {
                             "align": "center",
-                            "display": true,
+                            "display": false,
                             "fullWidth": true,
                             "labels": Object {
                               "boxWidth": 40,
@@ -294,7 +272,7 @@ exports[`StatsGraph component match snapshot correctly 2`] = `
                         "bottom": NaN,
                         "left": 0,
                         "right": NaN,
-                        "top": 32,
+                        "top": 0,
                       },
                       "config": Object {
                         "data": Object {
@@ -396,7 +374,7 @@ exports[`StatsGraph component match snapshot correctly 2`] = `
                           },
                           "legend": Object {
                             "align": "center",
-                            "display": true,
+                            "display": false,
                             "fullWidth": true,
                             "labels": Object {
                               "boxWidth": 40,
@@ -499,7 +477,7 @@ exports[`StatsGraph component match snapshot correctly 2`] = `
                       "legend": Object {
                         "_hoveredItem": null,
                         "_layers": [Function],
-                        "bottom": 32,
+                        "bottom": 0,
                         "chart": [Circular],
                         "ctx": CanvasRenderingContext2D {
                           "canvas": <canvas
@@ -513,28 +491,9 @@ exports[`StatsGraph component match snapshot correctly 2`] = `
                         },
                         "doughnutMode": false,
                         "fullWidth": true,
-                        "height": 32,
+                        "height": 0,
                         "left": 0,
-                        "legendHitBoxes": Array [
-                          Object {
-                            "height": 12,
-                            "left": 0,
-                            "top": 0,
-                            "width": 75,
-                          },
-                          Object {
-                            "height": 12,
-                            "left": 0,
-                            "top": 0,
-                            "width": 97,
-                          },
-                          Object {
-                            "height": 12,
-                            "left": 0,
-                            "top": 0,
-                            "width": 96,
-                          },
-                        ],
+                        "legendHitBoxes": Array [],
                         "legendItems": Array [
                           Object {
                             "fillStyle": "#ff073a",
@@ -561,9 +520,6 @@ exports[`StatsGraph component match snapshot correctly 2`] = `
                             "text": "Deceased",
                           },
                         ],
-                        "lineWidths": Array [
-                          298,
-                        ],
                         "margins": Object {
                           "bottom": 0,
                           "left": 0,
@@ -573,12 +529,12 @@ exports[`StatsGraph component match snapshot correctly 2`] = `
                         "maxHeight": NaN,
                         "maxWidth": NaN,
                         "minSize": Object {
-                          "height": 32,
-                          "width": NaN,
+                          "height": 0,
+                          "width": 0,
                         },
                         "options": Object {
                           "align": "center",
-                          "display": true,
+                          "display": false,
                           "fullWidth": true,
                           "labels": Object {
                             "boxWidth": 40,
@@ -693,7 +649,7 @@ exports[`StatsGraph component match snapshot correctly 2`] = `
                         },
                         "legend": Object {
                           "align": "center",
-                          "display": true,
+                          "display": false,
                           "fullWidth": true,
                           "labels": Object {
                             "boxWidth": 40,
@@ -993,7 +949,7 @@ exports[`StatsGraph component match snapshot correctly 2`] = `
                           Object {
                             "_hoveredItem": null,
                             "_layers": [Function],
-                            "bottom": 32,
+                            "bottom": 0,
                             "chart": [Circular],
                             "ctx": CanvasRenderingContext2D {
                               "canvas": <canvas
@@ -1007,28 +963,9 @@ exports[`StatsGraph component match snapshot correctly 2`] = `
                             },
                             "doughnutMode": false,
                             "fullWidth": true,
-                            "height": 32,
+                            "height": 0,
                             "left": 0,
-                            "legendHitBoxes": Array [
-                              Object {
-                                "height": 12,
-                                "left": 0,
-                                "top": 0,
-                                "width": 75,
-                              },
-                              Object {
-                                "height": 12,
-                                "left": 0,
-                                "top": 0,
-                                "width": 97,
-                              },
-                              Object {
-                                "height": 12,
-                                "left": 0,
-                                "top": 0,
-                                "width": 96,
-                              },
-                            ],
+                            "legendHitBoxes": Array [],
                             "legendItems": Array [
                               Object {
                                 "fillStyle": "#ff073a",
@@ -1055,9 +992,6 @@ exports[`StatsGraph component match snapshot correctly 2`] = `
                                 "text": "Deceased",
                               },
                             ],
-                            "lineWidths": Array [
-                              298,
-                            ],
                             "margins": Object {
                               "bottom": 0,
                               "left": 0,
@@ -1067,12 +1001,12 @@ exports[`StatsGraph component match snapshot correctly 2`] = `
                             "maxHeight": NaN,
                             "maxWidth": NaN,
                             "minSize": Object {
-                              "height": 32,
-                              "width": NaN,
+                              "height": 0,
+                              "width": 0,
                             },
                             "options": Object {
                               "align": "center",
-                              "display": true,
+                              "display": false,
                               "fullWidth": true,
                               "labels": Object {
                                 "boxWidth": 40,
@@ -1157,7 +1091,7 @@ exports[`StatsGraph component match snapshot correctly 2`] = `
                           "bottom": NaN,
                           "left": 0,
                           "right": NaN,
-                          "top": 32,
+                          "top": 0,
                         },
                         "config": Object {
                           "data": Object {
@@ -1259,7 +1193,7 @@ exports[`StatsGraph component match snapshot correctly 2`] = `
                             },
                             "legend": Object {
                               "align": "center",
-                              "display": true,
+                              "display": false,
                               "fullWidth": true,
                               "labels": Object {
                                 "boxWidth": 40,
@@ -1362,7 +1296,7 @@ exports[`StatsGraph component match snapshot correctly 2`] = `
                         "legend": Object {
                           "_hoveredItem": null,
                           "_layers": [Function],
-                          "bottom": 32,
+                          "bottom": 0,
                           "chart": [Circular],
                           "ctx": CanvasRenderingContext2D {
                             "canvas": <canvas
@@ -1376,28 +1310,9 @@ exports[`StatsGraph component match snapshot correctly 2`] = `
                           },
                           "doughnutMode": false,
                           "fullWidth": true,
-                          "height": 32,
+                          "height": 0,
                           "left": 0,
-                          "legendHitBoxes": Array [
-                            Object {
-                              "height": 12,
-                              "left": 0,
-                              "top": 0,
-                              "width": 75,
-                            },
-                            Object {
-                              "height": 12,
-                              "left": 0,
-                              "top": 0,
-                              "width": 97,
-                            },
-                            Object {
-                              "height": 12,
-                              "left": 0,
-                              "top": 0,
-                              "width": 96,
-                            },
-                          ],
+                          "legendHitBoxes": Array [],
                           "legendItems": Array [
                             Object {
                               "fillStyle": "#ff073a",
@@ -1424,9 +1339,6 @@ exports[`StatsGraph component match snapshot correctly 2`] = `
                               "text": "Deceased",
                             },
                           ],
-                          "lineWidths": Array [
-                            298,
-                          ],
                           "margins": Object {
                             "bottom": 0,
                             "left": 0,
@@ -1436,12 +1348,12 @@ exports[`StatsGraph component match snapshot correctly 2`] = `
                           "maxHeight": NaN,
                           "maxWidth": NaN,
                           "minSize": Object {
-                            "height": 32,
-                            "width": NaN,
+                            "height": 0,
+                            "width": 0,
                           },
                           "options": Object {
                             "align": "center",
-                            "display": true,
+                            "display": false,
                             "fullWidth": true,
                             "labels": Object {
                               "boxWidth": 40,
@@ -1556,7 +1468,7 @@ exports[`StatsGraph component match snapshot correctly 2`] = `
                           },
                           "legend": Object {
                             "align": "center",
-                            "display": true,
+                            "display": false,
                             "fullWidth": true,
                             "labels": Object {
                               "boxWidth": 40,
@@ -1893,7 +1805,7 @@ exports[`StatsGraph component match snapshot correctly 2`] = `
                           Object {
                             "_hoveredItem": null,
                             "_layers": [Function],
-                            "bottom": 32,
+                            "bottom": 0,
                             "chart": [Circular],
                             "ctx": CanvasRenderingContext2D {
                               "canvas": <canvas
@@ -1907,28 +1819,9 @@ exports[`StatsGraph component match snapshot correctly 2`] = `
                             },
                             "doughnutMode": false,
                             "fullWidth": true,
-                            "height": 32,
+                            "height": 0,
                             "left": 0,
-                            "legendHitBoxes": Array [
-                              Object {
-                                "height": 12,
-                                "left": 0,
-                                "top": 0,
-                                "width": 75,
-                              },
-                              Object {
-                                "height": 12,
-                                "left": 0,
-                                "top": 0,
-                                "width": 97,
-                              },
-                              Object {
-                                "height": 12,
-                                "left": 0,
-                                "top": 0,
-                                "width": 96,
-                              },
-                            ],
+                            "legendHitBoxes": Array [],
                             "legendItems": Array [
                               Object {
                                 "fillStyle": "#ff073a",
@@ -1955,9 +1848,6 @@ exports[`StatsGraph component match snapshot correctly 2`] = `
                                 "text": "Deceased",
                               },
                             ],
-                            "lineWidths": Array [
-                              298,
-                            ],
                             "margins": Object {
                               "bottom": 0,
                               "left": 0,
@@ -1967,12 +1857,12 @@ exports[`StatsGraph component match snapshot correctly 2`] = `
                             "maxHeight": NaN,
                             "maxWidth": NaN,
                             "minSize": Object {
-                              "height": 32,
-                              "width": NaN,
+                              "height": 0,
+                              "width": 0,
                             },
                             "options": Object {
                               "align": "center",
-                              "display": true,
+                              "display": false,
                               "fullWidth": true,
                               "labels": Object {
                                 "boxWidth": 40,
@@ -2057,7 +1947,7 @@ exports[`StatsGraph component match snapshot correctly 2`] = `
                           "bottom": NaN,
                           "left": 0,
                           "right": NaN,
-                          "top": 32,
+                          "top": 0,
                         },
                         "config": Object {
                           "data": Object {
@@ -2159,7 +2049,7 @@ exports[`StatsGraph component match snapshot correctly 2`] = `
                             },
                             "legend": Object {
                               "align": "center",
-                              "display": true,
+                              "display": false,
                               "fullWidth": true,
                               "labels": Object {
                                 "boxWidth": 40,
@@ -2262,7 +2152,7 @@ exports[`StatsGraph component match snapshot correctly 2`] = `
                         "legend": Object {
                           "_hoveredItem": null,
                           "_layers": [Function],
-                          "bottom": 32,
+                          "bottom": 0,
                           "chart": [Circular],
                           "ctx": CanvasRenderingContext2D {
                             "canvas": <canvas
@@ -2276,28 +2166,9 @@ exports[`StatsGraph component match snapshot correctly 2`] = `
                           },
                           "doughnutMode": false,
                           "fullWidth": true,
-                          "height": 32,
+                          "height": 0,
                           "left": 0,
-                          "legendHitBoxes": Array [
-                            Object {
-                              "height": 12,
-                              "left": 0,
-                              "top": 0,
-                              "width": 75,
-                            },
-                            Object {
-                              "height": 12,
-                              "left": 0,
-                              "top": 0,
-                              "width": 97,
-                            },
-                            Object {
-                              "height": 12,
-                              "left": 0,
-                              "top": 0,
-                              "width": 96,
-                            },
-                          ],
+                          "legendHitBoxes": Array [],
                           "legendItems": Array [
                             Object {
                               "fillStyle": "#ff073a",
@@ -2324,9 +2195,6 @@ exports[`StatsGraph component match snapshot correctly 2`] = `
                               "text": "Deceased",
                             },
                           ],
-                          "lineWidths": Array [
-                            298,
-                          ],
                           "margins": Object {
                             "bottom": 0,
                             "left": 0,
@@ -2336,12 +2204,12 @@ exports[`StatsGraph component match snapshot correctly 2`] = `
                           "maxHeight": NaN,
                           "maxWidth": NaN,
                           "minSize": Object {
-                            "height": 32,
-                            "width": NaN,
+                            "height": 0,
+                            "width": 0,
                           },
                           "options": Object {
                             "align": "center",
-                            "display": true,
+                            "display": false,
                             "fullWidth": true,
                             "labels": Object {
                               "boxWidth": 40,
@@ -2456,7 +2324,7 @@ exports[`StatsGraph component match snapshot correctly 2`] = `
                           },
                           "legend": Object {
                             "align": "center",
-                            "display": true,
+                            "display": false,
                             "fullWidth": true,
                             "labels": Object {
                               "boxWidth": 40,
@@ -2793,7 +2661,7 @@ exports[`StatsGraph component match snapshot correctly 2`] = `
                           Object {
                             "_hoveredItem": null,
                             "_layers": [Function],
-                            "bottom": 32,
+                            "bottom": 0,
                             "chart": [Circular],
                             "ctx": CanvasRenderingContext2D {
                               "canvas": <canvas
@@ -2807,28 +2675,9 @@ exports[`StatsGraph component match snapshot correctly 2`] = `
                             },
                             "doughnutMode": false,
                             "fullWidth": true,
-                            "height": 32,
+                            "height": 0,
                             "left": 0,
-                            "legendHitBoxes": Array [
-                              Object {
-                                "height": 12,
-                                "left": 0,
-                                "top": 0,
-                                "width": 75,
-                              },
-                              Object {
-                                "height": 12,
-                                "left": 0,
-                                "top": 0,
-                                "width": 97,
-                              },
-                              Object {
-                                "height": 12,
-                                "left": 0,
-                                "top": 0,
-                                "width": 96,
-                              },
-                            ],
+                            "legendHitBoxes": Array [],
                             "legendItems": Array [
                               Object {
                                 "fillStyle": "#ff073a",
@@ -2855,9 +2704,6 @@ exports[`StatsGraph component match snapshot correctly 2`] = `
                                 "text": "Deceased",
                               },
                             ],
-                            "lineWidths": Array [
-                              298,
-                            ],
                             "margins": Object {
                               "bottom": 0,
                               "left": 0,
@@ -2867,12 +2713,12 @@ exports[`StatsGraph component match snapshot correctly 2`] = `
                             "maxHeight": NaN,
                             "maxWidth": NaN,
                             "minSize": Object {
-                              "height": 32,
-                              "width": NaN,
+                              "height": 0,
+                              "width": 0,
                             },
                             "options": Object {
                               "align": "center",
-                              "display": true,
+                              "display": false,
                               "fullWidth": true,
                               "labels": Object {
                                 "boxWidth": 40,
@@ -2957,7 +2803,7 @@ exports[`StatsGraph component match snapshot correctly 2`] = `
                           "bottom": NaN,
                           "left": 0,
                           "right": NaN,
-                          "top": 32,
+                          "top": 0,
                         },
                         "config": Object {
                           "data": Object {
@@ -3059,7 +2905,7 @@ exports[`StatsGraph component match snapshot correctly 2`] = `
                             },
                             "legend": Object {
                               "align": "center",
-                              "display": true,
+                              "display": false,
                               "fullWidth": true,
                               "labels": Object {
                                 "boxWidth": 40,
@@ -3162,7 +3008,7 @@ exports[`StatsGraph component match snapshot correctly 2`] = `
                         "legend": Object {
                           "_hoveredItem": null,
                           "_layers": [Function],
-                          "bottom": 32,
+                          "bottom": 0,
                           "chart": [Circular],
                           "ctx": CanvasRenderingContext2D {
                             "canvas": <canvas
@@ -3176,28 +3022,9 @@ exports[`StatsGraph component match snapshot correctly 2`] = `
                           },
                           "doughnutMode": false,
                           "fullWidth": true,
-                          "height": 32,
+                          "height": 0,
                           "left": 0,
-                          "legendHitBoxes": Array [
-                            Object {
-                              "height": 12,
-                              "left": 0,
-                              "top": 0,
-                              "width": 75,
-                            },
-                            Object {
-                              "height": 12,
-                              "left": 0,
-                              "top": 0,
-                              "width": 97,
-                            },
-                            Object {
-                              "height": 12,
-                              "left": 0,
-                              "top": 0,
-                              "width": 96,
-                            },
-                          ],
+                          "legendHitBoxes": Array [],
                           "legendItems": Array [
                             Object {
                               "fillStyle": "#ff073a",
@@ -3224,9 +3051,6 @@ exports[`StatsGraph component match snapshot correctly 2`] = `
                               "text": "Deceased",
                             },
                           ],
-                          "lineWidths": Array [
-                            298,
-                          ],
                           "margins": Object {
                             "bottom": 0,
                             "left": 0,
@@ -3236,12 +3060,12 @@ exports[`StatsGraph component match snapshot correctly 2`] = `
                           "maxHeight": NaN,
                           "maxWidth": NaN,
                           "minSize": Object {
-                            "height": 32,
-                            "width": NaN,
+                            "height": 0,
+                            "width": 0,
                           },
                           "options": Object {
                             "align": "center",
-                            "display": true,
+                            "display": false,
                             "fullWidth": true,
                             "labels": Object {
                               "boxWidth": 40,
@@ -3356,7 +3180,7 @@ exports[`StatsGraph component match snapshot correctly 2`] = `
                           },
                           "legend": Object {
                             "align": "center",
-                            "display": true,
+                            "display": false,
                             "fullWidth": true,
                             "labels": Object {
                               "boxWidth": 40,
@@ -3668,7 +3492,7 @@ exports[`StatsGraph component match snapshot correctly 2`] = `
       height={400}
       legend={
         Object {
-          "display": true,
+          "display": false,
         }
       }
       width={400}
@@ -3765,7 +3589,7 @@ exports[`StatsGraph component match snapshot correctly 2`] = `
                           Object {
                             "_hoveredItem": null,
                             "_layers": [Function],
-                            "bottom": 32,
+                            "bottom": 0,
                             "chart": [Circular],
                             "ctx": CanvasRenderingContext2D {
                               "canvas": <canvas
@@ -3779,28 +3603,9 @@ exports[`StatsGraph component match snapshot correctly 2`] = `
                             },
                             "doughnutMode": false,
                             "fullWidth": true,
-                            "height": 32,
+                            "height": 0,
                             "left": 0,
-                            "legendHitBoxes": Array [
-                              Object {
-                                "height": 12,
-                                "left": 0,
-                                "top": 0,
-                                "width": 75,
-                              },
-                              Object {
-                                "height": 12,
-                                "left": 0,
-                                "top": 0,
-                                "width": 97,
-                              },
-                              Object {
-                                "height": 12,
-                                "left": 0,
-                                "top": 0,
-                                "width": 96,
-                              },
-                            ],
+                            "legendHitBoxes": Array [],
                             "legendItems": Array [
                               Object {
                                 "fillStyle": "#ff073a",
@@ -3827,9 +3632,6 @@ exports[`StatsGraph component match snapshot correctly 2`] = `
                                 "text": "Deceased",
                               },
                             ],
-                            "lineWidths": Array [
-                              298,
-                            ],
                             "margins": Object {
                               "bottom": 0,
                               "left": 0,
@@ -3839,12 +3641,12 @@ exports[`StatsGraph component match snapshot correctly 2`] = `
                             "maxHeight": NaN,
                             "maxWidth": NaN,
                             "minSize": Object {
-                              "height": 32,
-                              "width": NaN,
+                              "height": 0,
+                              "width": 0,
                             },
                             "options": Object {
                               "align": "center",
-                              "display": true,
+                              "display": false,
                               "fullWidth": true,
                               "labels": Object {
                                 "boxWidth": 40,
@@ -3929,7 +3731,7 @@ exports[`StatsGraph component match snapshot correctly 2`] = `
                           "bottom": NaN,
                           "left": 0,
                           "right": NaN,
-                          "top": 32,
+                          "top": 0,
                         },
                         "config": Object {
                           "data": Object {
@@ -4031,7 +3833,7 @@ exports[`StatsGraph component match snapshot correctly 2`] = `
                             },
                             "legend": Object {
                               "align": "center",
-                              "display": true,
+                              "display": false,
                               "fullWidth": true,
                               "labels": Object {
                                 "boxWidth": 40,
@@ -4134,7 +3936,7 @@ exports[`StatsGraph component match snapshot correctly 2`] = `
                         "legend": Object {
                           "_hoveredItem": null,
                           "_layers": [Function],
-                          "bottom": 32,
+                          "bottom": 0,
                           "chart": [Circular],
                           "ctx": CanvasRenderingContext2D {
                             "canvas": <canvas
@@ -4148,28 +3950,9 @@ exports[`StatsGraph component match snapshot correctly 2`] = `
                           },
                           "doughnutMode": false,
                           "fullWidth": true,
-                          "height": 32,
+                          "height": 0,
                           "left": 0,
-                          "legendHitBoxes": Array [
-                            Object {
-                              "height": 12,
-                              "left": 0,
-                              "top": 0,
-                              "width": 75,
-                            },
-                            Object {
-                              "height": 12,
-                              "left": 0,
-                              "top": 0,
-                              "width": 97,
-                            },
-                            Object {
-                              "height": 12,
-                              "left": 0,
-                              "top": 0,
-                              "width": 96,
-                            },
-                          ],
+                          "legendHitBoxes": Array [],
                           "legendItems": Array [
                             Object {
                               "fillStyle": "#ff073a",
@@ -4196,9 +3979,6 @@ exports[`StatsGraph component match snapshot correctly 2`] = `
                               "text": "Deceased",
                             },
                           ],
-                          "lineWidths": Array [
-                            298,
-                          ],
                           "margins": Object {
                             "bottom": 0,
                             "left": 0,
@@ -4208,12 +3988,12 @@ exports[`StatsGraph component match snapshot correctly 2`] = `
                           "maxHeight": NaN,
                           "maxWidth": NaN,
                           "minSize": Object {
-                            "height": 32,
-                            "width": NaN,
+                            "height": 0,
+                            "width": 0,
                           },
                           "options": Object {
                             "align": "center",
-                            "display": true,
+                            "display": false,
                             "fullWidth": true,
                             "labels": Object {
                               "boxWidth": 40,
@@ -4328,7 +4108,7 @@ exports[`StatsGraph component match snapshot correctly 2`] = `
                           },
                           "legend": Object {
                             "align": "center",
-                            "display": true,
+                            "display": false,
                             "fullWidth": true,
                             "labels": Object {
                               "boxWidth": 40,
@@ -4628,7 +4408,7 @@ exports[`StatsGraph component match snapshot correctly 2`] = `
                             Object {
                               "_hoveredItem": null,
                               "_layers": [Function],
-                              "bottom": 32,
+                              "bottom": 0,
                               "chart": [Circular],
                               "ctx": CanvasRenderingContext2D {
                                 "canvas": <canvas
@@ -4642,28 +4422,9 @@ exports[`StatsGraph component match snapshot correctly 2`] = `
                               },
                               "doughnutMode": false,
                               "fullWidth": true,
-                              "height": 32,
+                              "height": 0,
                               "left": 0,
-                              "legendHitBoxes": Array [
-                                Object {
-                                  "height": 12,
-                                  "left": 0,
-                                  "top": 0,
-                                  "width": 75,
-                                },
-                                Object {
-                                  "height": 12,
-                                  "left": 0,
-                                  "top": 0,
-                                  "width": 97,
-                                },
-                                Object {
-                                  "height": 12,
-                                  "left": 0,
-                                  "top": 0,
-                                  "width": 96,
-                                },
-                              ],
+                              "legendHitBoxes": Array [],
                               "legendItems": Array [
                                 Object {
                                   "fillStyle": "#ff073a",
@@ -4690,9 +4451,6 @@ exports[`StatsGraph component match snapshot correctly 2`] = `
                                   "text": "Deceased",
                                 },
                               ],
-                              "lineWidths": Array [
-                                298,
-                              ],
                               "margins": Object {
                                 "bottom": 0,
                                 "left": 0,
@@ -4702,12 +4460,12 @@ exports[`StatsGraph component match snapshot correctly 2`] = `
                               "maxHeight": NaN,
                               "maxWidth": NaN,
                               "minSize": Object {
-                                "height": 32,
-                                "width": NaN,
+                                "height": 0,
+                                "width": 0,
                               },
                               "options": Object {
                                 "align": "center",
-                                "display": true,
+                                "display": false,
                                 "fullWidth": true,
                                 "labels": Object {
                                   "boxWidth": 40,
@@ -4792,7 +4550,7 @@ exports[`StatsGraph component match snapshot correctly 2`] = `
                             "bottom": NaN,
                             "left": 0,
                             "right": NaN,
-                            "top": 32,
+                            "top": 0,
                           },
                           "config": Object {
                             "data": Object {
@@ -4894,7 +4652,7 @@ exports[`StatsGraph component match snapshot correctly 2`] = `
                               },
                               "legend": Object {
                                 "align": "center",
-                                "display": true,
+                                "display": false,
                                 "fullWidth": true,
                                 "labels": Object {
                                   "boxWidth": 40,
@@ -4997,7 +4755,7 @@ exports[`StatsGraph component match snapshot correctly 2`] = `
                           "legend": Object {
                             "_hoveredItem": null,
                             "_layers": [Function],
-                            "bottom": 32,
+                            "bottom": 0,
                             "chart": [Circular],
                             "ctx": CanvasRenderingContext2D {
                               "canvas": <canvas
@@ -5011,28 +4769,9 @@ exports[`StatsGraph component match snapshot correctly 2`] = `
                             },
                             "doughnutMode": false,
                             "fullWidth": true,
-                            "height": 32,
+                            "height": 0,
                             "left": 0,
-                            "legendHitBoxes": Array [
-                              Object {
-                                "height": 12,
-                                "left": 0,
-                                "top": 0,
-                                "width": 75,
-                              },
-                              Object {
-                                "height": 12,
-                                "left": 0,
-                                "top": 0,
-                                "width": 97,
-                              },
-                              Object {
-                                "height": 12,
-                                "left": 0,
-                                "top": 0,
-                                "width": 96,
-                              },
-                            ],
+                            "legendHitBoxes": Array [],
                             "legendItems": Array [
                               Object {
                                 "fillStyle": "#ff073a",
@@ -5059,9 +4798,6 @@ exports[`StatsGraph component match snapshot correctly 2`] = `
                                 "text": "Deceased",
                               },
                             ],
-                            "lineWidths": Array [
-                              298,
-                            ],
                             "margins": Object {
                               "bottom": 0,
                               "left": 0,
@@ -5071,12 +4807,12 @@ exports[`StatsGraph component match snapshot correctly 2`] = `
                             "maxHeight": NaN,
                             "maxWidth": NaN,
                             "minSize": Object {
-                              "height": 32,
-                              "width": NaN,
+                              "height": 0,
+                              "width": 0,
                             },
                             "options": Object {
                               "align": "center",
-                              "display": true,
+                              "display": false,
                               "fullWidth": true,
                               "labels": Object {
                                 "boxWidth": 40,
@@ -5191,7 +4927,7 @@ exports[`StatsGraph component match snapshot correctly 2`] = `
                             },
                             "legend": Object {
                               "align": "center",
-                              "display": true,
+                              "display": false,
                               "fullWidth": true,
                               "labels": Object {
                                 "boxWidth": 40,
@@ -5528,7 +5264,7 @@ exports[`StatsGraph component match snapshot correctly 2`] = `
                             Object {
                               "_hoveredItem": null,
                               "_layers": [Function],
-                              "bottom": 32,
+                              "bottom": 0,
                               "chart": [Circular],
                               "ctx": CanvasRenderingContext2D {
                                 "canvas": <canvas
@@ -5542,28 +5278,9 @@ exports[`StatsGraph component match snapshot correctly 2`] = `
                               },
                               "doughnutMode": false,
                               "fullWidth": true,
-                              "height": 32,
+                              "height": 0,
                               "left": 0,
-                              "legendHitBoxes": Array [
-                                Object {
-                                  "height": 12,
-                                  "left": 0,
-                                  "top": 0,
-                                  "width": 75,
-                                },
-                                Object {
-                                  "height": 12,
-                                  "left": 0,
-                                  "top": 0,
-                                  "width": 97,
-                                },
-                                Object {
-                                  "height": 12,
-                                  "left": 0,
-                                  "top": 0,
-                                  "width": 96,
-                                },
-                              ],
+                              "legendHitBoxes": Array [],
                               "legendItems": Array [
                                 Object {
                                   "fillStyle": "#ff073a",
@@ -5590,9 +5307,6 @@ exports[`StatsGraph component match snapshot correctly 2`] = `
                                   "text": "Deceased",
                                 },
                               ],
-                              "lineWidths": Array [
-                                298,
-                              ],
                               "margins": Object {
                                 "bottom": 0,
                                 "left": 0,
@@ -5602,12 +5316,12 @@ exports[`StatsGraph component match snapshot correctly 2`] = `
                               "maxHeight": NaN,
                               "maxWidth": NaN,
                               "minSize": Object {
-                                "height": 32,
-                                "width": NaN,
+                                "height": 0,
+                                "width": 0,
                               },
                               "options": Object {
                                 "align": "center",
-                                "display": true,
+                                "display": false,
                                 "fullWidth": true,
                                 "labels": Object {
                                   "boxWidth": 40,
@@ -5692,7 +5406,7 @@ exports[`StatsGraph component match snapshot correctly 2`] = `
                             "bottom": NaN,
                             "left": 0,
                             "right": NaN,
-                            "top": 32,
+                            "top": 0,
                           },
                           "config": Object {
                             "data": Object {
@@ -5794,7 +5508,7 @@ exports[`StatsGraph component match snapshot correctly 2`] = `
                               },
                               "legend": Object {
                                 "align": "center",
-                                "display": true,
+                                "display": false,
                                 "fullWidth": true,
                                 "labels": Object {
                                   "boxWidth": 40,
@@ -5897,7 +5611,7 @@ exports[`StatsGraph component match snapshot correctly 2`] = `
                           "legend": Object {
                             "_hoveredItem": null,
                             "_layers": [Function],
-                            "bottom": 32,
+                            "bottom": 0,
                             "chart": [Circular],
                             "ctx": CanvasRenderingContext2D {
                               "canvas": <canvas
@@ -5911,28 +5625,9 @@ exports[`StatsGraph component match snapshot correctly 2`] = `
                             },
                             "doughnutMode": false,
                             "fullWidth": true,
-                            "height": 32,
+                            "height": 0,
                             "left": 0,
-                            "legendHitBoxes": Array [
-                              Object {
-                                "height": 12,
-                                "left": 0,
-                                "top": 0,
-                                "width": 75,
-                              },
-                              Object {
-                                "height": 12,
-                                "left": 0,
-                                "top": 0,
-                                "width": 97,
-                              },
-                              Object {
-                                "height": 12,
-                                "left": 0,
-                                "top": 0,
-                                "width": 96,
-                              },
-                            ],
+                            "legendHitBoxes": Array [],
                             "legendItems": Array [
                               Object {
                                 "fillStyle": "#ff073a",
@@ -5959,9 +5654,6 @@ exports[`StatsGraph component match snapshot correctly 2`] = `
                                 "text": "Deceased",
                               },
                             ],
-                            "lineWidths": Array [
-                              298,
-                            ],
                             "margins": Object {
                               "bottom": 0,
                               "left": 0,
@@ -5971,12 +5663,12 @@ exports[`StatsGraph component match snapshot correctly 2`] = `
                             "maxHeight": NaN,
                             "maxWidth": NaN,
                             "minSize": Object {
-                              "height": 32,
-                              "width": NaN,
+                              "height": 0,
+                              "width": 0,
                             },
                             "options": Object {
                               "align": "center",
-                              "display": true,
+                              "display": false,
                               "fullWidth": true,
                               "labels": Object {
                                 "boxWidth": 40,
@@ -6091,7 +5783,7 @@ exports[`StatsGraph component match snapshot correctly 2`] = `
                             },
                             "legend": Object {
                               "align": "center",
-                              "display": true,
+                              "display": false,
                               "fullWidth": true,
                               "labels": Object {
                                 "boxWidth": 40,
@@ -6428,7 +6120,7 @@ exports[`StatsGraph component match snapshot correctly 2`] = `
                             Object {
                               "_hoveredItem": null,
                               "_layers": [Function],
-                              "bottom": 32,
+                              "bottom": 0,
                               "chart": [Circular],
                               "ctx": CanvasRenderingContext2D {
                                 "canvas": <canvas
@@ -6442,28 +6134,9 @@ exports[`StatsGraph component match snapshot correctly 2`] = `
                               },
                               "doughnutMode": false,
                               "fullWidth": true,
-                              "height": 32,
+                              "height": 0,
                               "left": 0,
-                              "legendHitBoxes": Array [
-                                Object {
-                                  "height": 12,
-                                  "left": 0,
-                                  "top": 0,
-                                  "width": 75,
-                                },
-                                Object {
-                                  "height": 12,
-                                  "left": 0,
-                                  "top": 0,
-                                  "width": 97,
-                                },
-                                Object {
-                                  "height": 12,
-                                  "left": 0,
-                                  "top": 0,
-                                  "width": 96,
-                                },
-                              ],
+                              "legendHitBoxes": Array [],
                               "legendItems": Array [
                                 Object {
                                   "fillStyle": "#ff073a",
@@ -6490,9 +6163,6 @@ exports[`StatsGraph component match snapshot correctly 2`] = `
                                   "text": "Deceased",
                                 },
                               ],
-                              "lineWidths": Array [
-                                298,
-                              ],
                               "margins": Object {
                                 "bottom": 0,
                                 "left": 0,
@@ -6502,12 +6172,12 @@ exports[`StatsGraph component match snapshot correctly 2`] = `
                               "maxHeight": NaN,
                               "maxWidth": NaN,
                               "minSize": Object {
-                                "height": 32,
-                                "width": NaN,
+                                "height": 0,
+                                "width": 0,
                               },
                               "options": Object {
                                 "align": "center",
-                                "display": true,
+                                "display": false,
                                 "fullWidth": true,
                                 "labels": Object {
                                   "boxWidth": 40,
@@ -6592,7 +6262,7 @@ exports[`StatsGraph component match snapshot correctly 2`] = `
                             "bottom": NaN,
                             "left": 0,
                             "right": NaN,
-                            "top": 32,
+                            "top": 0,
                           },
                           "config": Object {
                             "data": Object {
@@ -6694,7 +6364,7 @@ exports[`StatsGraph component match snapshot correctly 2`] = `
                               },
                               "legend": Object {
                                 "align": "center",
-                                "display": true,
+                                "display": false,
                                 "fullWidth": true,
                                 "labels": Object {
                                   "boxWidth": 40,
@@ -6797,7 +6467,7 @@ exports[`StatsGraph component match snapshot correctly 2`] = `
                           "legend": Object {
                             "_hoveredItem": null,
                             "_layers": [Function],
-                            "bottom": 32,
+                            "bottom": 0,
                             "chart": [Circular],
                             "ctx": CanvasRenderingContext2D {
                               "canvas": <canvas
@@ -6811,28 +6481,9 @@ exports[`StatsGraph component match snapshot correctly 2`] = `
                             },
                             "doughnutMode": false,
                             "fullWidth": true,
-                            "height": 32,
+                            "height": 0,
                             "left": 0,
-                            "legendHitBoxes": Array [
-                              Object {
-                                "height": 12,
-                                "left": 0,
-                                "top": 0,
-                                "width": 75,
-                              },
-                              Object {
-                                "height": 12,
-                                "left": 0,
-                                "top": 0,
-                                "width": 97,
-                              },
-                              Object {
-                                "height": 12,
-                                "left": 0,
-                                "top": 0,
-                                "width": 96,
-                              },
-                            ],
+                            "legendHitBoxes": Array [],
                             "legendItems": Array [
                               Object {
                                 "fillStyle": "#ff073a",
@@ -6859,9 +6510,6 @@ exports[`StatsGraph component match snapshot correctly 2`] = `
                                 "text": "Deceased",
                               },
                             ],
-                            "lineWidths": Array [
-                              298,
-                            ],
                             "margins": Object {
                               "bottom": 0,
                               "left": 0,
@@ -6871,12 +6519,12 @@ exports[`StatsGraph component match snapshot correctly 2`] = `
                             "maxHeight": NaN,
                             "maxWidth": NaN,
                             "minSize": Object {
-                              "height": 32,
-                              "width": NaN,
+                              "height": 0,
+                              "width": 0,
                             },
                             "options": Object {
                               "align": "center",
-                              "display": true,
+                              "display": false,
                               "fullWidth": true,
                               "labels": Object {
                                 "boxWidth": 40,
@@ -6991,7 +6639,7 @@ exports[`StatsGraph component match snapshot correctly 2`] = `
                             },
                             "legend": Object {
                               "align": "center",
-                              "display": true,
+                              "display": false,
                               "fullWidth": true,
                               "labels": Object {
                                 "boxWidth": 40,
@@ -7304,13 +6952,13 @@ exports[`StatsGraph component match snapshot correctly 2`] = `
         height={400}
         legend={
           Object {
-            "display": true,
+            "display": false,
           }
         }
         options={
           Object {
             "legend": Object {
-              "display": true,
+              "display": false,
             },
           }
         }

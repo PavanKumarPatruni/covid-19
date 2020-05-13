@@ -67,9 +67,9 @@ exports[`Header component match snapshot correctly 3`] = `
             size={48}
           >
             <svg
-              fill="#827397"
+              fill="#201c3a"
               height={48}
-              stroke="#827397"
+              stroke="#201c3a"
               strokeLinecap="round"
               strokeLinejoin="round"
               strokeWidth="2"

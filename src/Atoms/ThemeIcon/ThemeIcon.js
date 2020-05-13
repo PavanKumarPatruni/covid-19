@@ -34,8 +34,8 @@ const Themeicon = forwardRef(({ size, darkMode }, ref) => {
       width={size}
       height={size}
       viewBox="0 0 24 24"
-      fill={Colors.VOILET}
-      stroke={Colors.VOILET}
+      fill={Colors.VOILET_DARK}
+      stroke={Colors.VOILET_DARK}
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"

@@ -60,7 +60,11 @@ const StatsBarGraph = ({ title, type, stats, color }) => {
         width={400}
         height={250}
         data={statsData}
-        legend={{ display: false }}
+        options={{
+          legend: {
+            display: false,
+          },
+        }}
       />
     </div>
   );

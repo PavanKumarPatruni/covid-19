@@ -53,11 +53,7 @@ const Covid = ({
 
   const getStateTableComponent = () => {
     return stateList && stateList.length > 0 ? (
-      <StateTable
-        colorMode={colorMode}
-        stateList={stateList}
-        districts={districtData}
-      />
+      <StateTable stateList={stateList} districts={districtData} />
     ) : null;
   };
 
@@ -141,7 +137,7 @@ const Covid = ({
 
   return (
     <div
-      className={`covid-container ${
+      className={`covid-container pt3 sm-pt2 ${
         colorMode === 'dark' ? 'dark-mode' : 'light-mode'
       }`}
     >

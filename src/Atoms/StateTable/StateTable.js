@@ -11,10 +11,9 @@ import './StateTable.scss';
 const propTypes = {
   stateList: PropTypes.array,
   districts: PropTypes.object,
-  colorMode: PropTypes.string.isRequired,
 };
 
-const StateTable = ({ stateList, districts, colorMode }) => {
+const StateTable = ({ stateList, districts }) => {
   const [selected, setSelected] = useState('');
 
   const getData = (item, key) => {
@@ -159,11 +158,7 @@ const StateTable = ({ stateList, districts, colorMode }) => {
   };
 
   return stateList && stateList.length > 0 ? (
-    <table
-      className={`${
-        colorMode === 'dark' ? 'dark-mode' : 'light-mode'
-      } "sm-p0 comp-mb`}
-    >
+    <table className="sm-p0 comp-mb">
       <thead>
         <tr>
           <th className="text-left">State</th>

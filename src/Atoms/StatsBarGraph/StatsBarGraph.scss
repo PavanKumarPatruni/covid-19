@@ -3,6 +3,10 @@
 .graph-title {
   left: 54px;
   top: 16px;
+
+  @include mobile {
+    left: 20%;
+  }
 }
 
 canvas {

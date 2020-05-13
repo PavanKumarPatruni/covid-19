@@ -4,8 +4,8 @@
   @include heading($text-color);
 
   background-color: $background;
-  border-bottom: 1px solid $border;
-  box-shadow: 0 2px 10px $border;
+  border-bottom: 1px solid $header-shadow;
+  box-shadow: 0 2px 10px $header-shadow;
 
   @include mobile {
     @include heading-mobile($text-color);

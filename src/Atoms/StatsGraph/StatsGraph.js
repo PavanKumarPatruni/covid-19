@@ -43,7 +43,7 @@ const StatsGraph = ({ stats }) => {
         width={400}
         height={400}
         data={statsData}
-        legend={{ display: true }}
+        legend={{ display: false }}
       />
     </div>
   );
