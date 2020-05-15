@@ -88,7 +88,9 @@ exports[`Header component match snapshot correctly 3`] = `
         onChange={[Function]}
       >
         <button
+          aria-label="theme-button"
           className="theme-toggle p2 sm-p1"
+          name="theme-toggle-button"
           onClick={[Function]}
           type="button"
         >

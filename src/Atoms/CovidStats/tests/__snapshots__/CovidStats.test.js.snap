@@ -7,11 +7,11 @@ exports[`CovidStats component match snapshot correctly 1`] = `
   <div
     className="flex flex-column flex-justify-center flex-center covid-stats-item p1 sm-p0 sm-mx1 md-mx2 mx4 red-color"
   >
-    <h3
+    <h2
       className="title uppercase mt2"
     >
       Confirmed
-    </h3>
+    </h2>
     <p
       className="delta-count mt2"
     >
@@ -26,11 +26,11 @@ exports[`CovidStats component match snapshot correctly 1`] = `
   <div
     className="flex flex-column flex-justify-center flex-center covid-stats-item p1 sm-p0 sm-mx1 md-mx2 mx4 blue-color"
   >
-    <h3
+    <h2
       className="title uppercase mt2"
     >
       Active
-    </h3>
+    </h2>
     <p
       className="delta-count mt2"
     />
@@ -43,11 +43,11 @@ exports[`CovidStats component match snapshot correctly 1`] = `
   <div
     className="flex flex-column flex-justify-center flex-center covid-stats-item p1 sm-p0 sm-mx1 md-mx2 mx4 green-color"
   >
-    <h3
+    <h2
       className="title uppercase mt2"
     >
       Recovered
-    </h3>
+    </h2>
     <p
       className="delta-count mt2"
     >
@@ -62,11 +62,11 @@ exports[`CovidStats component match snapshot correctly 1`] = `
   <div
     className="flex flex-column flex-justify-center flex-center covid-stats-item p1 sm-p0 sm-mx1 md-mx2 mx4 voilet-color"
   >
-    <h3
+    <h2
       className="title uppercase mt2"
     >
       Deceased
-    </h3>
+    </h2>
     <p
       className="delta-count mt2"
     >
@@ -105,11 +105,11 @@ exports[`CovidStats component match snapshot correctly 2`] = `
     <div
       className="flex flex-column flex-justify-center flex-center covid-stats-item p1 sm-p0 sm-mx1 md-mx2 mx4 red-color"
     >
-      <h3
+      <h2
         className="title uppercase mt2"
       >
         Confirmed
-      </h3>
+      </h2>
       <p
         className="delta-count mt2"
       >
@@ -124,11 +124,11 @@ exports[`CovidStats component match snapshot correctly 2`] = `
     <div
       className="flex flex-column flex-justify-center flex-center covid-stats-item p1 sm-p0 sm-mx1 md-mx2 mx4 blue-color"
     >
-      <h3
+      <h2
         className="title uppercase mt2"
       >
         Active
-      </h3>
+      </h2>
       <p
         className="delta-count mt2"
       />
@@ -141,11 +141,11 @@ exports[`CovidStats component match snapshot correctly 2`] = `
     <div
       className="flex flex-column flex-justify-center flex-center covid-stats-item p1 sm-p0 sm-mx1 md-mx2 mx4 green-color"
     >
-      <h3
+      <h2
         className="title uppercase mt2"
       >
         Recovered
-      </h3>
+      </h2>
       <p
         className="delta-count mt2"
       >
@@ -160,11 +160,11 @@ exports[`CovidStats component match snapshot correctly 2`] = `
     <div
       className="flex flex-column flex-justify-center flex-center covid-stats-item p1 sm-p0 sm-mx1 md-mx2 mx4 voilet-color"
     >
-      <h3
+      <h2
         className="title uppercase mt2"
       >
         Deceased
-      </h3>
+      </h2>
       <p
         className="delta-count mt2"
       >

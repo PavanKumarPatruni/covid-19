@@ -2,7 +2,9 @@
 
 exports[`ThemeIcon component match snapshot correctly 1`] = `
 <button
+  aria-label="theme-button"
   className="theme-toggle p2 sm-p1"
+  name="theme-toggle-button"
   onClick={[Function]}
   type="button"
 >
@@ -18,7 +20,9 @@ exports[`ThemeIcon component match snapshot correctly 2`] = `
   onChange={[Function]}
 >
   <button
+    aria-label="theme-button"
     className="theme-toggle p2 sm-p1"
+    name="theme-toggle-button"
     onClick={[Function]}
     type="button"
   >

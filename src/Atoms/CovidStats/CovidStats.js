@@ -26,7 +26,7 @@ const CovidStats = ({ stats }) => {
       <div
         className={`flex flex-column flex-justify-center flex-center covid-stats-item p1 sm-p0 sm-mx1 md-mx2 mx4 ${item.className}`}
       >
-        <h3 className="title uppercase mt2">{item.title}</h3>
+        <h2 className="title uppercase mt2">{item.title}</h2>
         {getDeltaComponent(item.delta)}
         <p className="total-count mt1">{item.total}</p>
       </div>

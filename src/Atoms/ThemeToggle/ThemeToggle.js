@@ -25,7 +25,13 @@ const ThemeToggle = ({ onChange }) => {
   }, []);
 
   return (
-    <button className="theme-toggle p2 sm-p1" type="button" onClick={onToggle}>
+    <button
+      className="theme-toggle p2 sm-p1"
+      type="button"
+      name="theme-toggle-button"
+      aria-label="theme-button"
+      onClick={onToggle}
+    >
       <ThemeIcon size={48} darkMode={darkMode} />
     </button>
   );
